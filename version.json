@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-06",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.2.0/Tracker-Setup-0.2.0.exe",
+  "sha256": "b28e892be50282c001c281efe9ed67726e69231df923d0786d38d0d36ae38843",
+  "notes": [
+    "A notes graph, a Library for books and articles, and an AI tab for your own notes",
+    "Restore your backups, and take all your data with you as a file or a zip",
+    "A welcome page with starting points and removable sample data",
+    "A setup wizard: updates install over the old version and keep your data",
+    "Tracker runs quietly, with an icon near the clock"
+  ]
+}
