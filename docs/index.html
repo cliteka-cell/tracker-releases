@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tracker: a private study tracker that lives on your computer</title>
+<meta name="description" content="Tracker keeps your study time, notes, books and flashcards in one place, on your own Windows computer. No account, no cloud, nothing sent anywhere unless you turn something on. Free to download.">
+<meta property="og:title" content="Tracker: a private study tracker that lives on your computer">
+<meta property="og:description" content="Study time, notes, books and flashcards in one place. No account. Your data stays on your computer.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://cliteka-cell.github.io/tracker-releases/img/dashboard.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='5' width='26' height='18' rx='3' fill='%236d7fff'/%3E%3Crect x='12' y='25' width='8' height='3' fill='%236d7fff'/%3E%3Ccircle cx='16' cy='14' r='6' fill='%230a0e1a'/%3E%3Cpath d='M16 10v4l3 2' stroke='%23fff' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root {
+  color-scheme: dark light;
+  --bg: #0a0e1a;
+  --surface: #12172a;
+  --surface-2: #1a2138;
+  --border: #262f4d;
+  --fg: #e8ebf5;
+  --muted: #8b93b0;
+  --accent: #6d7fff;
+  --accent-fg: #0a0e1a;
+  --glow: rgba(109, 127, 255, 0.16);
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f5f6fb;
+    --surface: #ffffff;
+    --surface-2: #eceef6;
+    --border: #d9dcea;
+    --fg: #161a2a;
+    --muted: #62697f;
+    --accent: #4a59e0;
+    --accent-fg: #ffffff;
+    --glow: rgba(79, 95, 232, 0.1);
+  }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg) radial-gradient(ellipse 900px 480px at 50% -8%, var(--glow), transparent 60%) no-repeat;
+  color: var(--fg);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+a { color: var(--accent); }
+a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+header.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 0; }
+.brand { font-weight: 700; font-size: 20px; letter-spacing: -0.01em; color: var(--fg); text-decoration: none; }
+nav a { margin-left: 18px; color: var(--muted); text-decoration: none; font-size: 15px; }
+nav a:hover { color: var(--fg); text-decoration: underline; }
+.hero { padding: 40px 0 24px; text-align: center; }
+h1 { font-size: clamp(30px, 5vw, 48px); line-height: 1.15; margin: 0 0 16px; letter-spacing: -0.02em; }
+.lead { font-size: clamp(17px, 2.2vw, 20px); color: var(--muted); max-width: 680px; margin: 0 auto 28px; }
+.button { display: inline-block; background: var(--accent); color: var(--accent-fg); font-weight: 600; text-decoration: none; padding: 14px 28px; border-radius: 12px; font-size: 18px; }
+.button:hover { filter: brightness(1.1); }
+.button.quiet { background: transparent; color: var(--fg); border: 1px solid var(--border); margin-left: 8px; }
+.small { font-size: 14px; color: var(--muted); max-width: 640px; margin: 16px auto 0; }
+.shot { margin: 0; }
+.shot img { display: block; width: 100%; height: auto; border: 1px solid var(--border); border-radius: 14px; box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35); }
+.shot figcaption { color: var(--muted); font-size: 14px; margin-top: 10px; text-align: center; }
+.hero .shot { margin-top: 40px; }
+section { padding: 48px 0 8px; }
+h2 { font-size: clamp(24px, 3.4vw, 32px); margin: 0 0 8px; letter-spacing: -0.01em; }
+.section-lead { color: var(--muted); margin: 0 0 28px; max-width: 720px; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px; }
+.card h3 { margin: 0 0 6px; font-size: 18px; }
+.card p { margin: 0; color: var(--muted); font-size: 15px; }
+.gallery { display: grid; gap: 28px; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); }
+@media (max-width: 520px) { .gallery { grid-template-columns: 1fr; } }
+ol.steps { padding-left: 22px; }
+ol.steps li { margin: 0 0 12px; }
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 22px; }
+.panel ul { margin: 12px 0 0; padding-left: 20px; }
+.panel li { margin: 0 0 8px; }
+code { background: var(--surface-2); padding: 2px 6px; border-radius: 6px; font-size: 0.92em; }
+details { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 18px; margin: 0 0 10px; }
+summary { cursor: pointer; font-weight: 600; }
+details p { margin: 10px 0 0; color: var(--muted); }
+footer { margin-top: 56px; padding: 28px 0 44px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+footer p { margin: 0 0 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="#top">Tracker</a>
+    <nav aria-label="Sections">
+      <a href="#features">What it does</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#install">Install</a>
+      <a href="#questions">Questions</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <div class="hero">
+      <h1>A study tracker that stays on your computer</h1>
+      <p class="lead">Time, notes, books and flashcards in one place, for languages, a degree, research or anything else you are learning. No account, no cloud, and nothing leaves your computer unless you turn something on.</p>
+      <p>
+        <a class="button" href="https://github.com/cliteka-cell/tracker-releases/releases/latest">Download for Windows</a>
+        <a class="button quiet" href="#features">See what it does</a>
+      </p>
+      <p class="small">Free to download and use. Windows 10 and 11 (64-bit); there is no Mac or Linux version yet. Windows may say &ldquo;Windows protected your PC&rdquo; the first time, because the program is not signed with a paid certificate: choose &ldquo;More info&rdquo;, then &ldquo;Run anyway&rdquo;.</p>
+      <figure class="shot">
+        <img src="img/dashboard.png" width="1280" height="860" alt="The Tracker dashboard: a timer with a Start button, weekly goals with progress bars for three courses, a long-term goal, the book being read and the most recent study sessions.">
+        <figcaption>The dashboard, with made-up sample data (the program can add it for you to look around, and remove it again).</figcaption>
+      </figure>
+    </div>
+
+    <section id="features" aria-labelledby="features-title">
+      <h2 id="features-title">What it does</h2>
+      <p class="section-lead">Everything a student or self-learner tends to keep in five different places, in one program that opens in your browser and runs on your own PC.</p>
+      <div class="grid">
+        <div class="card"><h3>Timer and log</h3><p>Start, pause and stop a session for a course or subfield and an activity, add a past one by hand, and see your streak. Break reminders are optional.</p></div>
+        <div class="card"><h3>Goals and stats</h3><p>Weekly goals for each course, long-term goals with a pace to finish on time, a calendar of your days, and charts of where the time went.</p></div>
+        <div class="card"><h3>Several trackers</h3><p>One for a language, one for your degree, one for a hobby. Each has its own courses or topics and activities, and an overview shows them all together.</p></div>
+        <div class="card"><h3>Notes that link</h3><p>Formatted notes with screenshots, tied to a course or a book. Link notes with double brackets and explore how they connect in a graph.</p></div>
+        <div class="card"><h3>A library</h3><p>Look up a book by its ISBN or an article by its DOI, keep the cover, track the page you are on, write notes with page numbers and copy citations (BibTeX and RIS).</p></div>
+        <div class="card"><h3>Optional AI, on your terms</h3><p>Ask questions about your own notes and get answers that name their sources, and make flashcards. It is off until you turn it on, and it uses a model on your computer (Ollama) or your own online key, never ours.</p></div>
+        <div class="card"><h3>Backups you can use</h3><p>A copy is saved every day, you can restore one with a preview first, and take everything with you as one file or a zip of readable data. If the data file is ever damaged, Tracker lists the saved copies and puts one back.</p></div>
+        <div class="card"><h3>Themes and comfort</h3><p>Dark, light, black, forest, rose and a glassy Aero theme, or your own colours, font and text size. Text contrast is checked in every theme, and it works with the keyboard and screen readers.</p></div>
+        <div class="card"><h3>Updates itself, if you want</h3><p>Check for a newer version when you like, or let Tracker install updates by itself the next time it starts. Only updates signed with Tracker&rsquo;s own key are installed automatically.</p></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="look-title">
+      <h2 id="look-title">A closer look</h2>
+      <p class="section-lead">All of these show made-up sample data.</p>
+      <div class="gallery">
+        <figure class="shot"><img loading="lazy" src="img/graph.png" width="1280" height="900" alt="The notes graph: notes, courses and books drawn as coloured dots and shapes joined by lines, with labels such as Sampling, Hypotheses and p-values."><figcaption>The notes graph shows how your notes, courses and books connect.</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/library.png" width="1280" height="860" alt="The library: two books with reading progress, pages per hour, an estimate of the time left and a field for the page you are on."><figcaption>The library tracks what you read, how fast, and how long it will take.</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/stats.png" width="1280" height="860" alt="The stats page: a bar chart of daily study time over the last seven days, coloured by activity, above a comparison of this week with last week."><figcaption>Stats: where the time went, and how this week compares.</figcaption></figure>
+        <figure class="shot"><img loading="lazy" src="img/dashboard-light.png" width="1280" height="860" alt="The same dashboard in the light theme."><figcaption>The same dashboard in the light theme. There are six, and you can make your own.</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="privacy" aria-labelledby="privacy-title">
+      <h2 id="privacy-title">Your data stays with you</h2>
+      <p class="section-lead">Tracker has no account and no server of its own. Everything you log, write and save is kept in one file on your computer.</p>
+      <div class="panel">
+        <p style="margin:0">What can leave your computer, and only when you use it:</p>
+        <ul>
+          <li><strong>Book and article search</strong> sends the ISBN, DOI or words you type to Open Library, Crossref and (if you saved a key) Google Books or ISBNdb. Only when you press Search.</li>
+          <li><strong>Cover pictures</strong> are loaded from the cover sites when search results show them. Turn covers off and none is loaded.</li>
+          <li><strong>The AI tab</strong> is off by default. With a model on your own computer, nothing leaves it. With an online service you choose and give a key to, the text it needs to answer does go to that service.</li>
+          <li><strong>Updates</strong> ask GitHub for one small file when you press Check now, or once a day if you turn that on. They carry only the program&rsquo;s name and version.</li>
+        </ul>
+        <p style="margin:12px 0 0">There are no analytics, crash reports or advertising, and the program only answers to your own computer. Inside Tracker, <strong>Settings, Privacy</strong> lists all of this again with your own settings, and it is checked against the program&rsquo;s code by a test.</p>
+      </div>
+      <figure class="shot" style="margin-top:24px"><img loading="lazy" src="img/privacy.png" width="1280" height="900" alt="The Privacy section of Tracker's settings: a summary of what is happening right now with the person's settings, and a list of what can leave the computer, each item with when, what is sent, where to and how to stop it."><figcaption>The Privacy section inside the program.</figcaption></figure>
+    </section>
+
+    <section id="install" aria-labelledby="install-title">
+      <h2 id="install-title">Install it</h2>
+      <ol class="steps">
+        <li><a href="https://github.com/cliteka-cell/tracker-releases/releases/latest">Download the newest <code>Tracker-Setup</code> file</a> from the releases page.</li>
+        <li>Open it. If Windows says &ldquo;Windows protected your PC&rdquo;, choose &ldquo;More info&rdquo; and then &ldquo;Run anyway&rdquo;. It does not need administrator rights.</li>
+        <li>Click Next and Install. Tracker opens in your browser, and a small icon near the clock opens or quits it.</li>
+      </ol>
+      <p class="section-lead" style="margin-top:16px">Your data is kept in <code>%LOCALAPPDATA%\Tracker\data</code>. Installing a newer version over an old one keeps it. To check a download, each release lists the SHA-256 checksum of its Setup file.</p>
+    </section>
+
+    <section id="questions" aria-labelledby="questions-title">
+      <h2 id="questions-title">Questions</h2>
+      <details><summary>Is it really free?</summary><p>Yes, downloading and using Tracker costs nothing.</p></details>
+      <details><summary>Does it work without the internet?</summary><p>Yes. The timer, log, notes, goals, stats, backups and the AI tab with a model on your own computer all work offline. Only book lookups, covers, updates and an online AI service need a connection.</p></details>
+      <details><summary>Can I move to another computer?</summary><p>Yes. In Settings you can take everything with you as one file or as a zip of readable data (pictures included), and restore it on the other computer. Saved keys are left out of those files on purpose.</p></details>
+      <details><summary>What if something breaks?</summary><p>Tracker explains problems in plain words (a full disk, a damaged data file) and keeps a log file; Settings, About shows where. If you ask for help, read the log first: a failed save can leave a piece of what you were saving in it. You can <a href="https://github.com/cliteka-cell/tracker-releases/issues">open an issue on GitHub</a>.</p></details>
+      <details><summary>What about Mac and Linux?</summary><p>Not yet. The program is built for Windows 10 and 11 (64-bit) only for now.</p></details>
+    </section>
+  </main>
+
+  <footer>
+    <p>Tracker is made by one person. Downloads, release notes and checksums are on the <a href="https://github.com/cliteka-cell/tracker-releases/releases">releases page</a>.</p>
+    <p>This page loads nothing from anywhere else: no fonts, scripts or trackers.</p>
+  </footer>
+</div>
+</body>
+</html>

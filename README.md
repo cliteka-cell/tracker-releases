@@ -4,7 +4,9 @@ Tracker is a private study tracker that runs on your own computer: a timer and l
 library of books and articles, flashcards, and an AI tab that uses a model on your own machine or your own key. Your data
 stays on your computer. There is no account.
 
-This repository only holds the downloads. Open the **Releases** page and download the newest `Tracker-Setup-x.y.z.exe`.
+**Home page: https://cliteka-cell.github.io/tracker-releases/**
+
+This repository only holds the downloads and that page. Open the **Releases** page and download the newest `Tracker-Setup-x.y.z.exe`.
 
 ## Installing
 
@@ -15,18 +17,20 @@ This repository only holds the downloads. Open the **Releases** page and downloa
 
 ## Updating
 
-Run the newer Setup. It installs over the old version and keeps your data, and a copy of your data is saved before anything is
-changed. In Tracker, Settings, About can check whether a newer version exists.
+From version 0.3.0 on, Tracker can update itself: Settings, About, Check now, then Update now. Updates are signed, and
+Tracker only installs one that carries its own signature. You can also run a newer Setup by hand; it installs over the old
+version and keeps your data, and a copy of your data is saved before anything is changed.
 
 ## Checking a download
 
 Each release lists the SHA-256 checksum of its Setup file (it is also in the `.sha256` file next to it). In PowerShell:
 
 ```powershell
-Get-FileHash .\Tracker-Setup-0.2.0.exe
+Get-FileHash .\Tracker-Setup-x.y.z.exe
 ```
 
 ## Privacy
 
 Tracker sends nothing anywhere unless you turn something on: book search, an online AI that you set up yourself, or the update
-check (off by default), which only asks this repository for a small file called `version.json`.
+check (off by default), which only asks this repository for a small file called `version.json`. Inside Tracker, Settings,
+Privacy lists everything that can leave the computer, when, and how to stop it.
