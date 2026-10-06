@@ -1,13 +1,12 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "date": "2026-10-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.3.0/Tracker-Setup-0.3.0.exe",
-  "sha256": "1a3c7f7fb9c3c04df16c4a46df0253a39bb6f23c1cf8296bb8274ae4f13045e7",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.3.1/Tracker-Setup-0.3.1.exe",
+  "sha256": "a31d850339081713bb6b6399bd047d33c2798612bb051b6e81e1468e9b0c3aab",
   "notes": [
-    "Update from inside Tracker: one click downloads, checks and installs the new version, and Tracker opens again",
-    "Optional: let Tracker install updates by itself the next time it starts (off until you turn it on)",
-    "Only updates signed with Tracker's own key are installed automatically; others come with a download link",
-    "The activity calendar has bigger cells, so each day is easy to click or tap"
+    "A new Privacy section in Settings lists exactly what can leave your computer, when, and how to stop it",
+    "Update now downloads reliably on slow networks (it could give up on some computers)",
+    "Cover pictures no longer tell the cover sites which page they are shown on"
   ],
-  "signature": "2dE/vRnpDTe+bftDKYDM9UzH7Zdk3xmNcEYlj3K3HGZpR9eZVIzcXJxzDQRONIRzE0a5KTwgTPiQfnSbqM0qYA=="
+  "signature": "sytJsLr3IO1Nd3LGNW+f5WKuQekLUY/bbXEc42sWuaXh2hkjHkyKk/Bby0loBoreB4/KeJHjusm5euuNnLTJLA=="
 }
