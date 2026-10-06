@@ -10,6 +10,8 @@ stays on your computer. There is no account.
 
 Tracker is free to download and use. It is not open source.
 
+Questions, problems or ideas: open an issue here, or write to clite.ka@gmail.com.
+
 This repository only holds the downloads and that page. **[Download the newest Tracker-Setup.exe](https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe)**
 (about 45 MB), or open the **Releases** page for older versions and checksums.
 

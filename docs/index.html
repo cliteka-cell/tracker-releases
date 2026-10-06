@@ -87,6 +87,7 @@ details p { margin: 10px 0 0; color: var(--muted); }
 footer { margin-top: 56px; padding: 28px 0 44px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
 footer p { margin: 0 0 8px; }
 </style>
+<link rel="stylesheet" href="gallery.css">
 </head>
 <body>
 <div class="wrap">
@@ -112,7 +113,7 @@ footer p { margin: 0 0 8px; }
       </p>
       <p class="small">Free to download and use (about 45 MB). Windows 10 and 11 (64-bit); there is no Mac or Linux version yet. Windows may say &ldquo;Windows protected your PC&rdquo; the first time, because the program is not signed with a paid certificate: choose &ldquo;More info&rdquo;, then &ldquo;Run anyway&rdquo;.</p>
       <figure class="shot">
-        <img src="img/dashboard.png" width="1280" height="860" alt="The Tracker dashboard: a timer with a Start button, weekly goals with progress bars for three courses, a long-term goal, the book being read and the most recent study sessions.">
+        <a class="zoom" href="img/dashboard.png"><img src="img/dashboard.png" width="1280" height="860" alt="The Tracker dashboard: a timer with a Start button, weekly goals with progress bars for three courses, a long-term goal, the book being read and the most recent study sessions."></a>
         <figcaption>The dashboard, with made-up sample data (the program can add it for you to look around, and remove it again).</figcaption>
       </figure>
     </div>
@@ -133,17 +134,23 @@ footer p { margin: 0 0 8px; }
       </div>
     </section>
 
-    <section aria-labelledby="look-title">
+    <section id="look" aria-labelledby="look-title">
       <h2 id="look-title">A closer look</h2>
-      <p class="section-lead">All of these show made-up sample data. The <a href="manual.html">full manual</a> has more.</p>
-      <div class="gallery">
-        <figure class="shot wide"><img loading="lazy" src="img/themes.png" width="1472" height="624" alt="The same dashboard with a running timer shown in six themes side by side: midnight, light, forest, rose, black and the glassy Frutiger Aero."><figcaption>Six themes, and you can make your own: colours, font, text size and how round the corners are.</figcaption></figure>
-        <figure class="shot"><img loading="lazy" src="img/timer-running.png" width="1280" height="860" alt="The dashboard while a session is being timed: a clock at 00:00:06 with a Recording label, Pause and Stop and save buttons, and weekly goal bars beside it."><figcaption>The timer keeps running if you close the page. Started late? Move the start back.</figcaption></figure>
-        <figure class="shot"><img loading="lazy" src="img/notes.png" width="1280" height="900" alt="The notes page as cards: a pinned note and five more, each marked with its course by a coloured dot, with links between notes shown as small tags such as Linked from Reading list."><figcaption>Notes link to each other with double brackets, and show what links back.</figcaption></figure>
-        <figure class="shot"><img loading="lazy" src="img/graph.png" width="1280" height="900" alt="The notes graph: notes, courses and books drawn as coloured dots and shapes joined by lines, with labels such as Sampling, Hypotheses and p-values."><figcaption>The notes graph shows how your notes, courses and books connect.</figcaption></figure>
-        <figure class="shot"><img loading="lazy" src="img/library.png" width="1280" height="900" alt="The library: two books with reading progress, pages per hour, an estimate of the time left and a field for the page you are on."><figcaption>The library tracks what you read, how fast, and how long it will take.</figcaption></figure>
-        <figure class="shot"><img loading="lazy" src="img/stats.png" width="1280" height="900" alt="The stats page: a bar chart of daily study time over 30 days split by course and coloured by activity, above a comparison of this week with last week."><figcaption>Stats: where the time went, and how this week compares.</figcaption></figure>
-        <figure class="shot"><img loading="lazy" src="img/overview.png" width="1280" height="900" alt="The overview page that adds up two trackers: totals for today, this week and all time, a day streak, a daily chart and a split of time by tracker."><figcaption>The overview adds up all your trackers, for example a language and a degree.</figcaption></figure>
+      <p class="section-lead">Click any picture to see it larger. All of them show made-up sample data, and the <a href="manual.html">full manual</a> has more.</p>
+      <div class="gallery single">
+        <figure class="shot wide"><a class="zoom" href="img/themes.png"><img loading="lazy" src="img/themes.png" width="1472" height="624" alt="The same dashboard with a running timer shown in six themes side by side: midnight, light, forest, rose, black and the glassy Frutiger Aero."></a><figcaption>Six themes, and you can make your own: colours, font, text size and how round the corners are.</figcaption></figure>
+      </div>
+      <div class="gallery" data-coverflow aria-label="Screenshots of Tracker" style="margin-top:36px">
+        <figure class="shot"><a class="zoom" href="img/welcome.png"><img loading="lazy" src="img/welcome.png" width="1280" height="940" alt="The Tracker welcome page: four starting points (a language, my studies, research or a thesis, something else) and a button to try it with sample data."></a><figcaption>Start with a language, your studies, research or something else, or look around with sample data first.</figcaption></figure>
+        <figure class="shot"><a class="zoom" href="img/timer-running.png"><img loading="lazy" src="img/timer-running.png" width="1280" height="860" alt="The dashboard while a session is being timed: a clock at 00:00:06 with a Recording label, Pause and Stop and save buttons, and weekly goal bars beside it."></a><figcaption>The timer keeps running if you close the page. Started late? Move the start back.</figcaption></figure>
+        <figure class="shot"><a class="zoom" href="img/log.png"><img loading="lazy" src="img/log.png" width="1280" height="940" alt="The log page: a form to add a past session above the list of all sessions."></a><figcaption>Forgot to start the timer? Add a past session by hand, and edit or delete any session later.</figcaption></figure>
+        <figure class="shot"><a class="zoom" href="img/notes.png"><img loading="lazy" src="img/notes.png" width="1280" height="900" alt="The notes page as cards: a pinned note and five more, each marked with its course by a coloured dot, with links between notes shown as small tags such as Linked from Reading list."></a><figcaption>Notes link to each other with double brackets, and show what links back.</figcaption></figure>
+        <figure class="shot"><a class="zoom" href="img/graph.png"><img loading="lazy" src="img/graph.png" width="1280" height="900" alt="The notes graph: notes, courses and books drawn as coloured dots and shapes joined by lines, with labels such as Sampling, Hypotheses and p-values."></a><figcaption>The notes graph shows how your notes, courses and books connect.</figcaption></figure>
+        <figure class="shot"><a class="zoom" href="img/library.png"><img loading="lazy" src="img/library.png" width="1280" height="900" alt="The library: two books with reading progress, pages per hour, an estimate of the time left and a field for the page you are on."></a><figcaption>The library tracks what you read, how fast, and how long it will take.</figcaption></figure>
+        <figure class="shot"><a class="zoom" href="img/stats.png"><img loading="lazy" src="img/stats.png" width="1280" height="900" alt="The stats page: a bar chart of daily study time over 30 days split by course and coloured by activity, above a comparison of this week with last week."></a><figcaption>Stats: where the time went, and how this week compares.</figcaption></figure>
+        <figure class="shot"><a class="zoom" href="img/overview.png"><img loading="lazy" src="img/overview.png" width="1280" height="900" alt="The overview page that adds up two trackers: totals for today, this week and all time, a day streak, a daily chart and a split of time by tracker."></a><figcaption>The overview adds up all your trackers, for example a language and a degree.</figcaption></figure>
+        <figure class="shot"><a class="zoom" href="img/settings-data.png"><img loading="lazy" src="img/settings-data.png" width="1280" height="900" alt="The Data and backups part of settings: three download buttons, a Back up now button and the list of saved copies, each with a Restore button."></a><figcaption>A copy is saved every day. Put any of them back, or take everything with you.</figcaption></figure>
+        <figure class="shot"><a class="zoom" href="img/damaged.png"><img loading="lazy" src="img/damaged.png" width="1280" height="900" alt="The page Tracker shows when its data file is damaged: what to do, and a list of saved copies with a Use this copy button."></a><figcaption>If the data file is ever damaged, Tracker says so plainly and offers saved copies to go back to.</figcaption></figure>
       </div>
     </section>
 
@@ -169,7 +176,7 @@ footer p { margin: 0 0 8px; }
         </ul>
         <p style="margin:12px 0 0">There are no analytics, crash reports or advertising, and the program only answers to your own computer. Inside Tracker, <strong>Settings, Privacy</strong> lists all of this again with your own settings, and it is checked against the program&rsquo;s code by a test.</p>
       </div>
-      <figure class="shot" style="margin-top:24px"><img loading="lazy" src="img/privacy.png" width="1280" height="900" alt="The Privacy section of Tracker's settings: a summary of what is happening right now with the person's settings, and a list of what can leave the computer, each item with when, what is sent, where to and how to stop it."><figcaption>The Privacy section inside the program.</figcaption></figure>
+      <figure class="shot" style="margin-top:24px"><a class="zoom" href="img/privacy.png"><img loading="lazy" src="img/privacy.png" width="1280" height="900" alt="The Privacy section of Tracker's settings: a summary of what is happening right now with the person's settings, and a list of what can leave the computer, each item with when, what is sent, where to and how to stop it."></a><figcaption>The Privacy section inside the program.</figcaption></figure>
     </section>
 
     <section id="install" aria-labelledby="install-title">
@@ -187,15 +194,18 @@ footer p { margin: 0 0 8px; }
       <details><summary>Is it really free? Is it open source?</summary><p>It is free: downloading and using Tracker costs nothing. It is not open source: the program&rsquo;s code is not published.</p></details>
       <details><summary>Does it work without the internet?</summary><p>Yes. The timer, log, notes, goals, stats, backups and the AI tab with a model on your own computer all work offline. Only book lookups, covers, updates and an online AI service need a connection.</p></details>
       <details><summary>Can I move to another computer?</summary><p>Yes. In Settings you can take everything with you as one file or as a zip of readable data (pictures included), and restore it on the other computer. Saved keys are left out of those files on purpose.</p></details>
-      <details><summary>What if something breaks?</summary><p>Tracker explains problems in plain words (a full disk, a damaged data file) and keeps a log file; Settings, About shows where. If you ask for help, read the log first: a failed save can leave a piece of what you were saving in it. You can <a href="https://github.com/cliteka-cell/tracker-releases/issues">open an issue on GitHub</a>.</p></details>
+      <details><summary>What if something breaks?</summary><p>Tracker explains problems in plain words (a full disk, a damaged data file) and keeps a log file; Settings, About shows where. If you ask for help, read the log first: a failed save can leave a piece of what you were saving in it. You can <a href="https://github.com/cliteka-cell/tracker-releases/issues">open an issue on GitHub</a>, or write to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a>.</p></details>
+      <details><summary>How do I get in touch?</summary><p>Write to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a>, or <a href="https://github.com/cliteka-cell/tracker-releases/issues">open an issue on GitHub</a> if you have a GitHub account. Questions, problems and ideas are all welcome.</p></details>
       <details><summary>What about Mac and Linux?</summary><p>Not yet. The program is built for Windows 10 and 11 (64-bit) only for now.</p></details>
     </section>
   </main>
 
   <footer>
     <p>Tracker is made by one person. It is free to download and use, and is not open source. Read the <a href="guide.html">guide</a> or the <a href="manual.html">manual</a>; downloads, release notes and checksums are on the <a href="https://github.com/cliteka-cell/tracker-releases/releases">releases page</a>.</p>
-    <p>This page loads nothing from anywhere else: no fonts, scripts or trackers.</p>
+    <p>Questions, problems or ideas: <a href="https://github.com/cliteka-cell/tracker-releases/issues">open an issue on GitHub</a> or write to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a>.</p>
+    <p>This page loads nothing from anywhere else: no outside fonts, scripts or trackers. Its one small script is its own and only enlarges the pictures.</p>
   </footer>
 </div>
+<script src="site.js" defer></script>
 </body>
 </html>
