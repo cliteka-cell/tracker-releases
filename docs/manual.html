@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0e1a">
+<title>Tracker: the full user manual</title>
+<meta name="description" content="Every part of Tracker explained: trackers, courses and activities, the timer, the log, stats, notes and the graph, the library, the AI tab, themes, backups and exports, updates, privacy and troubleshooting.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='5' width='26' height='18' rx='3' fill='%236d7fff'/%3E%3Crect x='12' y='25' width='8' height='3' fill='%236d7fff'/%3E%3Ccircle cx='16' cy='14' r='6' fill='%230a0e1a'/%3E%3Cpath d='M16 10v4l3 2' stroke='%23fff' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="guide.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="index.html">Tracker</a>
+    <nav class="site" aria-label="Pages">
+      <a href="index.html">Home</a>
+      <a href="guide.html">Getting started</a>
+      <a href="manual.html" aria-current="page">Full manual</a>
+    </nav>
+  </header>
+
+  <h1>The full user manual</h1>
+  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.3.1; later versions may add things, and Settings, About lists what changed.</p>
+
+  <div class="layout">
+    <nav class="toc" aria-label="Contents">
+      <p class="group">Basics</p>
+      <ol>
+        <li><a href="#basics">1. How Tracker is organised</a></li>
+        <li><a href="#running">2. Installing, starting, quitting</a></li>
+        <li><a href="#trackers">3. Trackers</a></li>
+        <li><a href="#courses">4. Courses and activities</a></li>
+      </ol>
+      <p class="group">Using it every day</p>
+      <ol>
+        <li><a href="#dashboard">5. The Dashboard</a></li>
+        <li><a href="#timer">6. The timer</a></li>
+        <li><a href="#log">7. The Log</a></li>
+        <li><a href="#stats">8. Stats</a></li>
+        <li><a href="#overview">9. Overview</a></li>
+        <li><a href="#notes">10. Notes and the graph</a></li>
+        <li><a href="#library">11. The Library</a></li>
+      </ol>
+      <p class="group">Optional</p>
+      <ol>
+        <li><a href="#ai">12. The AI tab</a></li>
+        <li><a href="#look">13. Themes and looks</a></li>
+      </ol>
+      <p class="group">Your data</p>
+      <ol>
+        <li><a href="#data">14. Backups, exports, moving</a></li>
+        <li><a href="#updates">15. Updates</a></li>
+        <li><a href="#privacy">16. Privacy</a></li>
+      </ol>
+      <p class="group">Help</p>
+      <ol>
+        <li><a href="#accessibility">17. Keyboard and accessibility</a></li>
+        <li><a href="#troubleshooting">18. Troubleshooting</a></li>
+        <li><a href="#faq">19. Questions</a></li>
+        <li><a href="#glossary">20. Words used</a></li>
+      </ol>
+    </nav>
+
+    <main>
+      <article>
+
+        <h2 id="basics">1. How Tracker is organised</h2>
+        <p>Tracker is a program that runs on your own Windows computer and shows its pages in your web browser. Nothing is stored online: there is no account and no server of ours. The pieces fit together like this:</p>
+        <table>
+          <tr><th>Piece</th><th>What it is</th></tr>
+          <tr><td><strong>Tracker</strong></td><td>One area of your life or studies, for example &ldquo;Japanese&rdquo; or &ldquo;My degree&rdquo;. You can have as many as you like; each has its own pages, courses, activities, notes and library. They are listed in the sidebar.</td></tr>
+          <tr><td><strong>Course</strong></td><td>A part of a tracker: a course, a language, a topic. You choose the word (Course, Skill, Language, Topic...). It also appears as a &ldquo;subfield&rdquo; in some places.</td></tr>
+          <tr><td><strong>Activity</strong></td><td>What you did: Reading, Lecture, Practice, Listening, Writing...</td></tr>
+          <tr><td><strong>Session</strong></td><td>One stretch of time: a course, an activity, a start, a length, and optionally a note and a book.</td></tr>
+          <tr><td><strong>Note</strong></td><td>Something you wrote, tied to courses and books, that can link to other notes.</td></tr>
+          <tr><td><strong>Book or article</strong></td><td>A text in your Library that you read and can attach sessions and notes to.</td></tr>
+          <tr><td><strong>Goal</strong></td><td>A weekly or total number of hours for a course, or a daily goal for the tracker.</td></tr>
+        </table>
+        <p>Each tracker has six pages along the top: <strong>Dashboard</strong>, <strong>Log</strong>, <strong>Notes</strong>, <strong>Library</strong>, <strong>Stats</strong> and <strong>Settings</strong>. <strong>Overview</strong>, at the top of the sidebar, combines all your trackers.</p>
+
+        <h2 id="running">2. Installing, starting, quitting</h2>
+        <h3>Installing</h3>
+        <p>Download <a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe">Tracker-Setup.exe</a> and open it. Windows may say &ldquo;Windows protected your PC&rdquo; because the program is not signed with a paid certificate: choose <strong>More info</strong>, then <strong>Run anyway</strong>. Setup installs for your user only and needs no administrator rights. It offers a Desktop shortcut and adds Tracker to the Start menu. Tracker works on Windows 10 and 11 (64-bit); there is no Mac or Linux version yet.</p>
+        <h3>Starting</h3>
+        <p>Start Tracker from the Start menu or the Desktop shortcut. It runs quietly in the background with no window of its own, opens in your default browser, and puts a small icon near the clock (if you cannot see it, click the little arrow next to the clock). <strong>Click the icon</strong> to open Tracker in the browser; <strong>right-click</strong> it for <em>Open Tracker</em>, <em>Show the log folder</em> and <em>Quit Tracker</em>. Starting Tracker a second time just opens the first one.</p>
+        <p>The address in the browser is <code>http://localhost:3417</code> (or a nearby number if that one is busy). It works only on your computer: no other device on your network can open it, which is also why you cannot open Tracker from a phone.</p>
+        <h3>Quitting</h3>
+        <p>Right-click the icon and choose <strong>Quit Tracker</strong>, or press <strong>Quit Tracker</strong> in Settings, About. Closing the browser tab does not stop Tracker, and a running timer is kept (it lives in your browser, see <a href="#timer">The timer</a>).</p>
+        <h3>Removing it</h3>
+        <p>Windows Settings, Apps, Installed apps, Tracker, Uninstall. It asks whether to delete your data as well; the default is <strong>No</strong>, so installing Tracker again later carries on where you left off.</p>
+
+        <h2 id="trackers">3. Trackers</h2>
+        <p>The first time you open Tracker you see the welcome page.</p>
+        <figure class="shot"><img src="img/welcome.png" width="1280" height="940" alt="The Tracker welcome page with four starting points and a button to try the sample data." loading="lazy"><figcaption>The welcome page.</figcaption></figure>
+        <ul>
+          <li><strong>Start with your own tracker.</strong> Choose <em>A language I am learning</em>, <em>My studies (courses or a degree)</em>, <em>Research or a thesis</em> or <em>Something else</em>. Each comes with sensible activities. Then name it, say what each part is called (one word, like Course, Language or Topic) and optionally type your first ones separated by commas. <em>Create my tracker</em> makes it.</li>
+          <li><strong>Try it with sample data.</strong> Adds a made-up semester: three courses, four weeks of sessions, six linked notes, two books and goals. A banner on every page says it is sample data and has <em>Remove sample data</em>, which takes only the sample away (a copy of your data is saved first).</li>
+          <li><strong>I already have a copy of my data.</strong> Opens the restore and import options, for a copy or export from another computer (see <a href="#data">Backups, exports, moving</a>).</li>
+        </ul>
+        <p><strong>More trackers:</strong> press <strong>New tracker</strong> at the bottom of the sidebar. <strong>Changing one:</strong> Settings, <em>This tracker</em> lets you change its emoji and name, what each part is called, its daily goal, and its order in the sidebar. <strong>Deleting one:</strong> <em>Delete this tracker</em> in the same place. Tracker shows what will be removed (sessions, courses, activities, notes and books), and if the tracker holds any sessions, notes or books it asks you to type the tracker&rsquo;s name before <em>Delete permanently</em> works. A copy of your data is saved first (&ldquo;Before a delete&rdquo; in the list of saved copies).</p>
+
+        <h2 id="courses">4. Courses and activities</h2>
+        <p>Both are managed in <strong>Settings</strong>, in the lists at the top. You can add, rename, recolour and delete them, and drag the grip (or focus it and use the arrow keys) to put them in the order you like.</p>
+        <figure class="shot"><img src="img/settings.png" width="1280" height="900" alt="The settings page: three courses with weekly goal, total goal and passive controls, and the activities list below them." loading="lazy"><figcaption>Courses and activities in Settings.</figcaption></figure>
+        <h3>Courses</h3>
+        <ul>
+          <li><strong>Weekly goal</strong>: hours per week. It becomes a progress bar on the Dashboard.</li>
+          <li><strong>Total goal</strong>: hours in all, with an optional finish date. The Dashboard then shows how far along you are and, with a date, how many hours a week it takes to finish in time.</li>
+          <li><strong>Passive</strong>: a passive course is left out of the Dashboard&rsquo;s weekly goals list (for example something you only follow loosely). Its time and goals are kept.</li>
+          <li>The colour you pick is used in lists, charts, notes and the graph.</li>
+        </ul>
+        <h3>Activities</h3>
+        <p>Each has a name, a colour and an icon. Add the ones you actually use; an activity can be used with any course.</p>
+        <div class="note"><p><strong>Deleting</strong> a course or activity asks first, and it also deletes every session logged under it. If you only want a course out of the way, mark it <em>Passive</em> instead.</p></div>
+
+        <h2 id="dashboard">5. The Dashboard</h2>
+        <figure class="shot"><img src="img/dashboard.png" width="1280" height="860" alt="The dashboard: timer, weekly goals, long-term goals, the book being read and recent sessions." loading="lazy"><figcaption>The Dashboard.</figcaption></figure>
+        <ul>
+          <li><strong>Timer</strong>: see <a href="#timer">the next section</a>.</li>
+          <li><strong>Reading now</strong>: the books you have marked as Reading, with the page you are on and an estimate of how long is left.</li>
+          <li><strong>Today</strong>: time logged today against the daily goal, your streak (days in a row with time logged, in any tracker) and a calendar of your last weeks. Each square is a day; the darker, the more time. Click a day to see that day&rsquo;s sessions in the Log. The number of weeks shown depends on how wide the card is: squares are kept big enough to click.</li>
+          <li><strong>Weekly goals</strong>: a bar for the whole tracker and one for each course that has a goal.</li>
+          <li><strong>Long-term goals</strong>: courses with a total goal, with percent done, hours to go and the pace needed.</li>
+          <li><strong>Recent sessions</strong>: your latest sessions, with the book and note if any.</li>
+        </ul>
+
+        <h2 id="timer">6. The timer</h2>
+        <figure class="shot"><img src="img/timer-running.png" width="1280" height="860" alt="The timer while running: 00:00:06, a Recording label, and Pause and Stop and save buttons." loading="lazy"><figcaption>A running timer.</figcaption></figure>
+        <h3>Starting</h3>
+        <p>Choose a course and an activity. If you keep a Library, a third box lets you pick the book or article you are reading (&ldquo;Not reading anything in particular&rdquo; otherwise); picking a book also selects its course. Press <strong>Start</strong>. <strong>Repeat last</strong> starts the same course, activity and book as your most recent session in one click.</p>
+        <h3>While it runs</h3>
+        <ul>
+          <li><strong>Pause</strong> stops the clock without ending the session; press it again to resume. Paused time is not counted.</li>
+          <li>You can type a <strong>note</strong> about the session while it runs.</li>
+          <li><strong>Started earlier?</strong> moves the start back by 5m, 10m, 15m, 30m, 45m or 1h when you forgot to press Start. It also works before you start: the same buttons then start the timer now, counting from that long ago.</li>
+          <li>The timer keeps running if you close the tab, reload the page or quit and reopen your browser: it is kept in your browser, and its time is worked out from when it started. (If you clear your browser&rsquo;s site data, a running timer is lost, so save first.)</li>
+          <li>The <strong>bell</strong> icon switches break reminders on or off. With it on, your browser may ask permission to show notifications, and Tracker reminds you to take a break after every 30 minutes of active time (paused time does not count). The choice is kept in this browser.</li>
+        </ul>
+        <h3>Saving</h3>
+        <p><strong>Stop &amp; save</strong> stores the session. If saving fails (for example the disk is full), Tracker says why and <em>the timer keeps running</em>, so nothing is lost. Right after saving, a bar says &ldquo;Saved&rdquo; with the time and offers <strong>Add note</strong> (or <strong>Skip</strong>). If the session was about a book or article, it also asks <strong>Now on page</strong> so you can type the page you reached and press <strong>Save page</strong>.</p>
+
+        <h2 id="log">7. The Log</h2>
+        <figure class="shot"><img src="img/log.png" width="1280" height="940" alt="The log page: a form to add a past session above the list of all sessions." loading="lazy"><figcaption>The Log.</figcaption></figure>
+        <ul>
+          <li><strong>Add a past session</strong>: choose the course, activity, optionally a book, the date, the time, the minutes and a note, then <em>Add</em>. The date and time start as now, or as the day you clicked in the Dashboard calendar.</li>
+          <li><strong>All sessions</strong> lists everything newest first. Each row has buttons to <em>write a note about that session</em> (the number shows how many exist), <em>edit</em> it (every field can be changed) and <em>delete</em> it.</li>
+          <li>Coming from a day in the calendar, the list shows only that day, with a small button to show them all again.</li>
+        </ul>
+
+        <h2 id="stats">8. Stats</h2>
+        <figure class="shot"><img src="img/stats.png" width="1280" height="900" alt="The stats page with a 30 day bar chart of daily study time coloured by activity." loading="lazy"><figcaption>Daily study time.</figcaption></figure>
+        <ul>
+          <li><strong>Daily study time</strong> as bars, for <strong>7d, 14d, 30d, 90d or 1y</strong>. <em>Split by course</em> puts each course&rsquo;s time side by side within a day, left to right in the order of your course list. Hover or focus a bar for the exact time.</li>
+          <li><strong>This week vs last week</strong>: this week so far, last week up to the same day (with the difference in percent) and last week in total, with a chart by weekday.</li>
+          <li><strong>By course</strong> and <strong>by activity</strong>: where the time went, as bars with totals.</li>
+        </ul>
+        <figure class="shot"><img src="img/stats-more.png" width="1280" height="900" alt="Lower on the stats page: this week compared with last week, and time by course and by activity." loading="lazy"><figcaption>Comparing weeks, and time by course and activity.</figcaption></figure>
+
+        <h2 id="overview">9. Overview</h2>
+        <p>The first item in the sidebar. It adds up <em>all</em> your trackers: today, this week, all time with the number of sessions, your streak (a day counts if any tracker has time on it), a daily chart, time per tracker, your top courses across trackers, and the most recent sessions.</p>
+        <figure class="shot"><img src="img/overview.png" width="1280" height="900" alt="The overview page with totals, a daily chart for all trackers and a split by tracker." loading="lazy"><figcaption>Overview of two trackers.</figcaption></figure>
+
+        <h2 id="notes">10. Notes and the graph</h2>
+        <figure class="shot"><img src="img/notes.png" width="1280" height="900" alt="The notes page showing pinned and recent note cards with links between them." loading="lazy"><figcaption>Notes as cards.</figcaption></figure>
+        <h3>Writing</h3>
+        <ul>
+          <li>Press <strong>New note</strong> to open the editor. Anything half written is kept if you leave, until you save or discard it.</li>
+          <li>Select text and use the toolbar: bold, italic, strikethrough, highlight, code, heading, quote, bullet list, checklist, link and picture. Ticking a checklist item on a saved note works right on the card.</li>
+          <li><strong>Pictures</strong>: paste a screenshot, or use the picture button. They are stored inside your data (see <a href="#data">Backups</a>).</li>
+          <li><strong>Start from</strong>: <em>Learned</em>, <em>Question</em>, <em>Checklist</em> and <em>Terms</em> fill in a starting shape.</li>
+          <li><strong>Courses</strong>: tick one or several; the note then appears under each. <strong>About</strong> ties it to a book or article, with an optional page number.</li>
+          <li><strong>Pin</strong> keeps a note at the top. <kbd>Ctrl</kbd>+<kbd>Enter</kbd> saves.</li>
+          <li>You can also write a note right after a session (see <a href="#timer">The timer</a>) or about a session in the Log.</li>
+        </ul>
+        <h3>Linking</h3>
+        <p>Type a note&rsquo;s title between double brackets, like <code>[[Sampling]]</code>, and it becomes a link. A link to a title that does not exist yet is shown as an &ldquo;unwritten link&rdquo;, ready to be written. Each card lists <strong>Linked from</strong>: the notes that point to it.</p>
+        <h3>Finding</h3>
+        <p>Filter by <em>All</em>, <em>Pinned</em>, a course, or <em>No course</em>, or type in <strong>Search notes</strong>. Notes can be dragged into your own order.</p>
+        <h3>The graph</h3>
+        <p>Press <strong>Graph</strong> (next to <em>Cards</em>) to see your notes as dots joined by their links. Courses are the large ring-shaped dots, books are rectangles, notes are dots coloured by course (a note in two courses is split in two colours).</p>
+        <figure class="shot"><img src="img/graph.png" width="1280" height="900" alt="The notes graph with labelled dots for notes, courses and books and lines for links." loading="lazy"><figcaption>The graph. Drag a dot to move it; click one to open the note.</figcaption></figure>
+        <ul>
+          <li>The tick boxes <strong>Courses</strong>, <strong>Unwritten links</strong> and <strong>Books</strong> show or hide those kinds of dots; <strong>Fit</strong> fits everything in view. Your choices are remembered.</li>
+          <li>A connection can carry a short <strong>comment</strong> that keeps its history, so you can write why two notes belong together.</li>
+          <li>In Settings, <em>Notes graph</em> lets you choose the shape of each kind of dot and how the graph moves (it follows your computer&rsquo;s &ldquo;reduce motion&rdquo; setting by default).</li>
+        </ul>
+
+        <h2 id="library">11. The Library</h2>
+        <figure class="shot"><img src="img/library.png" width="1280" height="900" alt="The library with a book being read, showing progress, pace and time left, and a finished book." loading="lazy"><figcaption>The Library.</figcaption></figure>
+        <h3>Adding a text</h3>
+        <p>Press <strong>Add</strong>. In the box, type:</p>
+        <ul>
+          <li>an <strong>ISBN</strong>: finds that one book (Open Library first, then Google Books for missing details);</li>
+          <li>a <strong>DOI</strong>: finds that article or chapter on Crossref;</li>
+          <li><strong>words</strong>: searches Open Library for books and Crossref for articles and chapters, and also ISBNdb and Google Books if you saved their keys (see below).</li>
+        </ul>
+        <figure class="shot"><img src="img/library-add.png" width="1280" height="900" alt="The window for adding a book or article, with a search box and a link to enter the details by hand." loading="lazy"><figcaption>Adding a book. The search runs only when you press Search.</figcaption></figure>
+        <p>Pick a result, check and correct the details (title, authors, year, publisher, pages, edition...) and save. <strong>Enter it by hand instead</strong> skips the search entirely. When a book comes from a search, Tracker also keeps its cover picture.</p>
+        <h3>Reading a text</h3>
+        <ul>
+          <li><strong>Status</strong>: To read, Reading, Paused, Read. Starting to read and finishing are dated for you.</li>
+          <li><strong>Now on page</strong>: type the page you are on. Tracker shows the percent done, <em>pages per hour</em> from your timed sessions, the time left and, at your recent pace, roughly how many weeks that is.</li>
+          <li>Pick the text in the timer and the session counts towards it (&ldquo;4h in 3 sessions, last today&rdquo;).</li>
+          <li>Notes about a text show how many there are, and can name the page they are about.</li>
+          <li>Filter by course, search with <strong>Search the library</strong>, and use <strong>Covers</strong> to show or hide the pictures.</li>
+        </ul>
+        <h3>Citations and sharing</h3>
+        <p><strong>Import and export</strong> (below the list) copies your citations as <strong>BibTeX</strong> or <strong>RIS</strong> for a reference manager or paper, and reads those formats back in.</p>
+        <h3>Better search with keys (optional)</h3>
+        <p>Open Library and Crossref are free but do not know every edition. In Settings, <em>Book search</em>, you can add an <strong>ISBNdb</strong> key (a paid service with a short free trial, with a large catalogue in many languages) and/or a <strong>Google Books</strong> key (free, with limits; you create it in Google Cloud Console). A key is checked when you save it, kept only on your computer, never shown again, and sent only to its own service.</p>
+
+        <h2 id="ai">12. The AI tab</h2>
+        <p>Optional and <strong>off by default</strong>. Until you turn it on, the tab shows &ldquo;The AI tab is off&rdquo; and nothing is ever sent anywhere.</p>
+        <figure class="shot"><img src="img/ai-off.png" width="1280" height="700" alt="The AI page showing that the AI tab is off by default, with a button to open Settings." loading="lazy"><figcaption>The AI tab, switched off.</figcaption></figure>
+        <h3>Turning it on</h3>
+        <p>Settings, <em>AI assistant</em>, <em>Show the AI tab</em>. Then choose an engine:</p>
+        <ul>
+          <li><strong>Ollama</strong> (recommended for privacy): a free program from ollama.com that runs language models on your own computer. Install and start it, and Tracker finds it at the address shown (<em>Where Ollama is running</em>; the default is right unless it runs on another computer; if it cannot be reached, Tracker says so and has a <em>check again</em> link). Under <em>Suggested for this computer</em> Tracker recommends models that suit your computer&rsquo;s memory and graphics card and can ask Ollama to download them, with a progress bar. Choose a <em>Model that answers questions</em> and, optionally, a <em>Model that searches your notes</em> (without one, Tracker matches words only; a multilingual one finds notes by meaning). <em>Test the connection</em> checks that they work. Nothing leaves your computer.</li>
+          <li><strong>An online service</strong> that works like OpenAI&rsquo;s: a <em>Service address</em> (OpenAI and many others use one ending in /v1), a <em>Chat model</em>, a <em>Search model</em> and a <em>Key</em> (<em>Save key</em>, or <em>Remove</em> it again). Use this only if you accept that the text of your notes that the AI needs is sent to that company.</li>
+        </ul>
+        <h3>Ask your notes</h3>
+        <p>Type a question. Tracker finds the pieces of your notes and books that match (it reads them in small pieces through a search index; Settings, <em>AI assistant</em>, shows how many pieces are indexed and has <em>Update the search index</em> to bring it up to date), and the model answers <strong>only from them</strong>, naming its sources as numbered citations you can click to open the note. If your notes do not contain the answer it says so. A question about your study time (&ldquo;how many hours did I spend on Statistics this week?&rdquo;) is answered from your real totals, not from the model&rsquo;s arithmetic. Your conversations are listed so you can reopen, rename or delete them.</p>
+        <h3>Flashcards</h3>
+        <p>Choose <em>Make cards from your notes</em>, pick a note (or the notes about a book) and the model proposes cards you can edit, then save. You can also add a card by hand with a front and a back. <strong>Review</strong> shows the cards that are due; you answer <em>Again</em>, <em>Hard</em>, <em>Good</em> or <em>Easy</em>, and each card comes back after a longer gap the better you knew it (a new card returns after 10 minutes, then days, then weeks).</p>
+        <div class="note"><p><strong>What is sent:</strong> with Ollama on this computer, nothing leaves it. With another computer or an online service, your questions and the notes needed to answer go there. <a href="#privacy">The Privacy section</a> spells it out.</p></div>
+
+        <h2 id="look">13. Themes and looks</h2>
+        <p>Settings, <em>Theme</em> offers six themes: <strong>Midnight</strong> (the default dark one), <strong>Black</strong>, <strong>Light</strong>, <strong>Forest</strong>, <strong>Rose</strong> and <strong>Frutiger Aero</strong> (a glassy, see-through style), plus <strong>Custom</strong>.</p>
+        <figure class="shot"><img src="img/themes.png" width="1472" height="624" alt="The same dashboard shown in six themes: midnight, light, forest, rose, black and Frutiger Aero." loading="lazy"><figcaption>The same page in six themes.</figcaption></figure>
+        <figure class="shot"><img src="img/settings-theme.png" width="1280" height="960" alt="The theme part of settings with the theme choices and the Customize panel open, showing colour pickers." loading="lazy"><figcaption>Choosing and customising a theme.</figcaption></figure>
+        <ul>
+          <li><strong>Customize</strong> (under the themes) changes any theme&rsquo;s colours one by one, the <em>font</em> (the theme&rsquo;s own, a system font, or one you name), the <em>text size</em> and how <em>round</em> the corners are. Everything shows on the page at once. A small button puts any colour back; <em>Reset</em> restores the theme.</li>
+          <li>If the colours you pick make some text hard to read, a warning says which text and how far off it is. Every built-in theme passes the standard readability rule (WCAG AA).</li>
+          <li><strong>Custom</strong> starts from the colours of any theme you pick and lets you build your own.</li>
+          <li>Theme and look are remembered in this browser and apply to every tracker. <em>Show cover pictures</em> (Settings, Library) hides or shows book covers everywhere.</li>
+        </ul>
+        <p>The pages also fit a narrow window or a small screen:</p>
+        <figure class="shot" style="max-width:300px"><img src="img/phone.png" width="390" height="844" alt="The dashboard in a narrow window, with the timer filling the width." loading="lazy"><figcaption>A narrow window. (Tracker still runs only on your computer.)</figcaption></figure>
+
+        <h2 id="data">14. Backups, exports, moving</h2>
+        <figure class="shot"><img src="img/settings-data.png" width="1280" height="900" alt="Data and backups in settings: three download buttons, Back up now, and saved copies with Restore." loading="lazy"><figcaption>Settings, Data and backups.</figcaption></figure>
+        <h3>Where your data is</h3>
+        <p>Everything (sessions, notes, books, pictures and covers) is in one file, <code>tracker.db</code>, in <code>%LOCALAPPDATA%\Tracker\data</code> (paste that into the File Explorer address bar). Saved copies are in its <code>backups</code> folder. Settings, Privacy lists all the places for your computer.</p>
+        <h3>Saved copies</h3>
+        <ul>
+          <li>Tracker saves one copy automatically each day and keeps the last 14. <strong>Back up now</strong> makes one on request; those are kept until you remove them.</li>
+          <li>Tracker also saves a copy by itself before something risky, and labels it in the list: <em>Before a restore</em>, <em>Before an update</em> (when a new version has to change the database) and <em>Before a delete</em> (deleting a tracker). The list also shows <em>Automatic</em>, <em>Manual</em>, <em>Export file</em> and <em>Other file</em> entries.</li>
+          <li><strong>Restore...</strong> on a saved copy shows what is in it (trackers, sessions, hours, notes, books) next to what you have now, and asks you to confirm. Everything you have now is replaced by the copy, including its settings; keys you saved on this computer are kept unless the copy has its own. Your current data is saved first as <em>Before a restore</em>, so a restore can be undone. A copy from an older version is brought up to date; one from a newer version is refused (update Tracker first).</li>
+          <li>Those copies live on the same computer as your data. Now and then copy the folder to a USB stick or cloud drive.</li>
+        </ul>
+        <h3>Taking your data with you</h3>
+        <table>
+          <tr><th>Download</th><th>What it is for</th></tr>
+          <tr><td><strong>Complete copy (database file)</strong></td><td>Everything in one file, pictures and covers included. Restore accepts it here or on another computer.</td></tr>
+          <tr><td><strong>Readable data with pictures (zip)</strong></td><td>Sessions, notes, books, cards, links and chats as plain text (JSON) that other programs can read, with pictures as ordinary image files. It holds no settings or keys. It can be imported back: a zip in the <code>backups</code> folder appears in the list as an <em>Export file</em> with an <em>Import...</em> button. Importing replaces everything you have with the zip&rsquo;s data (after saving a copy first); your settings and keys stay. The AI search index is not part of an export, so press <em>Update the search index</em> afterwards.</td></tr>
+          <tr><td><strong>Sessions (CSV)</strong></td><td>Your logged time for a spreadsheet.</td></tr>
+        </table>
+        <p>All three downloads cover all your trackers. Your saved keys (AI, book search) are <em>left out</em> of the complete copy and the zip on purpose, so the files are safe in a cloud drive.</p>
+        <h3>Moving to another computer</h3>
+        <p>Install Tracker there, make a complete copy or a zip here, and put the file in the <code>backups</code> folder of the new computer (Settings shows where, and <em>check again</em> refreshes the list); it then shows up with a Restore or Import button. Or, with Tracker closed on both, copy the whole <code>%LOCALAPPDATA%\Tracker</code> folder.</p>
+        <h3>If the data file is damaged</h3>
+        <p>After a crash, a power cut or a disk problem the file can become unreadable. Tracker then still starts, says so in plain words, and lists the healthy saved copies it found with what each holds. <strong>Use this copy</strong> puts one in place; the damaged file is not deleted but moved to a <code>damaged</code> folder next to your data. Anything you added after that copy was made is not in it.</p>
+        <figure class="shot"><img src="img/damaged.png" width="1280" height="900" alt="The page Tracker shows when its data file is damaged: what to do, and a list of saved copies with a Use this copy button." loading="lazy"><figcaption>The recovery page.</figcaption></figure>
+
+        <h2 id="updates">15. Updates</h2>
+        <figure class="shot"><img src="img/about.png" width="1280" height="960" alt="The About part of settings: the version, what changed, and the update options." loading="lazy"><figcaption>Settings, About.</figcaption></figure>
+        <ul>
+          <li><strong>Check now</strong> asks whether a newer version exists. It is the only thing that contacts anyone unless you turn the next option on.</li>
+          <li><strong>Check for updates once a day</strong> (off by default) does the same by itself, once a day.</li>
+          <li>When a newer version exists, <strong>Update now</strong> downloads it from GitHub (about 45 MB), checks that it is the file signed for Tracker, saves a copy of your data, closes Tracker, installs it and opens Tracker again; the page reloads by itself. Your data stays as it is.</li>
+          <li><strong>Install updates by itself</strong> (off by default) downloads a newer version in the background and installs it the next time Tracker starts. It also turns on the daily check.</li>
+          <li>Only an update signed with Tracker&rsquo;s own key is ever installed automatically, and the program that runs the installer checks that signature (and the file&rsquo;s checksum) again before it runs anything. An update that is not signed is announced with a link, and you run it yourself.</li>
+          <li>You can always update by hand: download the newest <a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe">Tracker-Setup.exe</a> and run it. It closes Tracker, installs over it and keeps your data. (Versions before 0.3.0 cannot update themselves; install 0.3.0 or later by hand once.)</li>
+          <li>Each release lists a SHA-256 checksum. In PowerShell, <code>Get-FileHash .\Tracker-Setup.exe</code> should show the same number.</li>
+        </ul>
+
+        <h2 id="privacy">16. Privacy</h2>
+        <p>Your sessions, notes, books and pictures stay on your computer. These are the only things that can leave it, and only when you use them:</p>
+        <table>
+          <tr><th>What</th><th>When</th><th>What is sent, and to whom</th></tr>
+          <tr><td>Book and article search</td><td>Only when you press Search</td><td>The ISBN, DOI or words you typed, to Open Library and Crossref (and Google Books or ISBNdb if you saved a key).</td></tr>
+          <tr><td>Cover pictures</td><td>While search results show them, and once when you save a book from a search</td><td>The cover&rsquo;s address, to the cover site, without telling it which page you are on. Turn off <em>Show cover pictures</em> and your browser loads none.</td></tr>
+          <tr><td>Your Google Books and ISBNdb keys</td><td>Only if you save one</td><td>The key, to its own service only.</td></tr>
+          <tr><td>AI with Ollama</td><td>Only when you use the AI tab</td><td>Your question and the notes found for it, to Ollama at the address in settings (this computer by default).</td></tr>
+          <tr><td>AI with an online service</td><td>Only if you choose it and save a key</td><td>The same, to that service, with your key. The one case where the text of your notes leaves your computer.</td></tr>
+          <tr><td>Updates</td><td>Check now, the daily check, Update now (the last two are off by default)</td><td>A request for one small file that carries only &ldquo;Tracker&rdquo; and the version; then the installer file if you update.</td></tr>
+        </table>
+        <p>There are no analytics, crash reports, accounts or advertising. Fonts and icons are part of the program. Inside Tracker, <strong>Settings, Privacy</strong> shows this list again with <em>your</em> settings (&ldquo;Right now&rdquo;), the sites each item talks to, how to stop it and where everything is kept, and a test checks that list against the program&rsquo;s code.</p>
+        <figure class="shot"><img src="img/privacy.png" width="1280" height="900" alt="The Privacy section inside Tracker with a summary of what is happening now and a list of what can leave the computer." loading="lazy"><figcaption>Settings, Privacy.</figcaption></figure>
+
+        <h2 id="accessibility">17. Keyboard and accessibility</h2>
+        <ul>
+          <li>Everything can be done with the keyboard: <kbd>Tab</kbd> and <kbd>Shift</kbd>+<kbd>Tab</kbd> move between controls, <kbd>Enter</kbd> or <kbd>Space</kbd> press them, and the focus is always visible.</li>
+          <li>Windows that open on top (New tracker, adding a book) keep <kbd>Tab</kbd> inside them, close with <kbd>Esc</kbd> and give the focus back to what opened them.</li>
+          <li>In a list with a grip (courses, activities, notes), focus the grip and press <kbd>Up</kbd> or <kbd>Down</kbd> to move the item. On touch screens it becomes two small arrow buttons. Trackers in the sidebar are moved with the <em>Move up</em> and <em>Move down</em> buttons in Settings.</li>
+          <li><kbd>Ctrl</kbd>+<kbd>Enter</kbd> saves a note.</li>
+          <li>Every button and field has a name a screen reader can read, each page has a heading, and error messages are announced when they appear.</li>
+          <li>Text in every built-in theme meets the WCAG AA contrast of 4.5 to 1, and the theme editor warns about colours that do not. Calendar squares are at least 24 pixels wide.</li>
+          <li>The graph&rsquo;s animation follows your computer&rsquo;s &ldquo;reduce motion&rdquo; setting unless you choose otherwise.</li>
+        </ul>
+        <p>What has not been done: it has been checked with automated tools and by keyboard, but not yet with a real screen reader. If something does not work for you, <a href="https://github.com/cliteka-cell/tracker-releases/issues">tell us</a>.</p>
+
+        <h2 id="troubleshooting">18. Troubleshooting</h2>
+        <details><summary>Windows says &ldquo;Windows protected your PC&rdquo;</summary><p>The installer is not signed with a paid code-signing certificate. Choose <strong>More info</strong>, then <strong>Run anyway</strong>. To check the file is the real one, compare its SHA-256 (<code>Get-FileHash</code>) with the checksum on the release page.</p></details>
+        <details><summary>Nothing opened, or the browser says it cannot connect</summary><p>Wait a few seconds and reload: Tracker takes a moment to start. Look for its icon near the clock (the little arrow shows hidden icons); clicking it opens Tracker. Starting Tracker again from the Start menu just opens the running one. If it still fails, open the log (right-click the icon, <em>Show the log folder</em>) and read the last lines.</p></details>
+        <details><summary>I cannot find the tray icon</summary><p>Windows may hide it under the arrow next to the clock. Drag it out to keep it visible. You can always start Tracker from the Start menu.</p></details>
+        <details><summary>&ldquo;Your data file is damaged&rdquo;</summary><p>Choose the newest saved copy listed and press <strong>Use this copy</strong>. The damaged file is kept in the <code>damaged</code> folder. See <a href="#data">Backups</a>. If no copy is listed, close Tracker and look in the <code>backups</code> folder shown on that page; the copies there are ordinary <code>.db</code> files, and someone you trust can help you look.</p></details>
+        <details><summary>&ldquo;The disk is full&rdquo;, or a save fails</summary><p>Free some space (empty the Recycle Bin, remove files you do not need) and try again. What you saved earlier is safe, and a running timer keeps running until a save works.</p></details>
+        <details><summary>&ldquo;Tracker cannot write to its data&rdquo; or &ldquo;Your data is busy&rdquo;</summary><p>A security or sync program may be holding the data folder. Wait a few seconds and retry; if it keeps happening, allow Tracker to use <code>%LOCALAPPDATA%\Tracker</code>.</p></details>
+        <details><summary>A book search finds nothing, or says a service did not answer</summary><p>Check your internet connection. Open Library does not know every edition; add an ISBNdb or Google Books key in Settings (see <a href="#library">The Library</a>), or choose <em>Enter it by hand instead</em>. A search for an article needs its DOI or title words (Crossref).</p></details>
+        <details><summary>Update now does not work</summary><p>It says why. If it fails to download, check your connection and try again; you can always run the newest <a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe">Tracker-Setup.exe</a> by hand. Version 0.3.0 could give up on computers where looking up GitHub&rsquo;s address is slow; 0.3.1 fixed that, so update by hand to 0.3.1 or later once.</p></details>
+        <details><summary>The AI tab says to choose a model, or cannot reach Ollama</summary><p>Install Ollama from ollama.com and make sure it is running (its icon is near the clock), then open Settings, <em>AI assistant</em>, and press check again. Choose a model that answers questions (and, optionally, one that searches your notes); the suggestions listed for your computer can be downloaded from there. <em>Test the connection</em> tells you which part fails.</p></details>
+        <details><summary>&ldquo;Tracker cannot find its data file&rdquo;</summary><p>The data file is not where Tracker expects it, or cannot be opened. Close Tracker and open it again. If the file is really gone, Tracker starts fresh, and your saved copies are still in the <code>backups</code> folder: open Settings, Data and backups, and restore one.</p></details>
+        <details><summary>I started a timer on one computer and cannot see it on another</summary><p>The running timer lives in the browser it was started in. Tracker data does not sync between computers; save the session where you started it.</p></details>
+        <details><summary>Where is the log, and what do I send when I ask for help?</summary><p>Right-click the Tracker icon and choose <em>Show the log folder</em> (or see Settings, About). It is a plain text file named <code>tracker.log</code>. A failed save can leave a piece of what you were saving in it, so read it before you send it to anyone, and send only what you are comfortable with.</p></details>
+        <details><summary>How do I remove all my data?</summary><p>Uninstall Tracker and answer <strong>Yes</strong> when it asks about your data, or delete the <code>%LOCALAPPDATA%\Tracker</code> folder with Tracker closed. This cannot be undone, so make a complete copy first if you might want it.</p></details>
+
+        <h2 id="faq">19. Questions</h2>
+        <details><summary>Is it free? Is it open source?</summary><p>It is free to download and use. It is <strong>not</strong> open source: the program&rsquo;s code is not published.</p></details>
+        <details><summary>Does it work without the internet?</summary><p>Yes. The timer, log, notes, goals, stats, backups and the AI tab with Ollama on your computer all work offline. Only book lookups, covers, updates and an online AI service need a connection.</p></details>
+        <details><summary>Can two people share a tracker, or can I use it on my phone?</summary><p>No. Tracker is a private program for one person on one computer. Your data is not shared or synced, and the program answers only to its own computer.</p></details>
+        <details><summary>What happens to my data if I update?</summary><p>It stays. A newer version installs over the old one, brings the data file up to date if needed, and a copy is saved first.</p></details>
+        <details><summary>How much data can it hold?</summary><p>It is built for years of daily use by one person; there is no fixed limit. Pictures in notes make the data file bigger, so the backups folder grows with them (daily copies are limited to 14).</p></details>
+        <details><summary>Does it work on a Mac or Linux?</summary><p>Not yet. Tracker is built for Windows 10 and 11 (64-bit).</p></details>
+        <details><summary>Who made it, and how do I report a problem or suggest something?</summary><p>One person makes it. You can <a href="https://github.com/cliteka-cell/tracker-releases/issues">open an issue on GitHub</a>; please read your log first (see Troubleshooting) and do not paste anything private.</p></details>
+
+        <h2 id="glossary">20. Words used</h2>
+        <table>
+          <tr><th>Word</th><th>Meaning</th></tr>
+          <tr><td>Tracker (a tracker)</td><td>One of your areas, with its own courses, activities, notes and library.</td></tr>
+          <tr><td>Course / subfield</td><td>A part of a tracker; you choose what it is called.</td></tr>
+          <tr><td>Passive course</td><td>A course left out of the weekly goals list; its time and goals are kept.</td></tr>
+          <tr><td>Streak</td><td>Days in a row with time logged.</td></tr>
+          <tr><td>Heatmap (calendar)</td><td>The grid of days on the Dashboard; a darker square means more time.</td></tr>
+          <tr><td>Wikilink</td><td>A link from one note to another written as <code>[[Title]]</code>.</td></tr>
+          <tr><td>Unwritten link</td><td>A link to a note title that does not exist yet.</td></tr>
+          <tr><td>ISBN / DOI</td><td>The number that identifies a book (ISBN) or an article (DOI).</td></tr>
+          <tr><td>BibTeX / RIS</td><td>Formats that reference managers and word processors use for citations.</td></tr>
+          <tr><td>Ollama</td><td>A free program that runs AI language models on your own computer.</td></tr>
+          <tr><td>Search index</td><td>What lets the AI find the right pieces of your notes; refreshed with &ldquo;Update the search index&rdquo; in Settings.</td></tr>
+          <tr><td>Spaced repetition</td><td>Showing a flashcard again after a longer gap each time you know it.</td></tr>
+          <tr><td>Complete copy</td><td>A single file holding all your data, which Restore accepts.</td></tr>
+          <tr><td>SHA-256 checksum</td><td>A fingerprint of a file; if two files have the same one, they are identical.</td></tr>
+          <tr><td>Signed update</td><td>An update carrying a signature made with Tracker&rsquo;s private key, which Tracker checks before installing it by itself.</td></tr>
+        </table>
+      </article>
+    </main>
+  </div>
+
+  <footer>
+    <p>Tracker is free to download and use, and is not open source. <a href="https://github.com/cliteka-cell/tracker-releases/releases">All versions and checksums</a>.</p>
+    <p>This page loads nothing from anywhere else: no fonts, scripts or trackers.</p>
+  </footer>
+</div>
+</body>
+</html>

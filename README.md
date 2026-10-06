@@ -5,6 +5,10 @@ library of books and articles, flashcards, and an AI tab that uses a model on yo
 stays on your computer. There is no account.
 
 **Home page: https://cliteka-cell.github.io/tracker-releases/**
+&nbsp;|&nbsp; [Getting started in ten minutes](https://cliteka-cell.github.io/tracker-releases/guide.html)
+&nbsp;|&nbsp; [The full manual](https://cliteka-cell.github.io/tracker-releases/manual.html)
+
+Tracker is free to download and use. It is not open source.
 
 This repository only holds the downloads and that page. **[Download the newest Tracker-Setup.exe](https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe)**
 (about 45 MB), or open the **Releases** page for older versions and checksums.
