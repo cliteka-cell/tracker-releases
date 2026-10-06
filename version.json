@@ -1,12 +1,13 @@
 {
-  "version": "0.2.1",
+  "version": "0.3.0",
   "date": "2026-10-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.2.1/Tracker-Setup-0.2.1.exe",
-  "sha256": "b15b3ae1b6579b6692f3cf45c3cfdb68befa9cddd087c4226127fbd081eaadb6",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.3.0/Tracker-Setup-0.3.0.exe",
+  "sha256": "1a3c7f7fb9c3c04df16c4a46df0253a39bb6f23c1cf8296bb8274ae4f13045e7",
   "notes": [
-    "A damaged data file is explained in plain words, and a saved copy can be put back in one click",
-    "Clear messages when the disk is full or a save fails, and a log file you can send when you ask for help",
-    "Easier with the keyboard or a screen reader: names for every button and field, headings, dialogs that keep focus",
-    "Text is readable in every theme, and the theme editor warns about colors that are hard to read"
-  ]
+    "Update from inside Tracker: one click downloads, checks and installs the new version, and Tracker opens again",
+    "Optional: let Tracker install updates by itself the next time it starts (off until you turn it on)",
+    "Only updates signed with Tracker's own key are installed automatically; others come with a download link",
+    "The activity calendar has bigger cells, so each day is easy to click or tap"
+  ],
+  "signature": "2dE/vRnpDTe+bftDKYDM9UzH7Zdk3xmNcEYlj3K3HGZpR9eZVIzcXJxzDQRONIRzE0a5KTwgTPiQfnSbqM0qYA=="
 }
