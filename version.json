@@ -1,13 +1,12 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "date": "2026-10-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.2.0/Tracker-Setup-0.2.0.exe",
-  "sha256": "b28e892be50282c001c281efe9ed67726e69231df923d0786d38d0d36ae38843",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.2.1/Tracker-Setup-0.2.1.exe",
+  "sha256": "b15b3ae1b6579b6692f3cf45c3cfdb68befa9cddd087c4226127fbd081eaadb6",
   "notes": [
-    "A notes graph, a Library for books and articles, and an AI tab for your own notes",
-    "Restore your backups, and take all your data with you as a file or a zip",
-    "A welcome page with starting points and removable sample data",
-    "A setup wizard: updates install over the old version and keep your data",
-    "Tracker runs quietly, with an icon near the clock"
+    "A damaged data file is explained in plain words, and a saved copy can be put back in one click",
+    "Clear messages when the disk is full or a save fails, and a log file you can send when you ask for help",
+    "Easier with the keyboard or a screen reader: names for every button and field, headings, dialogs that keep focus",
+    "Text is readable in every theme, and the theme editor warns about colors that are hard to read"
   ]
 }
