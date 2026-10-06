@@ -8,7 +8,7 @@ stays on your computer. There is no account.
 &nbsp;|&nbsp; [Getting started in ten minutes](https://cliteka-cell.github.io/tracker-releases/guide.html)
 &nbsp;|&nbsp; [The full manual](https://cliteka-cell.github.io/tracker-releases/manual.html)
 
-Tracker is free to download and use. It is not open source.
+Tracker is free to download and use. It is not open source. [Terms of use](https://cliteka-cell.github.io/tracker-releases/terms.html).
 
 Questions, problems or ideas: open an issue here, or write to clite.ka@gmail.com.
 
