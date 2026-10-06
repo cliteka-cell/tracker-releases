@@ -6,7 +6,8 @@ stays on your computer. There is no account.
 
 **Home page: https://cliteka-cell.github.io/tracker-releases/**
 
-This repository only holds the downloads and that page. Open the **Releases** page and download the newest `Tracker-Setup-x.y.z.exe`.
+This repository only holds the downloads and that page. **[Download the newest Tracker-Setup.exe](https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe)**
+(about 45 MB), or open the **Releases** page for older versions and checksums.
 
 ## Installing
 
