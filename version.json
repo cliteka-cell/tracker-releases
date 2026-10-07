@@ -1,10 +1,12 @@
 {
-  "version": "0.8.1",
+  "version": "0.9.0",
   "date": "2026-10-08",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.8.1/Tracker-Setup-0.8.1.exe",
-  "sha256": "953384f59448c83928a538dc35c320536d4f9d6b6493f7aed462dc87aa066508",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.9.0/Tracker-Setup-0.9.0.exe",
+  "sha256": "e279514ff1b36de009b8d958c1884b92f7c4c4b800cceab447acbbfc48aeeb8e",
   "notes": [
-    "A book now carries down to the notes under a note about it, the way a course does"
+    "Four kinds of line for being under something, so each level of the notes graph is easy to tell apart",
+    "A book's line to its subfield is dashed, in the subfield's colour",
+    "Gentler default pulls: links 30%, subfield lines 10%, lines for being under something 50%, suggestions 4%"
   ],
-  "signature": "IsMreCrMj21Jshl/Ll/Ph1jBFN0B5VLM+43FU14HH+ruHkdFFP35Olm94VT+OUaY6v11Fz7HGH9f8MieX5WFcg=="
+  "signature": "wLS/gXkpKKN3uTZ24kCs731Rt1HP0R1RWtp7rqnj533hFxoer60xC/fcJQwJW+5I3UZWQ8gsnlRZ4MEoZQHLYw=="
 }
