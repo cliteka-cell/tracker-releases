@@ -1,13 +1,10 @@
 {
-  "version": "0.8.0",
-  "date": "2026-10-07",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.8.0/Tracker-Setup-0.8.0.exe",
-  "sha256": "44f383bac5c9f8492c683777709bbdd5d8c0ac073e5896723a98856df8b67097",
+  "version": "0.8.1",
+  "date": "2026-10-08",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.8.1/Tracker-Setup-0.8.1.exe",
+  "sha256": "953384f59448c83928a538dc35c320536d4f9d6b6493f7aed462dc87aa066508",
   "notes": [
-    "A book can go under its course, and a note about a book goes under that book",
-    "Adding a book with a course asks: put it under the course, or a normal connection",
-    "A note is in the course of the book it is under",
-    "Lines for being under something are dashed grey lines without an arrowhead (arrowheads can be switched on)"
+    "A book now carries down to the notes under a note about it, the way a course does"
   ],
-  "signature": "N+ZC9w0YQWUeNFfwykSAYdKfVdeGkawWktHqM1Kv+s714dwNrzCVBK4Uh7bkG2kbOkJkYtNTqfDLAdUfggTM0A=="
+  "signature": "IsMreCrMj21Jshl/Ll/Ph1jBFN0B5VLM+43FU14HH+ruHkdFFP35Olm94VT+OUaY6v11Fz7HGH9f8MieX5WFcg=="
 }
