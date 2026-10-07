@@ -23,7 +23,7 @@
   </header>
 
   <h1>The full user manual</h1>
-  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.7.0; later versions may add things, and Overview, Settings, About lists what changed.</p>
+  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.7.1; later versions may add things, and Overview, Settings, About lists what changed.</p>
 
   <div class="layout">
     <nav class="toc" aria-label="Contents">
@@ -80,8 +80,8 @@
           <tr><td><strong>Book or article</strong></td><td>A text in your Library that you read and can attach sessions and notes to.</td></tr>
           <tr><td><strong>Goal</strong></td><td>A weekly or total number of hours for a course, or a daily goal for the tracker.</td></tr>
         </table>
-        <p>Each tracker has six pages along the top: <strong>Dashboard</strong>, <strong>Log</strong>, <strong>Notes</strong>, <strong>Library</strong>, <strong>Stats</strong> and <strong>Settings</strong>, which holds the settings of that tracker only (its courses, activities, name, symbol and goals). <strong>Overview</strong>, at the top of the sidebar, combines all your trackers and has two pages of its own: <strong>Overview</strong> and <strong>Settings</strong>, which holds the settings of the whole program (data and backups, theme, library, book search, the AI assistant, the notes graph, privacy and about). In this manual, &ldquo;Overview, Settings, Privacy&rdquo; means the Privacy section of that second page.</p>
-        <figure class="shot"><a class="zoom" href="img/settings-general.png"><img src="img/settings-general.png" width="1280" height="900" alt="The settings of the Overview: the Overview and Settings tabs at the top, Data and backups open with its download buttons, Back up now and Import from a file, and the sections Theme, Library and Book search minimised below it." loading="lazy"></a><figcaption>Overview, Settings, with some sections minimised.</figcaption></figure>
+        <p>Each tracker has six pages along the top: <strong>Dashboard</strong>, <strong>Log</strong>, <strong>Notes</strong>, <strong>Library</strong>, <strong>Stats</strong> and <strong>Settings</strong>, which holds the settings of that tracker (its courses, activities, name, symbol and goals) together with the <strong>theme</strong>, the <strong>library</strong> settings and the <strong>notes graph</strong> settings, which are kept in this browser and used in every tracker. <strong>Overview</strong>, at the top of the sidebar, combines all your trackers and has two pages of its own: <strong>Overview</strong> and <strong>Settings</strong>, which holds the settings of the whole program (data and backups, book search, the AI assistant, privacy and about). In this manual, &ldquo;Overview, Settings, Privacy&rdquo; means the Privacy section of that second page.</p>
+        <figure class="shot"><a class="zoom" href="img/settings-general.png"><img src="img/settings-general.png" width="1280" height="900" alt="The settings of the Overview: the Overview and Settings tabs at the top, Data and backups open with its download buttons, Back up now and Import from a file, and the sections Book search, AI assistant and Privacy minimised below it." loading="lazy"></a><figcaption>Overview, Settings, with some sections minimised.</figcaption></figure>
 
         <h2 id="running">2. Installing, starting, quitting</h2>
         <h3>Installing</h3>
@@ -200,9 +200,9 @@
           <li><strong>Full window</strong> (next to Fullscreen) makes the graph fill this browser window, without taking over the screen. It is for people who keep Tracker in a smaller window beside other things. The tick boxes and Fit come along, <kbd>Esc</kbd> leaves it, and <em>Open note</em> leaves it before showing the note. It works together with Fullscreen.</li>
           <li><strong>Fullscreen</strong> (when your browser allows it) gives the graph the whole screen. <kbd>Esc</kbd> leaves it.</li>
           <li>A <strong>solid line with a small arrowhead</strong> runs from a note to each note it is under and pulls it close, so the notes under a note gather around it. A note has a line to a course only for the courses you gave it yourself; it reaches the others through the notes above it. If a [[link]] also joins the two notes, they share that one line.</li>
-          <li><strong>Put under...</strong> (next to <em>Connect to...</em> when a note is selected) puts it under the note you click next. Select an arrow line and press <em>Disconnect</em> to take a note out from under another.</li>
+          <li><strong>Put under...</strong> (next to <em>Connect to...</em> when a note is selected) puts it under the note you click next. The shortcut: hold <kbd>Alt</kbd> (or <kbd>Ctrl</kbd>) and drag the note onto the note it goes under, the way holding <kbd>Shift</kbd> and dragging joins two dots. Select an arrow line and press <em>Disconnect</em> to take a note out from under another.</li>
           <li>A connection can carry a short <strong>comment</strong> that keeps its history, so you can write why two notes belong together. The comment is written along the line, tilted with it and cut with &ldquo;...&rdquo; to fit between the two dots; select the line to read it in full.</li>
-          <li>In Overview, Settings, <em>Notes graph</em> you can choose the shape of each kind of dot and how the graph moves (it follows your computer&rsquo;s &ldquo;reduce motion&rdquo; setting by default).</li>
+          <li>In any tracker&rsquo;s Settings, <em>Notes graph</em>, you can choose the shape of each kind of dot and how the graph moves (it follows your computer&rsquo;s &ldquo;reduce motion&rdquo; setting by default).</li>
           <li><strong>Customise</strong>, in the same place, starts closed and is optional. For every kind of line (links, subfield lines, book lines, under lines and suggestions) you can set its style (solid, dashed or dotted), width, colour, opacity and strength (how hard it pulls its two dots together); for every kind of dot its fill colour and opacity and its border colour and width; and the general pull: <em>Spread</em> (how hard dots push apart) and <em>Centre</em> (how hard everything is pulled to the middle). <em>Automatic</em> keeps the colour the graph picks itself, such as a course&rsquo;s colour. A line still lights up when its dot is selected and fades when another is. <strong>Back to the defaults</strong> brings back the usual look. The choices are kept in this browser and used in every tracker.</li>
         </ul>
         <figure class="shot"><a class="zoom" href="img/graph-fullscreen.png"><img src="img/graph-fullscreen.png" width="1280" height="800" alt="The notes graph shown fullscreen, with a bubble beside the clicked note Research questions showing its course, its text, the notes it connects to and the buttons Open note, Connect to and Clear." loading="lazy"></a><figcaption>Fullscreen: the details of a clicked note open in a bubble beside its dot.</figcaption></figure>
@@ -221,7 +221,7 @@
         <h3>Reading a text</h3>
         <ul>
           <li><strong>Status</strong>: To read, Reading, Paused, Read. Starting to read and finishing are dated for you.</li>
-          <li><strong>Now on page</strong>: type the page you are on. Tracker shows the percent done, <em>pages per hour</em> from your timed sessions, and the time left (&ldquo;about 4 h left&rdquo;). Overview, Settings, Library can also add a guess of how many weeks that is at your recent pace; it is <strong>off by default</strong> because it is only a rough guess, and the hours are useful on their own.</li>
+          <li><strong>Now on page</strong>: type the page you are on. Tracker shows the percent done, <em>pages per hour</em> from your timed sessions, and the time left (&ldquo;about 4 h left&rdquo;). Settings, <em>Library</em> (in any tracker) can also add a guess of how many weeks that is at your recent pace; it is <strong>off by default</strong> because it is only a rough guess, and the hours are useful on their own.</li>
           <li>Pick the text in the timer and the session counts towards it (&ldquo;4h in 3 sessions, last today&rdquo;).</li>
           <li>Notes about a text show how many there are, and can name the page they are about.</li>
           <li>Filter by course, search with <strong>Search the library</strong>, and use <strong>Covers</strong> to show or hide the pictures.</li>
@@ -247,7 +247,7 @@
         <div class="note"><p><strong>What is sent:</strong> with Ollama on this computer, nothing leaves it. With another computer or an online service, your questions and the notes needed to answer go there. <a href="#privacy">The Privacy section</a> spells it out.</p></div>
 
         <h2 id="look">13. Themes and looks</h2>
-        <p>Overview, Settings, <em>Theme</em> offers six themes: <strong>Midnight</strong> (the default dark one), <strong>Black</strong>, <strong>Light</strong>, <strong>Forest</strong>, <strong>Rose</strong> and <strong>Frutiger Aero</strong> (a glassy, see-through style), plus <strong>Custom</strong>.</p>
+        <p>Settings, <em>Theme</em> (in any tracker) offers six themes: <strong>Midnight</strong> (the default dark one), <strong>Black</strong>, <strong>Light</strong>, <strong>Forest</strong>, <strong>Rose</strong> and <strong>Frutiger Aero</strong> (a glassy, see-through style), plus <strong>Custom</strong>.</p>
         <figure class="shot"><a class="zoom" href="img/themes.png"><img src="img/themes.png" width="1472" height="624" alt="The same dashboard shown in six themes: midnight, light, forest, rose, black and Frutiger Aero." loading="lazy"></a><figcaption>The same page in six themes.</figcaption></figure>
         <figure class="shot"><a class="zoom" href="img/settings-theme.png"><img src="img/settings-theme.png" width="1280" height="960" alt="The theme part of settings with the theme choices and the Customize panel open, showing colour pickers." loading="lazy"></a><figcaption>Choosing and customising a theme.</figcaption></figure>
         <ul>
@@ -255,7 +255,7 @@
           <li>If the colours you pick make some text hard to read, a warning says which text and how far off it is. Every built-in theme passes the standard readability rule (WCAG AA).</li>
           <li><strong>Custom</strong> starts from the colours of any theme you pick and lets you build your own.</li>
           <li><strong>Minimise what you do not use.</strong> Every section of both settings pages has a title you can click to minimise it (and again to open it). The choice is remembered in this browser, and a link that points at a minimised section opens it.</li>
-          <li>Theme and look are remembered in this browser and apply to every tracker. <em>Show cover pictures</em> (Overview, Settings, Library) hides or shows book covers everywhere.</li>
+          <li>Theme and look are remembered in this browser and apply to every tracker. <em>Show cover pictures</em> (Settings, Library) hides or shows book covers everywhere.</li>
         </ul>
         <p>The pages also fit a narrow window or a small screen:</p>
         <figure class="shot" style="max-width:300px"><a class="zoom" href="img/phone.png"><img src="img/phone.png" width="390" height="844" alt="The dashboard in a narrow window, with the timer filling the width." loading="lazy"></a><figcaption>A narrow window. (Tracker still runs only on your computer.)</figcaption></figure>
