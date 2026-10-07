@@ -23,7 +23,7 @@
   </header>
 
   <h1>The full user manual</h1>
-  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.3.2; later versions may add things, and Settings, About lists what changed.</p>
+  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.4.0; later versions may add things, and Settings, About lists what changed.</p>
 
   <div class="layout">
     <nav class="toc" aria-label="Contents">
@@ -184,8 +184,10 @@
         <figure class="shot"><a class="zoom" href="img/graph.png"><img src="img/graph.png" width="1280" height="900" alt="The notes graph with labelled dots for notes, courses and books and lines for links." loading="lazy"></a><figcaption>The graph. Drag a dot to move it; click one to open the note.</figcaption></figure>
         <ul>
           <li>The tick boxes <strong>Courses</strong>, <strong>Unwritten links</strong> and <strong>Books</strong> show or hide those kinds of dots; <strong>Fit</strong> fits everything in view. Your choices are remembered.</li>
-          <li><strong>Fullscreen</strong> (next to Fit, when your browser allows it) gives the graph the whole screen, with the same tick boxes and Fit. There, clicking a dot or a line opens its details in a <strong>bubble</strong> beside it instead of under the picture. The bubble follows the dot when you move or zoom the picture, opens on its other side near the edge of the screen, and has the same buttons as the panel in the normal view (<em>Open note</em>, <em>Connect to...</em>, <em>Clear</em>). <em>Open note</em> leaves fullscreen and shows the note; clicking empty space closes the bubble, and <kbd>Esc</kbd> leaves fullscreen.</li>
-          <li>A connection can carry a short <strong>comment</strong> that keeps its history, so you can write why two notes belong together.</li>
+          <li><strong>Click a dot or a line</strong> and its details open in a <strong>bubble</strong> beside it. The bubble follows the dot when you move or zoom the picture, opens on the dot&rsquo;s other side near the edge of the picture, and has the buttons <em>Open note</em> (or <em>Open in Library</em> for a book), <em>Connect to...</em> and <em>Clear</em>. Clicking empty space closes it.</li>
+          <li><strong>Full window</strong> (next to Fullscreen) makes the graph fill this browser window, without taking over the screen. It is for people who keep Tracker in a smaller window beside other things. The tick boxes and Fit come along, <kbd>Esc</kbd> leaves it, and <em>Open note</em> leaves it before showing the note. It works together with Fullscreen.</li>
+          <li><strong>Fullscreen</strong> (when your browser allows it) gives the graph the whole screen. <kbd>Esc</kbd> leaves it.</li>
+          <li>A connection can carry a short <strong>comment</strong> that keeps its history, so you can write why two notes belong together. The comment is written along the line, tilted with it and cut with &ldquo;...&rdquo; to fit between the two dots; select the line to read it in full.</li>
           <li>In Settings, <em>Notes graph</em> lets you choose the shape of each kind of dot and how the graph moves (it follows your computer&rsquo;s &ldquo;reduce motion&rdquo; setting by default).</li>
         </ul>
         <figure class="shot"><a class="zoom" href="img/graph-fullscreen.png"><img src="img/graph-fullscreen.png" width="1280" height="800" alt="The notes graph shown fullscreen, with a bubble beside the clicked note Research questions showing its course, its text, the notes it connects to and the buttons Open note, Connect to and Clear." loading="lazy"></a><figcaption>Fullscreen: the details of a clicked note open in a bubble beside its dot.</figcaption></figure>
@@ -204,7 +206,7 @@
         <h3>Reading a text</h3>
         <ul>
           <li><strong>Status</strong>: To read, Reading, Paused, Read. Starting to read and finishing are dated for you.</li>
-          <li><strong>Now on page</strong>: type the page you are on. Tracker shows the percent done, <em>pages per hour</em> from your timed sessions, the time left and, at your recent pace, roughly how many weeks that is.</li>
+          <li><strong>Now on page</strong>: type the page you are on. Tracker shows the percent done, <em>pages per hour</em> from your timed sessions, and the time left (&ldquo;about 4 h left&rdquo;). Settings, Library can also add a guess of how many weeks that is at your recent pace; it is <strong>off by default</strong> because it is only a rough guess, and the hours are useful on their own.</li>
           <li>Pick the text in the timer and the session counts towards it (&ldquo;4h in 3 sessions, last today&rdquo;).</li>
           <li>Notes about a text show how many there are, and can name the page they are about.</li>
           <li>Filter by course, search with <strong>Search the library</strong>, and use <strong>Covers</strong> to show or hide the pictures.</li>
@@ -243,7 +245,7 @@
         <figure class="shot" style="max-width:300px"><a class="zoom" href="img/phone.png"><img src="img/phone.png" width="390" height="844" alt="The dashboard in a narrow window, with the timer filling the width." loading="lazy"></a><figcaption>A narrow window. (Tracker still runs only on your computer.)</figcaption></figure>
 
         <h2 id="data">14. Backups, exports, moving</h2>
-        <figure class="shot"><a class="zoom" href="img/settings-data.png"><img src="img/settings-data.png" width="1280" height="900" alt="Data and backups in settings: three download buttons, Back up now, and saved copies with Restore." loading="lazy"></a><figcaption>Settings, Data and backups.</figcaption></figure>
+        <figure class="shot"><a class="zoom" href="img/settings-data.png"><img src="img/settings-data.png" width="1280" height="900" alt="Data and backups in settings: three download buttons, Back up now, Import from a file, and saved copies with Restore." loading="lazy"></a><figcaption>Settings, Data and backups.</figcaption></figure>
         <h3>Where your data is</h3>
         <p>Everything (sessions, notes, books, pictures and covers) is in one file, <code>tracker.db</code>, in <code>%LOCALAPPDATA%\Tracker\data</code> (paste that into the File Explorer address bar). Saved copies are in its <code>backups</code> folder. Settings, Privacy lists all the places for your computer.</p>
         <h3>Saved copies</h3>
@@ -253,6 +255,9 @@
           <li><strong>Restore...</strong> on a saved copy shows what is in it (trackers, sessions, hours, notes, books) next to what you have now, and asks you to confirm. Everything you have now is replaced by the copy, including its settings; keys you saved on this computer are kept unless the copy has its own. Your current data is saved first as <em>Before a restore</em>, so a restore can be undone. A copy from an older version is brought up to date; one from a newer version is refused (update Tracker first).</li>
           <li>Those copies live on the same computer as your data. Now and then copy the folder to a USB stick or cloud drive.</li>
         </ul>
+        <h3>Importing a file</h3>
+        <p><strong>Import from a file...</strong>, next to <em>Back up now</em>, lets you pick a complete copy (.db) or a readable-data zip from anywhere on your computer, for example one made on another computer or kept on a USB stick. Tracker keeps a copy of it in the list of saved copies, shows what is in it next to what you have now, and replaces nothing until you confirm. A file that does not start like one of Tracker&rsquo;s own files is refused, and a file that is a database but not Tracker&rsquo;s is explained in the preview.</p>
+
         <h3>Taking your data with you</h3>
         <table>
           <tr><th>Download</th><th>What it is for</th></tr>
@@ -262,7 +267,7 @@
         </table>
         <p>All three downloads cover all your trackers. Your saved keys (AI, book search) are <em>left out</em> of the complete copy and the zip on purpose, so the files are safe in a cloud drive.</p>
         <h3>Moving to another computer</h3>
-        <p>Install Tracker there, make a complete copy or a zip here, and put the file in the <code>backups</code> folder of the new computer (Settings shows where, and <em>check again</em> refreshes the list); it then shows up with a Restore or Import button. Or, with Tracker closed on both, copy the whole <code>%LOCALAPPDATA%\Tracker</code> folder.</p>
+        <p>Install Tracker there, make a complete copy or a zip here, and on the new computer press <strong>Import from a file...</strong> and pick it (see below). Or, with Tracker closed on both, copy the whole <code>%LOCALAPPDATA%\Tracker</code> folder.</p>
         <h3>If the data file is damaged</h3>
         <p>After a crash, a power cut or a disk problem the file can become unreadable. Tracker then still starts, says so in plain words, and lists the healthy saved copies it found with what each holds. <strong>Use this copy</strong> puts one in place; the damaged file is not deleted but moved to a <code>damaged</code> folder next to your data. Anything you added after that copy was made is not in it.</p>
         <figure class="shot"><a class="zoom" href="img/damaged.png"><img src="img/damaged.png" width="1280" height="900" alt="The page Tracker shows when its data file is damaged: what to do, and a list of saved copies with a Use this copy button." loading="lazy"></a><figcaption>The recovery page.</figcaption></figure>
@@ -270,6 +275,7 @@
         <h2 id="updates">15. Updates</h2>
         <figure class="shot"><a class="zoom" href="img/about.png"><img src="img/about.png" width="1280" height="960" alt="The About part of settings: the version, what changed, and the update options." loading="lazy"></a><figcaption>Settings, About.</figcaption></figure>
         <ul>
+          <li>Settings, About also has a link to the <a href="terms.html">terms of use</a>, the contact address and the GitHub issues page. They are links you click; Tracker sends nothing by itself.</li>
           <li><strong>Check now</strong> asks whether a newer version exists. It is the only thing that contacts anyone unless you turn the next option on.</li>
           <li><strong>Check for updates once a day</strong> (off by default) does the same by itself, once a day.</li>
           <li>When a newer version exists, <strong>Update now</strong> downloads it from GitHub (about 45 MB), checks that it is the file signed for Tracker, saves a copy of your data, closes Tracker, installs it and opens Tracker again; the page reloads by itself. Your data stays as it is.</li>
