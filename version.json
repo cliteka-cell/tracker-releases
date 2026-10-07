@@ -1,12 +1,14 @@
 {
-  "version": "0.3.2",
-  "date": "2026-10-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.3.2/Tracker-Setup-0.3.2.exe",
-  "sha256": "ea3f469bd26d93d6ca59e11a715c8f14b75218266bb16cb3b0706d738379dbb6",
+  "version": "0.4.0",
+  "date": "2026-10-07",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.4.0/Tracker-Setup-0.4.0.exe",
+  "sha256": "b22e8564d3eb3117184a0774cc92022216717abad829455a96436de8e575997c",
   "notes": [
-    "The notes graph can go fullscreen",
-    "In fullscreen, a clicked note opens in a bubble beside its dot instead of under the picture",
-    "The colour line on top of a note card now curves with the card's corners in every theme"
+    "Import from a file: pick a copy of your data from anywhere on your computer",
+    "A clicked dot or line opens its details in a bubble beside it, and the panel under the graph is gone",
+    "Full window: the graph can fill the browser window without taking over the screen",
+    "Comments on connections are written along the line",
+    "The weeks-to-finish guess for books is optional and off by default"
   ],
-  "signature": "V9pHdfczAe3I0huI3ZEOdd6tunHfJ9btudz/6pgKgdG/FVZBGgS3ut4n94OwEhgJFEb7p44k7x/P6lvfjY65Tw=="
+  "signature": "pLyi0hhCsjiWsDAdtGxpgo3mTr4hAgk32jfJz9ReF3xdcSXaEziKOdBQca49V3xcaYeS9ZFVct2QPBoCS5GYwA=="
 }
