@@ -1,14 +1,13 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "date": "2026-10-07",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.4.0/Tracker-Setup-0.4.0.exe",
-  "sha256": "b22e8564d3eb3117184a0774cc92022216717abad829455a96436de8e575997c",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.5.0/Tracker-Setup-0.5.0.exe",
+  "sha256": "9c3d4dca0a5a5aa2f47af79d52858ac16905cc1366892641a02e04457565ddb5",
   "notes": [
-    "Import from a file: pick a copy of your data from anywhere on your computer",
-    "A clicked dot or line opens its details in a bubble beside it, and the panel under the graph is gone",
-    "Full window: the graph can fill the browser window without taking over the screen",
-    "Comments on connections are written along the line",
-    "The weeks-to-finish guess for books is optional and off by default"
+    "The Overview has its own Settings, for everything that is about the whole program",
+    "A tracker's Settings now hold only that tracker: courses, activities, name, symbol and goals",
+    "Trackers have a symbol, an icon you pick, instead of an emoji",
+    "Every section of the settings can be minimised"
   ],
-  "signature": "pLyi0hhCsjiWsDAdtGxpgo3mTr4hAgk32jfJz9ReF3xdcSXaEziKOdBQca49V3xcaYeS9ZFVct2QPBoCS5GYwA=="
+  "signature": "cwVPQC6PKt5AEA/r6b4UTd7qoGsXuCcByoVUVg7nrbHivLCOpH2oCfjoBAvPeWGlMAQxe0xGcVtoAtbi2Z13MA=="
 }
