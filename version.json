@@ -1,12 +1,13 @@
 {
-  "version": "0.7.1",
+  "version": "0.8.0",
   "date": "2026-10-07",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.7.1/Tracker-Setup-0.7.1.exe",
-  "sha256": "d0153c84f7302f8e7887cce2cfe0418eb0cc9231485fe8fe0e1beb1340e97faf",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.8.0/Tracker-Setup-0.8.0.exe",
+  "sha256": "44f383bac5c9f8492c683777709bbdd5d8c0ac073e5896723a98856df8b67097",
   "notes": [
-    "Theme, Library and Notes graph settings are now in each tracker's Settings",
-    "The Overview's Settings keep data and backups, book search, the AI assistant, privacy and about",
-    "A shortcut for Put under: hold Alt (or Ctrl) and drag a note onto the note it goes under"
+    "A book can go under its course, and a note about a book goes under that book",
+    "Adding a book with a course asks: put it under the course, or a normal connection",
+    "A note is in the course of the book it is under",
+    "Lines for being under something are dashed grey lines without an arrowhead (arrowheads can be switched on)"
   ],
-  "signature": "PpIDQrNIzV1/vklO1REqdjLpx1GTHdPBca2vXq+qJhqcAhof3bbp0D4MyYRYXX8i1ZV9lZ3rDS6DoXi9gbQPXA=="
+  "signature": "N+ZC9w0YQWUeNFfwykSAYdKfVdeGkawWktHqM1Kv+s714dwNrzCVBK4Uh7bkG2kbOkJkYtNTqfDLAdUfggTM0A=="
 }
