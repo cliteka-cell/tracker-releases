@@ -1,13 +1,13 @@
 {
-  "version": "0.5.0",
+  "version": "0.7.0",
   "date": "2026-10-07",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.5.0/Tracker-Setup-0.5.0.exe",
-  "sha256": "9c3d4dca0a5a5aa2f47af79d52858ac16905cc1366892641a02e04457565ddb5",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.7.0/Tracker-Setup-0.7.0.exe",
+  "sha256": "69febf8c3a71f871284cda7e4f7fa4b64c2ced6ee4d7af7afaa4621248f15044",
   "notes": [
-    "The Overview has its own Settings, for everything that is about the whole program",
-    "A tracker's Settings now hold only that tracker: courses, activities, name, symbol and goals",
-    "Trackers have a symbol, an icon you pick, instead of an emoji",
-    "Every section of the settings can be minimised"
+    "A note can be written under another note, and under several, as deep as you like",
+    "Put a note under another in its editor (Under) or in the graph (Put under...)",
+    "Customise the notes graph: the look of every kind of line and dot, and how hard things pull",
+    "Optional and closed by default: the graph looks exactly as before until you change something"
   ],
-  "signature": "cwVPQC6PKt5AEA/r6b4UTd7qoGsXuCcByoVUVg7nrbHivLCOpH2oCfjoBAvPeWGlMAQxe0xGcVtoAtbi2Z13MA=="
+  "signature": "mgx0bXmLlxL7QwKsPPBLnMYGW11DikQZTWzJYVsEHjhqgdqpb0Q7++yFQ+jLGRlAF0a9acF7tM3AVRrOXwEDXw=="
 }
