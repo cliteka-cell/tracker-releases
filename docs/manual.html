@@ -23,7 +23,7 @@
   </header>
 
   <h1>The full user manual</h1>
-  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.5.0; later versions may add things, and Overview, Settings, About lists what changed.</p>
+  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.7.0; later versions may add things, and Overview, Settings, About lists what changed.</p>
 
   <div class="layout">
     <nav class="toc" aria-label="Contents">
@@ -99,7 +99,7 @@
         <figure class="shot"><a class="zoom" href="img/welcome.png"><img src="img/welcome.png" width="1280" height="940" alt="The Tracker welcome page with four starting points and a button to try the sample data." loading="lazy"></a><figcaption>The welcome page.</figcaption></figure>
         <ul>
           <li><strong>Start with your own tracker.</strong> Choose <em>A language I am learning</em>, <em>My studies (courses or a degree)</em>, <em>Research or a thesis</em> or <em>Something else</em>. Each comes with sensible activities and a symbol you can change later. Then name it, say what each part is called (one word, like Course, Language or Topic) and optionally type your first ones separated by commas. <em>Create my tracker</em> makes it.</li>
-          <li><strong>Try it with sample data.</strong> Adds a made-up semester: three courses, four weeks of sessions, six linked notes, two books and goals. A banner on every page says it is sample data and has <em>Remove sample data</em>, which takes only the sample away (a copy of your data is saved first).</li>
+          <li><strong>Try it with sample data.</strong> Adds a made-up semester: three courses, four weeks of sessions, nine linked notes (some written under others), two books and goals. A banner on every page says it is sample data and has <em>Remove sample data</em>, which takes only the sample away (a copy of your data is saved first).</li>
           <li><strong>I already have a copy of my data.</strong> Opens the restore and import options, for a copy or export from another computer (see <a href="#data">Backups, exports, moving</a>).</li>
         </ul>
         <p><strong>More trackers:</strong> press <strong>New tracker</strong> at the bottom of the sidebar. <strong>Changing one:</strong> its own Settings, <em>This tracker</em>, lets you change its <strong>symbol</strong> (an icon chosen from a set, which also shows in the sidebar and on the Overview) and name, what each part is called, its daily goal, and its order in the sidebar. <strong>Deleting one:</strong> <em>Delete this tracker</em> in the same place. Tracker shows what will be removed (sessions, courses, activities, notes and books), and if the tracker holds any sessions, notes or books it asks you to type the tracker&rsquo;s name before <em>Delete permanently</em> works. A copy of your data is saved first (&ldquo;Before a delete&rdquo; in the list of saved copies).</p>
@@ -174,23 +174,36 @@
           <li><strong>Pictures</strong>: paste a screenshot, or use the picture button. They are stored inside your data (see <a href="#data">Backups</a>).</li>
           <li><strong>Start from</strong>: <em>Learned</em>, <em>Question</em>, <em>Checklist</em> and <em>Terms</em> fill in a starting shape.</li>
           <li><strong>Courses</strong>: tick one or several; the note then appears under each. <strong>About</strong> ties it to a book or article, with an optional page number. A thin line of each course's colour runs along the top of the card (a note in several courses shows every colour side by side) and curves with the card's corners in every theme.</li>
+          <li><strong>Under</strong>: put the note under one or more other notes (type part of a title and pick it; the &times; takes it out again). See <a href="#notes-under">Notes under notes</a>.</li>
           <li><strong>Pin</strong> keeps a note at the top. <kbd>Ctrl</kbd>+<kbd>Enter</kbd> saves.</li>
           <li>You can also write a note right after a session (see <a href="#timer">The timer</a>) or about a session in the Log.</li>
         </ul>
         <h3>Linking</h3>
         <p>Type a note&rsquo;s title between double brackets, like <code>[[Sampling]]</code>, and it becomes a link. A link to a title that does not exist yet is shown as an &ldquo;unwritten link&rdquo;, ready to be written. Each card lists <strong>Linked from</strong>: the notes that point to it.</p>
+        <h3 id="notes-under">Notes under notes</h3>
+        <p>A note can sit under another note, for example <em>Random sampling</em> under <em>Sampling</em>. A note can be under several notes at once, and a note under a note can have notes under it too, as deep as you like. Put a note under another with <strong>Under</strong> in its editor, or with <strong>Put under...</strong> in the graph.</p>
+        <ul>
+          <li>A note is in the courses of every note above it as well as in its own. In the example, <em>Random sampling</em> is in Research methods because <em>Sampling</em> is, without being given that course itself. You can still give it a course of its own as well.</li>
+          <li>Each card shows <strong>Under</strong> with the notes it is under, and how many notes are under it; click one to go to it.</li>
+          <li>A note cannot be put under itself, or under a note that is already under it. Tracker refuses that and says why.</li>
+          <li><strong>Deleting</strong> a note that has notes under it keeps them: they are given its courses and move up to the notes it was under. The question before deleting says so.</li>
+          <li>A [[link]] and being under a note are separate: removing one leaves the other.</li>
+        </ul>
         <h3>Finding</h3>
-        <p>Filter by <em>All</em>, <em>Pinned</em>, a course, or <em>No course</em>, or type in <strong>Search notes</strong>. Notes can be dragged into your own order.</p>
+        <p>Filter by <em>All</em>, <em>Pinned</em>, a course, or <em>No course</em>, or type in <strong>Search notes</strong>. A course lists its notes and the notes under them. Notes can be dragged into your own order.</p>
         <h3>The graph</h3>
         <p>Press <strong>Graph</strong> (next to <em>Cards</em>) to see your notes as dots joined by their links. Courses are the large ring-shaped dots, books are rectangles, notes are dots coloured by course (a note in two courses is split in two colours).</p>
-        <figure class="shot"><a class="zoom" href="img/graph.png"><img src="img/graph.png" width="1280" height="900" alt="The notes graph with labelled dots for notes, courses and books and lines for links." loading="lazy"></a><figcaption>The graph. Drag a dot to move it; click one to open the note.</figcaption></figure>
+        <figure class="shot"><a class="zoom" href="img/graph.png"><img src="img/graph.png" width="1280" height="900" alt="The notes graph with labelled dots for notes, courses and books, lines for links, and arrows from Random sampling and Stratified sampling to Sampling, the note they are under." loading="lazy"></a><figcaption>The graph. Drag a dot to move it; click one to open the note.</figcaption></figure>
         <ul>
           <li>The tick boxes <strong>Courses</strong>, <strong>Unwritten links</strong> and <strong>Books</strong> show or hide those kinds of dots; <strong>Fit</strong> fits everything in view. Your choices are remembered.</li>
           <li><strong>Click a dot or a line</strong> and its details open in a <strong>bubble</strong> beside it. The bubble follows the dot when you move or zoom the picture, opens on the dot&rsquo;s other side near the edge of the picture, and has the buttons <em>Open note</em> (or <em>Open in Library</em> for a book), <em>Connect to...</em> and <em>Clear</em>. Clicking empty space closes it.</li>
           <li><strong>Full window</strong> (next to Fullscreen) makes the graph fill this browser window, without taking over the screen. It is for people who keep Tracker in a smaller window beside other things. The tick boxes and Fit come along, <kbd>Esc</kbd> leaves it, and <em>Open note</em> leaves it before showing the note. It works together with Fullscreen.</li>
           <li><strong>Fullscreen</strong> (when your browser allows it) gives the graph the whole screen. <kbd>Esc</kbd> leaves it.</li>
+          <li>A <strong>solid line with a small arrowhead</strong> runs from a note to each note it is under and pulls it close, so the notes under a note gather around it. A note has a line to a course only for the courses you gave it yourself; it reaches the others through the notes above it. If a [[link]] also joins the two notes, they share that one line.</li>
+          <li><strong>Put under...</strong> (next to <em>Connect to...</em> when a note is selected) puts it under the note you click next. Select an arrow line and press <em>Disconnect</em> to take a note out from under another.</li>
           <li>A connection can carry a short <strong>comment</strong> that keeps its history, so you can write why two notes belong together. The comment is written along the line, tilted with it and cut with &ldquo;...&rdquo; to fit between the two dots; select the line to read it in full.</li>
           <li>In Overview, Settings, <em>Notes graph</em> you can choose the shape of each kind of dot and how the graph moves (it follows your computer&rsquo;s &ldquo;reduce motion&rdquo; setting by default).</li>
+          <li><strong>Customise</strong>, in the same place, starts closed and is optional. For every kind of line (links, subfield lines, book lines, under lines and suggestions) you can set its style (solid, dashed or dotted), width, colour, opacity and strength (how hard it pulls its two dots together); for every kind of dot its fill colour and opacity and its border colour and width; and the general pull: <em>Spread</em> (how hard dots push apart) and <em>Centre</em> (how hard everything is pulled to the middle). <em>Automatic</em> keeps the colour the graph picks itself, such as a course&rsquo;s colour. A line still lights up when its dot is selected and fades when another is. <strong>Back to the defaults</strong> brings back the usual look. The choices are kept in this browser and used in every tracker.</li>
         </ul>
         <figure class="shot"><a class="zoom" href="img/graph-fullscreen.png"><img src="img/graph-fullscreen.png" width="1280" height="800" alt="The notes graph shown fullscreen, with a bubble beside the clicked note Research questions showing its course, its text, the notes it connects to and the buttons Open note, Connect to and Clear." loading="lazy"></a><figcaption>Fullscreen: the details of a clicked note open in a bubble beside its dot.</figcaption></figure>
 
