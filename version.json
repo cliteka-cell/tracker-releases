@@ -1,15 +1,12 @@
 {
-  "version": "0.10.0",
+  "version": "0.10.1",
   "date": "2026-10-08",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.10.0/Tracker-Setup-0.10.0.exe",
-  "sha256": "ebb88685276f0a4098e3fc68917f224f9a518cd694e25ba32d6bb53de6b6d4f5",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.10.1/Tracker-Setup-0.10.1.exe",
+  "sha256": "466986f9a776d4f238030f3110ca2e5c4e0c20c96f2cdb7bd9999905fb9b2d07",
   "notes": [
-    "Shortcuts for each kind of connection in the graph, and Settings, Shortcuts to change any shortcut",
-    "Open a note in a panel beside the graph, edit it there, and add new notes from the graph",
-    "Change a connection's kind from the graph: a link, or one note under another",
-    "Notes as Grid, Full text or List, in three sizes; the Notes tab now starts as compact cards",
-    "A clearer graph: lines in order of importance, links in their course's colour, a black background in dark themes",
-    "Much less explanatory text around the graph and in Settings"
+    "A new note under a note or a book no longer gets extra lines to the subfield, the book or a sister note",
+    "A note under a note can have a page number in the book above it",
+    "A note's editor shows the book and subfields it has through the notes above it"
   ],
-  "signature": "O0yUbagRQggQHfL5/6wHuGhyfMhfDBzNG51R5fF3w092hge2SnN2ySL8HUIl+oN8y3dS75W9s2iEZarMxIFVbQ=="
+  "signature": "x6XA8haLyDZfW5yxzmtH103Izxl2QXj5QmWfcO09Y5Hig9X/xQt75/FXxUNXfxijob4QZ7cXRPTs4uEZg3cLBw=="
 }
