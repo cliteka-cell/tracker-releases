@@ -1,12 +1,11 @@
 {
-  "version": "0.10.1",
+  "version": "0.10.2",
   "date": "2026-10-08",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.10.1/Tracker-Setup-0.10.1.exe",
-  "sha256": "466986f9a776d4f238030f3110ca2e5c4e0c20c96f2cdb7bd9999905fb9b2d07",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.10.2/Tracker-Setup-0.10.2.exe",
+  "sha256": "7d17e63a537df3d954ef060d2dce3bab12f3eab9ebe6a87eecd86edee95a8131",
   "notes": [
-    "A new note under a note or a book no longer gets extra lines to the subfield, the book or a sister note",
-    "A note under a note can have a page number in the book above it",
-    "A note's editor shows the book and subfields it has through the notes above it"
+    "The notes graph looks the same every time you open it: it remembers where each dot is",
+    "A dot that sits on a line it is not part of is moved off that line"
   ],
-  "signature": "x6XA8haLyDZfW5yxzmtH103Izxl2QXj5QmWfcO09Y5Hig9X/xQt75/FXxUNXfxijob4QZ7cXRPTs4uEZg3cLBw=="
+  "signature": "fqvr5Kq3YwSA0tu1hbvnU7ppbcGRjq2j3my/60BiDmtBw6H4SEnif4kvXZOpbrGQqsQdXqX/pFcKdJY+xbr3wg=="
 }
