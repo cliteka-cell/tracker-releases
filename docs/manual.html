@@ -23,7 +23,7 @@
   </header>
 
   <h1>The full user manual</h1>
-  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.10.0; later versions may add things, and Overview, Settings, About lists what changed.</p>
+  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.10.1; later versions may add things, and Overview, Settings, About lists what changed.</p>
 
   <div class="layout">
     <nav class="toc" aria-label="Contents">
@@ -183,12 +183,13 @@
         <h3 id="notes-under">Notes under notes</h3>
         <p>A note can sit under another note, for example <em>Random sampling</em> under <em>Sampling</em>. A note can be under several notes at once, and a note under a note can have notes under it too, as deep as you like. Put a note under another with <strong>Under</strong> in its editor, or with <strong>Put under...</strong> in the graph.</p>
         <ul>
-          <li>A note is in the courses of every note above it as well as in its own. In the example, <em>Random sampling</em> is in Research methods because <em>Sampling</em> is, without being given that course itself. You can still give it a course of its own as well.</li>
-          <li>A note is also <strong>about the books</strong> of every note above it, the way it is in their courses. If <em>Sampling</em> is about a book, <em>Random sampling</em> shows that book too, as a dashed chip, and in the graph its bubble lists it under <em>Also about</em>. There is no line of its own to that book. A note can still be about a book of its own as well.</li>
+          <li>A note is in the courses of every note above it as well as in its own. In the example, <em>Random sampling</em> is in Research methods because <em>Sampling</em> is, without being given that course itself. In the note&rsquo;s editor that course shows as a dashed chip. You can still give it a course of its own as well (press the chip), but a new note under a note, or about a book that is under its course, is not given the course you were filtering by or the one a running timer is for: it has it already, and a second line to the same place would only add clutter.</li>
+          <li>A note is also <strong>about the books</strong> of every note above it, the way it is in their courses. If <em>Sampling</em> is about a book, <em>Random sampling</em> shows that book too, as a dashed chip, and in the graph its bubble lists it under <em>Also about</em>. There is no line of its own to that book. A note can still be about a book of its own as well. Its editor shows the book too (the <strong>About</strong> box reads <em>the book, through the note above</em>), and the <strong>Page</strong> box is there as well: the page is then in that book, and it is shown beside the dashed chip.</li>
           <li>Each card shows <strong>Under</strong> with the notes it is under, and how many notes are under it; click one to go to it.</li>
           <li>A note cannot be put under itself, or under a note that is already under it. Tracker refuses that and says why.</li>
           <li><strong>Deleting</strong> a note that has notes under it keeps them: they are given its courses and move up to the notes it was under. The question before deleting says so.</li>
           <li>A [[link]] and being under a note are separate: removing one leaves the other.</li>
+          <li>The faint dashed lines the AI suggests (when it is on) never join notes of one family: two notes under the same note, or one above the other. The hierarchy already ties those together.</li>
         </ul>
         <h3 id="books-under">Books under courses, notes under books</h3>
         <p>The same idea reaches the Library: a book can sit under the course it is about, and the notes you write about a book sit under that book. So a course holds its books, and a book holds its notes.</p>
