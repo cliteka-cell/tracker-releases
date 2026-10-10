@@ -23,7 +23,7 @@
   </header>
 
   <h1>The full user manual</h1>
-  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.10.2; later versions may add things, and Overview, Settings, About lists what changed.</p>
+  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.12.0; later versions may add things, and Overview, Settings, About lists what changed.</p>
 
   <div class="layout">
     <nav class="toc" aria-label="Contents">
@@ -68,7 +68,7 @@
       <article>
 
         <h2 id="basics">1. How Tracker is organised</h2>
-        <p>Tracker is a program that runs on your own Windows computer and shows its pages in your web browser. Nothing is stored online: there is no account and no server of ours. The pieces fit together like this:</p>
+        <p>Tracker is a program that runs on your own Windows PC or Mac and shows its pages in your web browser. Nothing is stored online: there is no account and no server of ours. The pieces fit together like this:</p>
         <table>
           <tr><th>Piece</th><th>What it is</th></tr>
           <tr><td><strong>Tracker</strong></td><td>One area of your life or studies, for example &ldquo;Japanese&rdquo; or &ldquo;My degree&rdquo;. You can have as many as you like; each has its own pages, courses, activities, notes and library. They are listed in the sidebar.</td></tr>
@@ -85,14 +85,21 @@
 
         <h2 id="running">2. Installing, starting, quitting</h2>
         <h3>Installing</h3>
-        <p>Download <a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe">Tracker-Setup.exe</a> and open it. Windows may say &ldquo;Windows protected your PC&rdquo; because the program is not signed with a paid certificate: choose <strong>More info</strong>, then <strong>Run anyway</strong>. Setup installs for your user only and needs no administrator rights. It offers a Desktop shortcut and adds Tracker to the Start menu. Tracker works on Windows 10 and 11 (64-bit); there is no Mac or Linux version yet.</p>
+        <p>Download <a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe">Tracker-Setup.exe</a> and open it. Windows may say &ldquo;Windows protected your PC&rdquo; because the program is not signed with a paid certificate: choose <strong>More info</strong>, then <strong>Run anyway</strong>. Setup installs for your user only and needs no administrator rights. It offers a Desktop shortcut and adds Tracker to the Start menu. Tracker works on Windows 10 and 11 (64-bit), and on macOS 13.5 or newer (below); there is no Linux version yet.</p>
+        <h3 id="mac">Install on a Mac</h3>
+        <p>Download <a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Mac.dmg">Tracker-Mac.dmg</a> (one download for Apple Silicon and Intel Macs, macOS 13.5 or newer), open it, and drag Tracker onto the Applications folder. Tracker is not signed with a paid Apple certificate, so macOS stops it the first time, once:</p>
+        <ul>
+          <li>macOS 15 (Sequoia) and newer: open Tracker, close the message, then open System Settings, <strong>Privacy &amp; Security</strong>, scroll down to Security and press <strong>Open Anyway</strong> next to the line about Tracker, and confirm. The button is there for about an hour after the message.</li>
+          <li>macOS 13 and 14: Control-click (or right-click) Tracker in the Applications folder, choose <strong>Open</strong>, then <strong>Open</strong> again.</li>
+        </ul>
+        <p>After that it opens like any app, and updates from inside Tracker do not ask again. On a Mac, Tracker&rsquo;s icon is a small clock in the menu bar at the top right (it has no Dock icon); <strong>click</strong> it to open Tracker, <strong>Control-click</strong> it for its menu. Your data is in <code>~/Library/Application Support/Tracker/data</code> and the log in <code>~/Library/Application Support/Tracker/logs/tracker.log</code>. To remove it, quit Tracker and drag it to the Trash; the data folder stays until you delete it.</p>
         <h3>Starting</h3>
-        <p>Start Tracker from the Start menu or the Desktop shortcut. It runs quietly in the background with no window of its own, opens in your default browser, and puts a small icon near the clock (if you cannot see it, click the little arrow next to the clock). <strong>Click the icon</strong> to open Tracker in the browser; <strong>right-click</strong> it for <em>Open Tracker</em>, <em>Show the log folder</em> and <em>Quit Tracker</em>. Starting Tracker a second time just opens the first one.</p>
+        <p>Start Tracker from the Start menu or the Desktop shortcut (on a Mac, from the Applications folder). It runs quietly in the background with no window of its own, opens in your default browser, and puts a small icon near the clock (if you cannot see it, click the little arrow next to the clock). <strong>Click the icon</strong> to open Tracker in the browser; <strong>right-click</strong> it for <em>Open Tracker</em>, <em>Show the log folder</em> and <em>Quit Tracker</em>. Starting Tracker a second time just opens the first one.</p>
         <p>The address in the browser is <code>http://localhost:3417</code> (or a nearby number if that one is busy). It works only on your computer: no other device on your network can open it, which is also why you cannot open Tracker from a phone.</p>
         <h3>Quitting</h3>
-        <p>Right-click the icon and choose <strong>Quit Tracker</strong>, or press <strong>Quit Tracker</strong> in Overview, Settings, About. Closing the browser tab does not stop Tracker, and a running timer is kept (it lives in your browser, see <a href="#timer">The timer</a>).</p>
+        <p>Right-click the icon (Control-click on a Mac) and choose <strong>Quit Tracker</strong>, or press <strong>Quit Tracker</strong> in Overview, Settings, About. Closing the browser tab does not stop Tracker, and a running timer is kept (it lives in your browser, see <a href="#timer">The timer</a>).</p>
         <h3>Removing it</h3>
-        <p>Windows Settings, Apps, Installed apps, Tracker, Uninstall. It asks whether to delete your data as well; the default is <strong>No</strong>, so installing Tracker again later carries on where you left off.</p>
+        <p>On a Mac, drag Tracker to the Trash (see above). On Windows: Windows Settings, Apps, Installed apps, Tracker, Uninstall. It asks whether to delete your data as well; the default is <strong>No</strong>, so installing Tracker again later carries on where you left off.</p>
 
         <h2 id="trackers">3. Trackers</h2>
         <p>The first time you open Tracker you see the welcome page.</p>
@@ -280,7 +287,7 @@
         <h2 id="data">14. Backups, exports, moving</h2>
         <figure class="shot"><a class="zoom" href="img/settings-data.png"><img src="img/settings-data.png" width="1280" height="900" alt="Data and backups in settings: three download buttons, Back up now, Import from a file, and saved copies with Restore." loading="lazy"></a><figcaption>Overview, Settings, Data and backups.</figcaption></figure>
         <h3>Where your data is</h3>
-        <p>Everything (sessions, notes, books, pictures and covers) is in one file, <code>tracker.db</code>, in <code>%LOCALAPPDATA%\Tracker\data</code> (paste that into the File Explorer address bar). Saved copies are in its <code>backups</code> folder. Overview, Settings, Privacy lists all the places for your computer.</p>
+        <p>Everything (sessions, notes, books, pictures and covers) is in one file, <code>tracker.db</code>, in <code>%LOCALAPPDATA%\Tracker\data</code> (paste that into the File Explorer address bar; on a Mac, <code>~/Library/Application Support/Tracker/data</code>). Saved copies are in its <code>backups</code> folder. Overview, Settings, Privacy lists all the places for your computer.</p>
         <h3>Saved copies</h3>
         <ul>
           <li>Tracker saves one copy automatically each day and keeps the last 14. <strong>Back up now</strong> makes one on request; those are kept until you remove them.</li>
@@ -300,7 +307,7 @@
         </table>
         <p>All three downloads cover all your trackers. Your saved keys (AI, book search) are <em>left out</em> of the complete copy and the zip on purpose, so the files are safe in a cloud drive.</p>
         <h3>Moving to another computer</h3>
-        <p>Install Tracker there, make a complete copy or a zip here, and on the new computer press <strong>Import from a file...</strong> and pick it (see below). Or, with Tracker closed on both, copy the whole <code>%LOCALAPPDATA%\Tracker</code> folder.</p>
+        <p>Install Tracker there, make a complete copy or a zip here, and on the new computer press <strong>Import from a file...</strong> and pick it (see below). Or, with Tracker closed on both, copy the whole <code>%LOCALAPPDATA%\Tracker</code> folder (<code>~/Library/Application Support/Tracker</code> on a Mac).</p>
         <h3>If the data file is damaged</h3>
         <p>After a crash, a power cut or a disk problem the file can become unreadable. Tracker then still starts, says so in plain words, and lists the healthy saved copies it found with what each holds. <strong>Use this copy</strong> puts one in place; the damaged file is not deleted but moved to a <code>damaged</code> folder next to your data. Anything you added after that copy was made is not in it.</p>
         <figure class="shot"><a class="zoom" href="img/damaged.png"><img src="img/damaged.png" width="1280" height="900" alt="The page Tracker shows when its data file is damaged: what to do, and a list of saved copies with a Use this copy button." loading="lazy"></a><figcaption>The recovery page.</figcaption></figure>
@@ -314,8 +321,8 @@
           <li>When a newer version exists, <strong>Update now</strong> downloads it from GitHub (about 45 MB), checks that it is the file signed for Tracker, saves a copy of your data, closes Tracker, installs it and opens Tracker again; the page reloads by itself. Your data stays as it is.</li>
           <li><strong>Install updates by itself</strong> (off by default) downloads a newer version in the background and installs it the next time Tracker starts. It also turns on the daily check.</li>
           <li>Only an update signed with Tracker&rsquo;s own key is ever installed automatically, and the program that runs the installer checks that signature (and the file&rsquo;s checksum) again before it runs anything. An update that is not signed is announced with a link, and you run it yourself.</li>
-          <li>You can always update by hand: download the newest <a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe">Tracker-Setup.exe</a> and run it. It closes Tracker, installs over it and keeps your data. (Versions before 0.3.0 cannot update themselves; install 0.3.0 or later by hand once.)</li>
-          <li>Each release lists a SHA-256 checksum. In PowerShell, <code>Get-FileHash .\Tracker-Setup.exe</code> should show the same number.</li>
+          <li>You can always update by hand: download the newest <a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe">Tracker-Setup.exe</a> and run it. It closes Tracker, installs over it and keeps your data. On a Mac: quit Tracker and drag the Tracker from the newest <a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Mac.dmg">Tracker-Mac.dmg</a> onto the Applications folder. (On a Mac, Update now works only when Tracker is in a folder you can change, such as Applications.) (Versions before 0.3.0 cannot update themselves; install 0.3.0 or later by hand once.)</li>
+          <li>Each release lists a SHA-256 checksum. In PowerShell, <code>Get-FileHash .\Tracker-Setup.exe</code> should show the same number; on a Mac, <code>shasum -a 256 Tracker-Mac.dmg</code> in Terminal.</li>
         </ul>
 
         <h2 id="privacy">16. Privacy</h2>
@@ -346,18 +353,19 @@
 
         <h2 id="troubleshooting">18. Troubleshooting</h2>
         <details><summary>Windows says &ldquo;Windows protected your PC&rdquo;</summary><p>The installer is not signed with a paid code-signing certificate. Choose <strong>More info</strong>, then <strong>Run anyway</strong>. To check the file is the real one, compare its SHA-256 (<code>Get-FileHash</code>) with the checksum on the release page.</p></details>
-        <details><summary>Nothing opened, or the browser says it cannot connect</summary><p>Wait a few seconds and reload: Tracker takes a moment to start. Look for its icon near the clock (the little arrow shows hidden icons); clicking it opens Tracker. Starting Tracker again from the Start menu just opens the running one. If it still fails, open the log (right-click the icon, <em>Show the log folder</em>) and read the last lines.</p></details>
-        <details><summary>I cannot find the tray icon</summary><p>Windows may hide it under the arrow next to the clock. Drag it out to keep it visible. You can always start Tracker from the Start menu.</p></details>
+        <details><summary>Nothing opened, or the browser says it cannot connect</summary><p>Wait a few seconds and reload: Tracker takes a moment to start. Look for its icon near the clock (the little arrow shows hidden icons), or in the menu bar on a Mac; clicking it opens Tracker. Starting Tracker again just opens the running one. If it still fails, open the log (right-click the icon, <em>Show the log folder</em>) and read the last lines.</p></details>
+        <details><summary>I cannot find the tray icon</summary><p>Windows may hide it under the arrow next to the clock. Drag it out to keep it visible. You can always start Tracker from the Start menu. On a Mac with a full menu bar, icons can be hidden (behind the notch on a laptop); opening Tracker from the Applications folder opens the running one.</p></details>
+        <details><summary>macOS says Tracker cannot be opened</summary><p>That is the first-start check, once: see <a href="#mac">Install on a Mac</a>. If Update now says &ldquo;Move Tracker into your Applications folder first&rdquo;, Tracker is running from the disk image or a folder you cannot change: drag it into Applications and start it from there.</p></details>
         <details><summary>&ldquo;Your data file is damaged&rdquo;</summary><p>Choose the newest saved copy listed and press <strong>Use this copy</strong>. The damaged file is kept in the <code>damaged</code> folder. See <a href="#data">Backups</a>. If no copy is listed, close Tracker and look in the <code>backups</code> folder shown on that page; the copies there are ordinary <code>.db</code> files, and someone you trust can help you look.</p></details>
         <details><summary>&ldquo;The disk is full&rdquo;, or a save fails</summary><p>Free some space (empty the Recycle Bin, remove files you do not need) and try again. What you saved earlier is safe, and a running timer keeps running until a save works.</p></details>
-        <details><summary>&ldquo;Tracker cannot write to its data&rdquo; or &ldquo;Your data is busy&rdquo;</summary><p>A security or sync program may be holding the data folder. Wait a few seconds and retry; if it keeps happening, allow Tracker to use <code>%LOCALAPPDATA%\Tracker</code>.</p></details>
+        <details><summary>&ldquo;Tracker cannot write to its data&rdquo; or &ldquo;Your data is busy&rdquo;</summary><p>A security or sync program may be holding the data folder. Wait a few seconds and retry; if it keeps happening, allow Tracker to use <code>%LOCALAPPDATA%\Tracker</code> (<code>~/Library/Application Support/Tracker</code> on a Mac).</p></details>
         <details><summary>A book search finds nothing, or says a service did not answer</summary><p>Check your internet connection. Open Library does not know every edition; add an ISBNdb or Google Books key in Overview, Settings, Book search (see <a href="#library">The Library</a>), or choose <em>Enter it by hand instead</em>. A search for an article needs its DOI or title words (Crossref).</p></details>
         <details><summary>Update now does not work</summary><p>It says why. If it fails to download, check your connection and try again; you can always run the newest <a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe">Tracker-Setup.exe</a> by hand. Version 0.3.0 could give up on computers where looking up GitHub&rsquo;s address is slow; 0.3.1 fixed that, so update by hand to 0.3.1 or later once.</p></details>
         <details><summary>The AI tab says to choose a model, or cannot reach Ollama</summary><p>Install Ollama from ollama.com and make sure it is running (its icon is near the clock), then open Overview, Settings, <em>AI assistant</em>, and press check again. Choose a model that answers questions (and, optionally, one that searches your notes); the suggestions listed for your computer can be downloaded from there. <em>Test the connection</em> tells you which part fails.</p></details>
         <details><summary>&ldquo;Tracker cannot find its data file&rdquo;</summary><p>The data file is not where Tracker expects it, or cannot be opened. Close Tracker and open it again. If the file is really gone, Tracker starts fresh, and your saved copies are still in the <code>backups</code> folder: open Overview, Settings, Data and backups, and restore one.</p></details>
         <details><summary>I started a timer on one computer and cannot see it on another</summary><p>The running timer lives in the browser it was started in. Tracker data does not sync between computers; save the session where you started it.</p></details>
         <details><summary>Where is the log, and what do I send when I ask for help?</summary><p>Right-click the Tracker icon and choose <em>Show the log folder</em> (or see Overview, Settings, About). It is a plain text file named <code>tracker.log</code>. A failed save can leave a piece of what you were saving in it, so read it before you send it to anyone (for example to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a>), and send only what you are comfortable with.</p></details>
-        <details><summary>How do I remove all my data?</summary><p>Uninstall Tracker and answer <strong>Yes</strong> when it asks about your data, or delete the <code>%LOCALAPPDATA%\Tracker</code> folder with Tracker closed. This cannot be undone, so make a complete copy first if you might want it.</p></details>
+        <details><summary>How do I remove all my data?</summary><p>Uninstall Tracker and answer <strong>Yes</strong> when it asks about your data, or delete the <code>%LOCALAPPDATA%\Tracker</code> folder (on a Mac, <code>~/Library/Application Support/Tracker</code>) with Tracker closed. This cannot be undone, so make a complete copy first if you might want it.</p></details>
 
         <h2 id="faq">19. Questions</h2>
         <details><summary>Is it free? Is it open source?</summary><p>It is free to download and use. It is <strong>not</strong> open source: the program&rsquo;s code is not published. The <a href="terms.html">terms of use</a> say what you may do with it.</p></details>
@@ -365,7 +373,7 @@
         <details><summary>Can two people share a tracker, or can I use it on my phone?</summary><p>No. Tracker is a private program for one person on one computer. Your data is not shared or synced, and the program answers only to its own computer.</p></details>
         <details><summary>What happens to my data if I update?</summary><p>It stays. A newer version installs over the old one, brings the data file up to date if needed, and a copy is saved first.</p></details>
         <details><summary>How much data can it hold?</summary><p>It is built for years of daily use by one person; there is no fixed limit. Pictures in notes make the data file bigger, so the backups folder grows with them (daily copies are limited to 14).</p></details>
-        <details><summary>Does it work on a Mac or Linux?</summary><p>Not yet. Tracker is built for Windows 10 and 11 (64-bit).</p></details>
+        <details><summary>Does it work on a Mac or Linux?</summary><p>On a Mac, yes: macOS 13.5 or newer, Apple Silicon and Intel (<a href="#mac">Install on a Mac</a>). On Linux, not yet.</p></details>
         <details><summary>Who made it, and how do I report a problem or suggest something?</summary><p>Kerem Ates makes it. Write to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a>, or <a href="https://github.com/cliteka-cell/tracker-releases/issues">open an issue on GitHub</a> if you have a GitHub account. Please read your log first (see Troubleshooting) and do not send anything private.</p></details>
 
         <h2 id="glossary">20. Words used</h2>

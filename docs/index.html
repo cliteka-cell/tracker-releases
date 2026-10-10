@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0a0e1a">
 <title>Tracker: a private study tracker that lives on your computer</title>
-<meta name="description" content="Tracker keeps your study time, notes, books and flashcards in one place, on your own Windows computer. No account, no cloud, nothing sent anywhere unless you turn something on. Free to download.">
+<meta name="description" content="Tracker keeps your study time, notes, books and flashcards in one place, on your own Windows PC or Mac. No account, no cloud, nothing sent anywhere unless you turn something on. Free to download.">
 <meta property="og:title" content="Tracker: a private study tracker that lives on your computer">
 <meta property="og:description" content="Study time, notes, books and flashcards in one place. No account. Your data stays on your computer.">
 <meta property="og:type" content="website">
@@ -110,9 +110,10 @@ footer p { margin: 0 0 8px; }
       <p class="lead">Time, notes, books and flashcards in one place, for languages, a degree, research or anything else you are learning. No account, no cloud, and nothing leaves your computer unless you turn something on.</p>
       <p>
         <a class="button" href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe">Download for Windows</a>
+        <a class="button" href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Mac.dmg">Download for Mac</a>
         <a class="button quiet" href="guide.html">Read the guide</a>
       </p>
-      <p class="small">Free to download and use (about 45 MB). Windows 10 and 11 (64-bit); there is no Mac or Linux version yet. Windows may say &ldquo;Windows protected your PC&rdquo; the first time, because the program is not signed with a paid certificate: choose &ldquo;More info&rdquo;, then &ldquo;Run anyway&rdquo;.</p>
+      <p class="small">Free to download and use. Windows 10 and 11 (64-bit), and macOS 13.5 or newer on Apple Silicon and Intel; there is no Linux version yet. Windows may say &ldquo;Windows protected your PC&rdquo; the first time, because the program is not signed with a paid certificate: choose &ldquo;More info&rdquo;, then &ldquo;Run anyway&rdquo;. A Mac asks once too: see <a href="manual.html#mac">Install on a Mac</a> (System Settings, Privacy &amp; Security, &ldquo;Open Anyway&rdquo;).</p>
       <figure class="shot">
         <a class="zoom" href="img/dashboard.png"><img src="img/dashboard.png" width="1280" height="860" alt="The Tracker dashboard: a timer with a Start button, weekly goals with progress bars for three courses, a long-term goal, the book being read and the most recent study sessions."></a>
         <figcaption>The dashboard, with made-up sample data (the program can add it for you to look around, and remove it again).</figcaption>
@@ -186,8 +187,9 @@ footer p { margin: 0 0 8px; }
         <li><a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Setup.exe">Download <code>Tracker-Setup.exe</code></a> (always the newest version). Older versions and checksums are on the <a href="https://github.com/cliteka-cell/tracker-releases/releases">releases page</a>.</li>
         <li>Open it. If Windows says &ldquo;Windows protected your PC&rdquo;, choose &ldquo;More info&rdquo; and then &ldquo;Run anyway&rdquo;. It does not need administrator rights.</li>
         <li>Click Next and Install. Tracker opens in your browser, and a small icon near the clock opens or quits it.</li>
+        <li>On a Mac: <a href="https://github.com/cliteka-cell/tracker-releases/releases/latest/download/Tracker-Mac.dmg">download <code>Tracker-Mac.dmg</code></a>, open it and drag Tracker onto the Applications folder. The first time, macOS asks you to allow it once (<a href="manual.html#mac">how</a>). Its icon is in the menu bar.</li>
       </ol>
-      <p class="section-lead" style="margin-top:16px">Your data is kept in <code>%LOCALAPPDATA%\Tracker\data</code>. Installing a newer version over an old one keeps it. To check a download, each release lists the SHA-256 checksum of its Setup file.</p>
+      <p class="section-lead" style="margin-top:16px">Your data is kept in <code>%LOCALAPPDATA%\Tracker\data</code> (on a Mac, <code>~/Library/Application Support/Tracker/data</code>). Installing a newer version over an old one keeps it. To check a download, each release lists the SHA-256 checksum of its downloads.</p>
     </section>
 
     <section id="questions" aria-labelledby="questions-title">
@@ -197,7 +199,7 @@ footer p { margin: 0 0 8px; }
       <details><summary>Can I move to another computer?</summary><p>Yes. In Overview, Settings, Data and backups you can take everything with you as one file or as a zip of readable data (pictures included), and restore it on the other computer. Saved keys are left out of those files on purpose.</p></details>
       <details><summary>What if something breaks?</summary><p>Tracker explains problems in plain words (a full disk, a damaged data file) and keeps a log file; Overview, Settings, About shows where. If you ask for help, read the log first: a failed save can leave a piece of what you were saving in it. You can <a href="https://github.com/cliteka-cell/tracker-releases/issues">open an issue on GitHub</a>, or write to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a>.</p></details>
       <details><summary>How do I get in touch?</summary><p>Write to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a>, or <a href="https://github.com/cliteka-cell/tracker-releases/issues">open an issue on GitHub</a> if you have a GitHub account. Questions, problems and ideas are all welcome.</p></details>
-      <details><summary>What about Mac and Linux?</summary><p>Not yet. The program is built for Windows 10 and 11 (64-bit) only for now.</p></details>
+      <details><summary>What about Linux?</summary><p>Not yet. Tracker runs on Windows 10 and 11 (64-bit) and on macOS 13.5 or newer (Apple Silicon and Intel).</p></details>
     </section>
   </main>
 
