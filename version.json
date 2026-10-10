@@ -1,13 +1,13 @@
 {
-  "version": "0.13.0",
-  "date": "2026-10-10",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.13.0/Tracker-Setup-0.13.0.exe",
-  "sha256": "138c202a2a8e3acad3649ed5bad86a4f814dd49bb775d1130b7a7d919ef81a29",
+  "version": "0.14.0",
+  "date": "2026-10-11",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.14.0/Tracker-Setup-0.14.0.exe",
+  "sha256": "618c64869e576776b0a9d07dad31cc0b0b4ecf0777566f6ef5c73380ff1e0cfa",
   "notes": [
-    "Read PDF and EPUB books inside Tracker: attach the file to a book, or drop it on the Library",
-    "Write notes beside the book, quote and highlight in four colours, and go back to a passage with a click",
-    "Ask the AI about the page or the words you selected, or prepare a whole book to ask about",
-    "The complete copy can include your books, and the readable export holds your highlights"
+    "Writing: write essays, articles and chapters in Tracker, saved as you type, in a new Archive tab beside the Library",
+    "Cite your Library in APA, Chicago, MLA or the Unified Style Sheet for Linguistics, with the bibliography made for you",
+    "Numbered examples with interlinear glosses, footnotes, tables, pictures and IPA symbols",
+    "Download a document as PDF, Word, OpenDocument or Markdown; earlier versions can be put back"
   ],
-  "signature": "2U+xU0yEBAAu1w1QXu+VWr/D+sfgJmSrm2jfhQcWhNWqNnDANlKXe8YRIHCAyW55V+vR6x5QPEl7qiXhP3o1sw=="
+  "signature": "BTbsn8eQpjW90fXZbQ+/wYv/V0YJQ46u9Nt/37qoJ7/aXS9UE2PVqlRDdoocVbUbRM0vhs1Sn99mOfMIMOqgZA=="
 }
