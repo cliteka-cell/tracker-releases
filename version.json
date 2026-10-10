@@ -1,11 +1,13 @@
 {
-  "version": "0.10.2",
-  "date": "2026-10-08",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.10.2/Tracker-Setup-0.10.2.exe",
-  "sha256": "7d17e63a537df3d954ef060d2dce3bab12f3eab9ebe6a87eecd86edee95a8131",
+  "version": "0.12.0",
+  "date": "2026-10-10",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.12.0/Tracker-Setup-0.12.0.exe",
+  "sha256": "66b73f334fd728217834c6c3b5c22b0671a509b398facf514b1ca2ec2f01a274",
   "notes": [
-    "The notes graph looks the same every time you open it: it remembers where each dot is",
-    "A dot that sits on a line it is not part of is moved off that line"
+    "Tracker for Mac: one download for Apple Silicon and Intel Macs (macOS 13.5 or newer)",
+    "On a Mac it runs from an icon in the menu bar and updates itself with the same signed checks as on Windows",
+    "The terms of use now cover Tracker for Mac as well as Windows",
+    "Nothing else changes for Windows"
   ],
-  "signature": "fqvr5Kq3YwSA0tu1hbvnU7ppbcGRjq2j3my/60BiDmtBw6H4SEnif4kvXZOpbrGQqsQdXqX/pFcKdJY+xbr3wg=="
+  "signature": "dn5ZdpKJ/+g1Cb35Rtsxukjdzxkc2o3Z9DGNfSlVQZVBz30OCdRgr7KAt4MBPBlB/ClOUfTYBMXdGvSccnahxg=="
 }
