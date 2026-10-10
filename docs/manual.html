@@ -23,7 +23,7 @@
   </header>
 
   <h1>The full user manual</h1>
-  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.13.0; later versions may add things, and Overview, Settings, About lists what changed.</p>
+  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.14.0; later versions may add things, and Overview, Settings, About lists what changed.</p>
 
   <div class="layout">
     <nav class="toc" aria-label="Contents">
@@ -44,24 +44,25 @@
         <li><a href="#notes">10. Notes and the graph</a></li>
         <li><a href="#library">11. The Library</a></li>
         <li><a href="#reading">12. Reading</a></li>
+        <li><a href="#writing">13. Writing</a></li>
       </ol>
       <p class="group">Optional</p>
       <ol>
-        <li><a href="#ai">13. The AI tab</a></li>
-        <li><a href="#look">14. Themes and looks</a></li>
+        <li><a href="#ai">14. The AI tab</a></li>
+        <li><a href="#look">15. Themes and looks</a></li>
       </ol>
       <p class="group">Your data</p>
       <ol>
-        <li><a href="#data">15. Backups, exports, moving</a></li>
-        <li><a href="#updates">16. Updates</a></li>
-        <li><a href="#privacy">17. Privacy</a></li>
+        <li><a href="#data">16. Backups, exports, moving</a></li>
+        <li><a href="#updates">17. Updates</a></li>
+        <li><a href="#privacy">18. Privacy</a></li>
       </ol>
       <p class="group">Help</p>
       <ol>
-        <li><a href="#accessibility">18. Keyboard and accessibility</a></li>
-        <li><a href="#troubleshooting">19. Troubleshooting</a></li>
-        <li><a href="#faq">20. Questions</a></li>
-        <li><a href="#glossary">21. Words used</a></li>
+        <li><a href="#accessibility">19. Keyboard and accessibility</a></li>
+        <li><a href="#troubleshooting">20. Troubleshooting</a></li>
+        <li><a href="#faq">21. Questions</a></li>
+        <li><a href="#glossary">22. Words used</a></li>
       </ol>
     </nav>
 
@@ -79,9 +80,10 @@
           <tr><td><strong>Session</strong></td><td>One stretch of time: a course, an activity, a start, a length, and optionally a note and a book.</td></tr>
           <tr><td><strong>Note</strong></td><td>Something you wrote, tied to courses and books, that can link to other notes.</td></tr>
           <tr><td><strong>Book or article</strong></td><td>A text in your Library that you read and can attach sessions and notes to.</td></tr>
+          <tr><td><strong>Document</strong></td><td>Something you write in Archive, Writing: an essay, an article, a chapter.</td></tr>
           <tr><td><strong>Goal</strong></td><td>A weekly or total number of hours for a course, or a daily goal for the tracker.</td></tr>
         </table>
-        <p>Each tracker has six pages along the top: <strong>Dashboard</strong>, <strong>Log</strong>, <strong>Notes</strong>, <strong>Library</strong>, <strong>Stats</strong> and <strong>Settings</strong>, which holds the settings of that tracker (its courses, activities, name, symbol and goals) together with the <strong>theme</strong>, the <strong>library</strong> settings and the <strong>notes graph</strong> settings, which are kept in this browser and used in every tracker. <strong>Overview</strong>, at the top of the sidebar, combines all your trackers and has two pages of its own: <strong>Overview</strong> and <strong>Settings</strong>, which holds the settings of the whole program (data and backups, book search, the AI assistant, privacy and about). In this manual, &ldquo;Overview, Settings, Privacy&rdquo; means the Privacy section of that second page.</p>
+        <p>Each tracker has six pages along the top: <strong>Dashboard</strong>, <strong>Log</strong>, <strong>Notes</strong>, <strong>Archive</strong> (the Library and Writing), <strong>Stats</strong> and <strong>Settings</strong>, which holds the settings of that tracker (its courses, activities, name, symbol and goals) together with the <strong>theme</strong>, the <strong>library</strong> settings and the <strong>notes graph</strong> settings, which are kept in this browser and used in every tracker. <strong>Overview</strong>, at the top of the sidebar, combines all your trackers and has two pages of its own: <strong>Overview</strong> and <strong>Settings</strong>, which holds the settings of the whole program (data and backups, book search, the AI assistant, privacy and about). In this manual, &ldquo;Overview, Settings, Privacy&rdquo; means the Privacy section of that second page.</p>
         <figure class="shot"><a class="zoom" href="img/settings-general.png"><img src="img/settings-general.png" width="1280" height="900" alt="The settings of the Overview: the Overview and Settings tabs at the top, Data and backups open with its download buttons, Back up now and Import from a file, and the sections Book search, AI assistant and Privacy minimised below it." loading="lazy"></a><figcaption>Overview, Settings, with some sections minimised.</figcaption></figure>
 
         <h2 id="running">2. Installing, starting, quitting</h2>
@@ -233,6 +235,7 @@
         <figure class="shot"><a class="zoom" href="img/graph-fullscreen.png"><img src="img/graph-fullscreen.png" width="1280" height="800" alt="The notes graph in Full window on a black background, with a bubble beside the clicked note Research questions (buttons Open note, Go to card, Connect to, Add note, Put under and Clear) and the whole note open in a panel at the right." loading="lazy"></a><figcaption>Full window: a clicked note's details in a bubble beside its dot, and Open note shows the note in the panel at the right.</figcaption></figure>
 
         <h2 id="library">11. The Library</h2>
+        <p>The Library is the first part of the <strong>Archive</strong> tab; the second is <a href="#writing">Writing</a>.</p>
         <figure class="shot"><a class="zoom" href="img/library.png"><img src="img/library.png" width="1280" height="900" alt="The library with a book being read, showing progress, pace and time left, and a finished book." loading="lazy"></a><figcaption>The Library.</figcaption></figure>
         <h3>Adding a text</h3>
         <p>Press <strong>Add</strong>. In the box, type:</p>
@@ -282,7 +285,35 @@
         <h3>The timer</h3>
         <p>Opening a book does not start the timer. <strong>Start the timer</strong> in the reader starts it for this book (choose the course and activity), and <strong>Stop and save</strong> saves an ordinary session, as on the Dashboard.</p>
 
-        <h2 id="ai">13. The AI tab</h2>
+        <h2 id="writing">13. Writing</h2>
+        <p>The <strong>Archive</strong> tab has two parts: the <strong>Library</strong>, with the books and articles you read, and <strong>Writing</strong>, with what you write yourself: essays, articles, chapters, a talk. A document is saved as you type, in your own data on your computer, and nothing in it is sent anywhere.</p>
+        <h3>Your documents</h3>
+        <ul>
+          <li><strong>New document</strong> starts one. The list shows the newest first, with the number of words and when it was last changed. Search with <strong>Search your documents</strong> and filter by course.</li>
+          <li>Give a document a course with the box next to <em>Citations</em>, so it shows under that course.</li>
+          <li>The bin button in a document moves it to the <strong>Bin</strong> (it asks first). In the Bin, <strong>Take out</strong> brings it back and <strong>Delete for good</strong> deletes it and its earlier versions, after asking.</li>
+        </ul>
+        <h3>Writing</h3>
+        <ul>
+          <li>The toolbar: undo and redo, <em>Text</em> or <em>Heading 1</em> to <em>4</em>, bold, italic, underline, strikethrough, superscript and subscript, bulleted and numbered lists, quotation, link, picture and table (with buttons to add and remove rows and columns while you are in it).</li>
+          <li><strong>IPA</strong> opens the IPA symbols: consonants, vowels, length, stress and tone, and the diacritics (click a diacritic after the letter it goes on).</li>
+          <li><strong>Notes</strong> opens your notes beside the document. <em>Quote it here</em> puts a note in as a quotation, with its citation when the note is about a book and page.</li>
+          <li><strong>Versions</strong>: while you write, Tracker keeps an earlier version now and then (at most one every ten minutes, the newest 50). <em>Look</em> shows one; <em>Put this version back</em> brings it back, and what was there just before is kept as a version too, so nothing is lost.</li>
+        </ul>
+        <h3>Citations and the bibliography</h3>
+        <p><strong>Cite</strong> opens your Library: pick a book or article, type the page (&ldquo;45&rdquo; or &ldquo;45-47&rdquo;) if you like, and press <em>Cite</em>. The citation is written in the style chosen for the document, next to <em>Citations</em>: <strong>APA</strong> (7th edition), <strong>Chicago</strong> (author-date), <strong>MLA</strong> (9th edition) or the <strong>Unified Style Sheet for Linguistics</strong>. Changing the style rewrites every citation at once. The bibliography (<em>References</em>, or <em>Works Cited</em> in MLA) is made from the books you cite and stays under the text. Click a citation to change its page or to remove it. A new document takes the style you used last.</p>
+        <h3>Footnotes and examples</h3>
+        <ul>
+          <li><strong>Footnote</strong> puts a numbered footnote where the cursor is; type its text, and click its number later to change it. Footnotes are numbered in the order they appear.</li>
+          <li><strong>Example</strong> adds a numbered linguistic example: (1), (2) and so on, in the order they appear. Type the sentence, its gloss and a free translation. Write the gloss one item per word, with grammatical labels in capitals (<code>1SG-PST-eat-FV food</code>): each gloss stands under its word, and the labels are shown in small capitals, as the Leipzig Glossing Rules have it. A judgement (*, ?, ??, #, %) goes before the sentence. <em>Add a line</em> makes a set: (1a), (1b). Double-click an example, or press <em>Edit</em>, to change it.</li>
+        </ul>
+        <h3>Downloading</h3>
+        <ul>
+          <li><strong>PDF</strong> opens the print window: choose <em>Save as PDF</em>. It prints with the fonts on your computer, so every script and every IPA symbol comes out as you see it.</li>
+          <li><strong>Word (.docx)</strong>, <strong>OpenDocument (.odt)</strong> (the open format of LibreOffice and other programs) and <strong>Markdown (.md)</strong> download a file named after the title. In Word and OpenDocument, footnotes are real footnotes and an example is a table without lines, one word above its gloss. A picture in WebP format is left out of a Word file (Word cannot show it); PNG, JPEG and GIF go in.</li>
+        </ul>
+
+        <h2 id="ai">14. The AI tab</h2>
         <p>Optional and <strong>off by default</strong>. Until you turn it on, the tab shows &ldquo;The AI tab is off&rdquo; and nothing is ever sent anywhere.</p>
         <figure class="shot"><a class="zoom" href="img/ai-off.png"><img src="img/ai-off.png" width="1280" height="700" alt="The AI page showing that the AI tab is off by default, with a button to open Settings." loading="lazy"></a><figcaption>The AI tab, switched off.</figcaption></figure>
         <h3>Turning it on</h3>
@@ -297,7 +328,7 @@
         <p>Choose <em>Make cards from your notes</em>, pick a note (or the notes about a book) and the model proposes cards you can edit, then save. You can also add a card by hand with a front and a back. <strong>Review</strong> shows the cards that are due; you answer <em>Again</em>, <em>Hard</em>, <em>Good</em> or <em>Easy</em>, and each card comes back after a longer gap the better you knew it (a new card returns after 10 minutes, then days, then weeks).</p>
         <div class="note"><p><strong>What is sent:</strong> with Ollama on this computer, nothing leaves it. With another computer or an online service, your questions and the notes needed to answer go there; in the reader, your question and the passage it is about. <a href="#privacy">The Privacy section</a> spells it out.</p></div>
 
-        <h2 id="look">14. Themes and looks</h2>
+        <h2 id="look">15. Themes and looks</h2>
         <p>Settings, <em>Theme</em> (in any tracker) offers six themes: <strong>Midnight</strong> (the default dark one), <strong>Black</strong>, <strong>Light</strong>, <strong>Forest</strong>, <strong>Rose</strong> and <strong>Frutiger Aero</strong> (a glassy, see-through style), plus <strong>Custom</strong>.</p>
         <figure class="shot"><a class="zoom" href="img/themes.png"><img src="img/themes.png" width="1472" height="624" alt="The same dashboard shown in six themes: midnight, light, forest, rose, black and Frutiger Aero." loading="lazy"></a><figcaption>The same page in six themes.</figcaption></figure>
         <figure class="shot"><a class="zoom" href="img/settings-theme.png"><img src="img/settings-theme.png" width="1280" height="960" alt="The theme part of settings with the theme choices and the Customize panel open, showing colour pickers." loading="lazy"></a><figcaption>Choosing and customising a theme.</figcaption></figure>
@@ -311,7 +342,7 @@
         <p>The pages also fit a narrow window or a small screen:</p>
         <figure class="shot" style="max-width:300px"><a class="zoom" href="img/phone.png"><img src="img/phone.png" width="390" height="844" alt="The dashboard in a narrow window, with the timer filling the width." loading="lazy"></a><figcaption>A narrow window. (Tracker still runs only on your computer.)</figcaption></figure>
 
-        <h2 id="data">15. Backups, exports, moving</h2>
+        <h2 id="data">16. Backups, exports, moving</h2>
         <figure class="shot"><a class="zoom" href="img/settings-data.png"><img src="img/settings-data.png" width="1280" height="900" alt="Data and backups in settings: three download buttons, Back up now, Import from a file, and saved copies with Restore." loading="lazy"></a><figcaption>Overview, Settings, Data and backups.</figcaption></figure>
         <h3>Where your data is</h3>
         <p>Everything (sessions, notes, books, highlights, pictures and covers) is in one file, <code>tracker.db</code>, in <code>%LOCALAPPDATA%\Tracker\data</code> (paste that into the File Explorer address bar; on a Mac, <code>~/Library/Application Support/Tracker/data</code>). Saved copies are in its <code>backups</code> folder, and the PDF and EPUB files you attached to books in its <code>books</code> folder. Overview, Settings, Privacy lists all the places for your computer.</p>
@@ -333,6 +364,7 @@
           <tr><td><strong>Readable data with pictures (zip)</strong></td><td>Sessions, notes, books, highlights (the words, the page and the note), cards, links and chats as plain text (JSON) that other programs can read, with pictures as ordinary image files. The book files are not in it. It holds no settings or keys. It can be imported back: a zip in the <code>backups</code> folder appears in the list as an <em>Export file</em> with an <em>Import...</em> button. Importing replaces everything you have with the zip&rsquo;s data (after saving a copy first); your settings and keys stay. The AI search index is not part of an export, so press <em>Update the search index</em> afterwards.</td></tr>
           <tr><td><strong>Sessions (CSV)</strong></td><td>Your logged time for a spreadsheet.</td></tr>
         </table>
+        <p>Your documents in Writing, and their earlier versions, are part of your data: the daily copies, the complete copy and the readable data hold them.</p>
         <p>All three downloads cover all your trackers. Your saved keys (AI, book search) are <em>left out</em> of the complete copy and the zip on purpose, so the files are safe in a cloud drive.</p>
         <h3>Moving to another computer</h3>
         <p>Install Tracker there, make a complete copy or a zip here (with <em>Include my books</em> if you read books in Tracker), and on the new computer press <strong>Import from a file...</strong> and pick it (see below). Or, with Tracker closed on both, copy the whole <code>%LOCALAPPDATA%\Tracker</code> folder (<code>~/Library/Application Support/Tracker</code> on a Mac).</p>
@@ -340,7 +372,7 @@
         <p>After a crash, a power cut or a disk problem the file can become unreadable. Tracker then still starts, says so in plain words, and lists the healthy saved copies it found with what each holds. <strong>Use this copy</strong> puts one in place; the damaged file is not deleted but moved to a <code>damaged</code> folder next to your data. Anything you added after that copy was made is not in it.</p>
         <figure class="shot"><a class="zoom" href="img/damaged.png"><img src="img/damaged.png" width="1280" height="900" alt="The page Tracker shows when its data file is damaged: what to do, and a list of saved copies with a Use this copy button." loading="lazy"></a><figcaption>The recovery page.</figcaption></figure>
 
-        <h2 id="updates">16. Updates</h2>
+        <h2 id="updates">17. Updates</h2>
         <figure class="shot"><a class="zoom" href="img/about.png"><img src="img/about.png" width="1280" height="960" alt="The About part of settings: the version, what changed, and the update options." loading="lazy"></a><figcaption>Overview, Settings, About.</figcaption></figure>
         <ul>
           <li>Overview, Settings, About also has a link to the <a href="terms.html">terms of use</a>, the contact address and the GitHub issues page. They are links you click; Tracker sends nothing by itself.</li>
@@ -353,7 +385,7 @@
           <li>Each release lists a SHA-256 checksum. In PowerShell, <code>Get-FileHash .\Tracker-Setup.exe</code> should show the same number; on a Mac, <code>shasum -a 256 Tracker-Mac.dmg</code> in Terminal.</li>
         </ul>
 
-        <h2 id="privacy">17. Privacy</h2>
+        <h2 id="privacy">18. Privacy</h2>
         <p>Your sessions, notes, books, the PDFs and EPUBs you read and pictures stay on your computer. These are the only things that can leave it, and only when you use them:</p>
         <table>
           <tr><th>What</th><th>When</th><th>What is sent, and to whom</th></tr>
@@ -367,7 +399,7 @@
         <p>There are no analytics, crash reports, accounts or advertising. Fonts and icons are part of the program. The reader shows a book from Tracker itself: a PDF or EPUB cannot make your browser fetch anything from elsewhere, and an EPUB&rsquo;s scripts never run. Inside Tracker, <strong>Overview, Settings, Privacy</strong> shows this list again with <em>your</em> settings (&ldquo;Right now&rdquo;), the sites each item talks to, how to stop it and where everything is kept, and a test checks that list against the program&rsquo;s code.</p>
         <figure class="shot"><a class="zoom" href="img/privacy.png"><img src="img/privacy.png" width="1280" height="900" alt="The Privacy section inside Tracker with a summary of what is happening now and a list of what can leave the computer." loading="lazy"></a><figcaption>Overview, Settings, Privacy.</figcaption></figure>
 
-        <h2 id="accessibility">18. Keyboard and accessibility</h2>
+        <h2 id="accessibility">19. Keyboard and accessibility</h2>
         <ul>
           <li>Everything can be done with the keyboard: <kbd>Tab</kbd> and <kbd>Shift</kbd>+<kbd>Tab</kbd> move between controls, <kbd>Enter</kbd> or <kbd>Space</kbd> press them, and the focus is always visible.</li>
           <li>Windows that open on top (New tracker, adding a book) keep <kbd>Tab</kbd> inside them, close with <kbd>Esc</kbd> and give the focus back to what opened them.</li>
@@ -379,7 +411,7 @@
         </ul>
         <p>What has not been done: it has been checked with automated tools and by keyboard, but not yet with a real screen reader. If something does not work for you, write to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a> or <a href="https://github.com/cliteka-cell/tracker-releases/issues">open an issue on GitHub</a>.</p>
 
-        <h2 id="troubleshooting">19. Troubleshooting</h2>
+        <h2 id="troubleshooting">20. Troubleshooting</h2>
         <details><summary>Windows says &ldquo;Windows protected your PC&rdquo;</summary><p>The installer is not signed with a paid code-signing certificate. Choose <strong>More info</strong>, then <strong>Run anyway</strong>. To check the file is the real one, compare its SHA-256 (<code>Get-FileHash</code>) with the checksum on the release page.</p></details>
         <details><summary>Nothing opened, or the browser says it cannot connect</summary><p>Wait a few seconds and reload: Tracker takes a moment to start. Look for its icon near the clock (the little arrow shows hidden icons), or in the menu bar on a Mac; clicking it opens Tracker. Starting Tracker again just opens the running one. If it still fails, open the log (right-click the icon, <em>Show the log folder</em>) and read the last lines.</p></details>
         <details><summary>I cannot find the tray icon</summary><p>Windows may hide it under the arrow next to the clock. Drag it out to keep it visible. You can always start Tracker from the Start menu. On a Mac with a full menu bar, icons can be hidden (behind the notch on a laptop); opening Tracker from the Applications folder opens the running one.</p></details>
@@ -396,7 +428,7 @@
         <details><summary>Where is the log, and what do I send when I ask for help?</summary><p>Right-click the Tracker icon and choose <em>Show the log folder</em> (or see Overview, Settings, About). It is a plain text file named <code>tracker.log</code>. A failed save can leave a piece of what you were saving in it, so read it before you send it to anyone (for example to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a>), and send only what you are comfortable with.</p></details>
         <details><summary>How do I remove all my data?</summary><p>Uninstall Tracker and answer <strong>Yes</strong> when it asks about your data, or delete the <code>%LOCALAPPDATA%\Tracker</code> folder (on a Mac, <code>~/Library/Application Support/Tracker</code>) with Tracker closed. This cannot be undone, so make a complete copy first if you might want it.</p></details>
 
-        <h2 id="faq">20. Questions</h2>
+        <h2 id="faq">21. Questions</h2>
         <details><summary>Is it free? Is it open source?</summary><p>It is free to download and use. It is <strong>not</strong> open source: the program&rsquo;s code is not published. The <a href="terms.html">terms of use</a> say what you may do with it.</p></details>
         <details><summary>Does it work without the internet?</summary><p>Yes. The timer, log, notes, goals, stats, backups, reading your books and the AI tab with Ollama on your computer all work offline. Only book lookups, covers, updates and an online AI service need a connection.</p></details>
         <details><summary>Can two people share a tracker, or can I use it on my phone?</summary><p>No. Tracker is a private program for one person on one computer. Your data is not shared or synced, and the program answers only to its own computer.</p></details>
@@ -405,7 +437,7 @@
         <details><summary>Does it work on a Mac or Linux?</summary><p>On a Mac, yes: macOS 13.5 or newer, Apple Silicon and Intel (<a href="#mac">Install on a Mac</a>). On Linux, not yet.</p></details>
         <details><summary>Who made it, and how do I report a problem or suggest something?</summary><p>Kerem Ates makes it. Write to <a href="mailto:clite.ka@gmail.com">clite.ka@gmail.com</a>, or <a href="https://github.com/cliteka-cell/tracker-releases/issues">open an issue on GitHub</a> if you have a GitHub account. Please read your log first (see Troubleshooting) and do not send anything private.</p></details>
 
-        <h2 id="glossary">21. Words used</h2>
+        <h2 id="glossary">22. Words used</h2>
         <table>
           <tr><th>Word</th><th>Meaning</th></tr>
           <tr><td>Tracker (a tracker)</td><td>One of your areas, with its own courses, activities, notes and library.</td></tr>
@@ -416,6 +448,9 @@
           <tr><td>Primary, secondary and tertiary note</td><td>How far down a note is: a primary note is about a book (or has no note above it), a secondary note is under a primary note, a tertiary note is under a secondary note or further down. The graph draws each level&rsquo;s line in its own look.</td></tr>
           <tr><td>Wikilink</td><td>A link from one note to another written as <code>[[Title]]</code>.</td></tr>
           <tr><td>Unwritten link</td><td>A link to a note title that does not exist yet.</td></tr>
+          <tr><td>Document</td><td>Something you write in Archive, Writing; saved as you type, with earlier versions kept.</td></tr>
+          <tr><td>Citation style</td><td>The way citations and the bibliography are written: APA, Chicago author-date, MLA or the Unified Style Sheet for Linguistics.</td></tr>
+          <tr><td>Interlinear gloss</td><td>A line under an example that gives, word by word, its meaning and grammatical labels (1SG, PST).</td></tr>
           <tr><td>Highlight</td><td>Words marked in colour in a book you read in Tracker; kept in Tracker, not in the file.</td></tr>
           <tr><td>Printed page</td><td>The page number printed in a book (&ldquo;p. 45&rdquo;), which can differ from the count of pages in its PDF.</td></tr>
           <tr><td>ISBN / DOI</td><td>The number that identifies a book (ISBN) or an article (DOI).</td></tr>
