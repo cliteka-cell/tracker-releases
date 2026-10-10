@@ -1,0 +1,11 @@
+{
+  "version": "0.11.0",
+  "date": "2026-10-10",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.11.0/Tracker-0.11.0-mac.zip",
+  "sha256": "ad770974a35fdc5192e2cd55b7e38dac66c3114d448b59a2aab8e8f4025296b6",
+  "notes": [
+    "Test update for the Mac testers: the same app as 0.10.2 under a higher version number, so you can try Update now.",
+    "Afterwards your trackers, sessions and notes should all still be there, and Settings, About should show 0.11.0."
+  ],
+  "signature": "TwIUqtOKckQlYlz9GpZcgmSlYSNMGFqVZ7UZH4da23EXYeRPmOq5hPTtm+PLrPD4U/nxWJltUndz7ODyucOWQQ=="
+}
