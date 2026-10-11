@@ -1,13 +1,11 @@
 {
-  "version": "0.16.0",
+  "version": "0.17.0",
   "date": "2026-10-11",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.16.0/Tracker-Setup-0.16.0.exe",
-  "sha256": "218925256847feed4221d59684896b9ba472e7834d7cb1e3eac0b435a260e66a",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.17.0/Tracker-Setup-0.17.0.exe",
+  "sha256": "656e68f9bbc5380b6e2e843788a6d26ec22249afd9fc912a2b96ef0322cd1746",
   "notes": [
-    "Save with notes: a copy of a PDF with your highlights, notes, text boxes and drawings, for any PDF reader",
-    "A pen in the PDF reader: write or draw on the page in four inks and three thicknesses",
-    "The Archive tab remembers: back to the document or book where you left it, with its book open beside it",
-    "Go to notes in the reader, and menus on the page that close with a click elsewhere"
+    "The reader's notes list starts at the last page, or the first if you prefer",
+    "More in the reader puts a note under another note, and can make the book's new notes start under it"
   ],
-  "signature": "2h2zuS7RCxNf5SEqM6NfEHv7zIzJmeaEnTli7ZIlrp7+Z9X1K/+HDFrGDWQZycc7Ns/wNETPAhM5S+whdzORNg=="
+  "signature": "bre6uZn7D8BTlkJtUlCE1MvY1t/oIC81ALgjHpaVkusWY13G8tnuO7w4PWYV/liNJCPTR3qxfjaXMAktI3Rjrw=="
 }
