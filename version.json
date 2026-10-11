@@ -1,13 +1,13 @@
 {
-  "version": "0.15.0",
+  "version": "0.16.0",
   "date": "2026-10-11",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.15.0/Tracker-Setup-0.15.0.exe",
-  "sha256": "3c6d1a4556aa19f7be4c948413e756c49a9d697f271fec41ef2fee9e4505f421",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.16.0/Tracker-Setup-0.16.0.exe",
+  "sha256": "218925256847feed4221d59684896b9ba472e7834d7cb1e3eac0b435a260e66a",
   "notes": [
-    "Writing: fonts, text sizes, alignment, line spacing, margins, page numbers and numbered headings",
-    "Paper view: your document on A4 pages, with footnotes at the foot of each page, as it prints",
-    "Quote a book straight from its PDF or EPUB, or with its PDF open beside your document",
-    "In the reader: write text boxes on the page and make them notes; delete notes with Undo"
+    "Save with notes: a copy of a PDF with your highlights, notes, text boxes and drawings, for any PDF reader",
+    "A pen in the PDF reader: write or draw on the page in four inks and three thicknesses",
+    "The Archive tab remembers: back to the document or book where you left it, with its book open beside it",
+    "Go to notes in the reader, and menus on the page that close with a click elsewhere"
   ],
-  "signature": "cENkKL0Ek/1K21aqcaVxgWzwxbcrdvAV9EfAh1varLCsd2QGxqMCuPJN7c5feuh0sLCFR8jxQWs3M9TpcLarRQ=="
+  "signature": "2h2zuS7RCxNf5SEqM6NfEHv7zIzJmeaEnTli7ZIlrp7+Z9X1K/+HDFrGDWQZycc7Ns/wNETPAhM5S+whdzORNg=="
 }
