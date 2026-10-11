@@ -23,7 +23,7 @@
   </header>
 
   <h1>The full user manual</h1>
-  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.14.0; later versions may add things, and Overview, Settings, About lists what changed.</p>
+  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.15.0; later versions may add things, and Overview, Settings, About lists what changed.</p>
 
   <div class="layout">
     <nav class="toc" aria-label="Contents">
@@ -278,7 +278,8 @@
           <li>The <strong>Notes</strong> panel beside the book is for writing while you read. What you type there becomes an ordinary note about this book and the page you are on, saved as you type. <em>New note</em> (or <kbd>N</kbd>) starts another.</li>
           <li>Select words on the page: <strong>Quote</strong> puts them in your note with their page, <strong>Highlight</strong> marks them in one of four colours (yellow, green, blue, pink), and <strong>Ask</strong> asks the AI about them (below). A note typed right after a highlight belongs to it.</li>
           <li>Click a highlight to change its colour or remove it; removing it keeps its note. Highlights stay on their words at any zoom or text size, and are kept in Tracker, never written into your file.</li>
-          <li>The Notes panel lists the book&rsquo;s notes in the order of the book. Click one to go to its page, with its passage lit up. They are ordinary notes: they are also in the Notes tab and the graph, as notes about the book.</li>
+          <li>In a PDF, <strong>Text</strong> writes on the page itself, in a margin or any empty space: press it, click where the text goes and type (leaving the box or <kbd>Ctrl</kbd>+<kbd>Enter</kbd> keeps it, <kbd>Esc</kbd> drops it). Drag a text box to move it, drag its right edge to make it wider, and double-click it to change the text. Click it for its colour, its text size, <em>Make it a note</em> (it becomes an ordinary note about the book at that page, and the box shows the note) and <em>Delete text box</em>, which can be undone for a few seconds and keeps the note.</li>
+          <li>The Notes panel lists the book&rsquo;s notes in the order of the book, with quotations shown as quotations. Click one to go to its page, with its passage lit up. Notes under a note about the book that have no book of their own are listed too. They are ordinary notes: they are also in the Notes tab and the graph, as notes about the book. <em>Delete note</em> (point at a note) deletes it; <em>Undo</em> brings it back for a few seconds.</li>
         </ul>
         <h3>Asking about what you read</h3>
         <p>The <strong>Ask</strong> tab (with the AI tab turned on, see <a href="#ai">The AI tab</a>) answers questions about the words you selected or the page you are on, with quick ones such as <em>Explain this</em> or <em>Translate to English</em>. It says which AI answers and where it runs. Only your question and that passage are sent, and only when you ask. <strong>Prepare this book for questions</strong> reads the whole book into the search index once; then you can ask the whole book and your notes, and the answer&rsquo;s citations open the reader at the right page. Conversations are saved with the book and are also in the AI tab.</p>
@@ -295,8 +296,11 @@
         </ul>
         <h3>Writing</h3>
         <ul>
-          <li>The toolbar: undo and redo, <em>Text</em> or <em>Heading 1</em> to <em>4</em>, bold, italic, underline, strikethrough, superscript and subscript, bulleted and numbered lists, quotation, link, picture and table (with buttons to add and remove rows and columns while you are in it).</li>
+          <li>The toolbar: undo and redo, <em>Text</em> or <em>Heading 1</em> to <em>4</em>, the font and text size of the selected words (the first choice is the document's own), bold, italic, underline, strikethrough, superscript and subscript, lining up (left, centre, right, or justified with both edges straight), bulleted and numbered lists, quotation, link, picture and table (with buttons to add and remove rows and columns while you are in it).</li>
           <li><strong>IPA</strong> opens the IPA symbols: consonants, vowels, length, stress and tone, and the diacritics (click a diacritic after the letter it goes on).</li>
+          <li><strong>Page</strong> sets the whole document out: its font, text size, line spacing (single, 1.15, 1.5, double, or any number), the space after paragraphs, the page margins in centimetres, <em>Page numbers</em> (top or bottom, left, centre or right, and if you like none on the first page), and <em>Number the headings</em> (Heading 1 is 1., 2., a Heading 2 under it 1.1, 1.2, a Heading 3 1.1.1). The PDF, Word and OpenDocument files follow them. A new document starts with the settings of the last one you wrote. A font that is not on this computer says so; Word or LibreOffice on another computer use their own in its place.</li>
+          <li><strong>Paper</strong> shows the document on white A4 pages with its margins, as it prints, so you see where each page ends: a paragraph goes on at the top of the next page, a long table goes on row by row, the footnotes are at the foot of their page and the page numbers in the margin. The pages are drawn smaller when the window is narrow. Press it again for one long column. The choice is this computer's, not the document's.</li>
+          <li><strong>Book</strong> quotes a book straight from its own PDF or EPUB, without a note first: choose a book of your Library that has its file, find words in it (or go to a page with the arrows or by its number), select words on the page shown, and press <em>Quote in the text</em> (in quotation marks) or <em>As a block quotation</em>. They go where the cursor is, with the citation of that page. For a PDF, <em>Show the PDF beside the document</em> shows the book itself, page by page, next to your document: select words on its page and choose <em>Quote in the text</em> or <em>As a block quotation</em>; <em>Text view</em> goes back to the panel.</li>
           <li><strong>Notes</strong> opens your notes beside the document. <em>Quote it here</em> puts a note in as a quotation, with its citation when the note is about a book and page.</li>
           <li><strong>Versions</strong>: while you write, Tracker keeps an earlier version now and then (at most one every ten minutes, the newest 50). <em>Look</em> shows one; <em>Put this version back</em> brings it back, and what was there just before is kept as a version too, so nothing is lost.</li>
         </ul>
@@ -309,7 +313,7 @@
         </ul>
         <h3>Downloading</h3>
         <ul>
-          <li><strong>PDF</strong> opens the print window: choose <em>Save as PDF</em>. It prints with the fonts on your computer, so every script and every IPA symbol comes out as you see it.</li>
+          <li><strong>PDF</strong> opens the print window: choose <em>Save as PDF</em>. It prints the pages exactly as the paper view shows them (footnotes at the foot of each page, page numbers), with the fonts on your computer, so every script and every IPA symbol comes out as you see it. In the print window, leave the margins at their default (the pages bring their own).</li>
           <li><strong>Word (.docx)</strong>, <strong>OpenDocument (.odt)</strong> (the open format of LibreOffice and other programs) and <strong>Markdown (.md)</strong> download a file named after the title. In Word and OpenDocument, footnotes are real footnotes and an example is a table without lines, one word above its gloss. A picture in WebP format is left out of a Word file (Word cannot show it); PNG, JPEG and GIF go in.</li>
         </ul>
 
