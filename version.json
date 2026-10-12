@@ -1,11 +1,12 @@
 {
-  "version": "0.17.0",
-  "date": "2026-10-11",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.17.0/Tracker-Setup-0.17.0.exe",
-  "sha256": "656e68f9bbc5380b6e2e843788a6d26ec22249afd9fc912a2b96ef0322cd1746",
+  "version": "0.18.0",
+  "date": "2026-10-12",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.18.0/Tracker-Setup-0.18.0.exe",
+  "sha256": "81c31d5889ce75cac51d48fbc4b9a236d3cbf85304d3de7100ca016cd4600365",
   "notes": [
-    "The reader's notes list starts at the last page, or the first if you prefer",
-    "More in the reader puts a note under another note, and can make the book's new notes start under it"
+    "Update now works in one press: the download shows its progress, then it installs",
+    "Search the notes in the reader",
+    "New text boxes start at 8 pt"
   ],
-  "signature": "bre6uZn7D8BTlkJtUlCE1MvY1t/oIC81ALgjHpaVkusWY13G8tnuO7w4PWYV/liNJCPTR3qxfjaXMAktI3Rjrw=="
+  "signature": "WMG1IJ/NIxlxAOIrtQP+HZZnzuzJ9ZNt25YnECpDa6vGAC6qQ50lbnZFLYjXo79Ao9ma6j34ZEq/NwH+TDp9Qw=="
 }
