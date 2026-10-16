@@ -1,15 +1,10 @@
 {
-  "version": "0.20.0",
-  "date": "2026-10-15",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.20.0/Tracker-Setup-0.20.0.exe",
-  "sha256": "1cbf9b47bc4f906d8f904e54691728bbf01c6b5d8b27da6afcc7c4e687fa4882",
+  "version": "0.20.1",
+  "date": "2026-10-16",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.20.1/Tracker-Setup-0.20.1.exe",
+  "sha256": "d69d6ba6afff4966fd278cb46e6f7498b32a3cccc03c561672b7991152f6a5cb",
   "notes": [
-    "Everything leads to its place: a note opens its book at the note, a book shows its notes and sessions",
-    "Search everything with Ctrl+K, a page for each course, and flashcards that work without the AI",
-    "A tidier reader bar, Started earlier? and a Log note in the reader's timer",
-    "Writing: import Word files, time your writing, open a citation's book at its page",
-    "Undo and a notes bin, and deleting a course can move its sessions to another",
-    "Fixed: opening a book could set its progress back to page 1"
+    "Notes with the same title can be linked: the [[ list shows which is which, and the graph links the one you mean"
   ],
-  "signature": "da41lkO0WuNYY5sypD1vJeVqMm3/9hZC4bykT6SnmWBk+EZfjIXOnbn//5yf6WEtviPg/Shi7Lfaplsbk98jrw=="
+  "signature": "ZBFTBcNYd4CboXxPKDAW798R2mKpGn8Y4ynudTlq8a8RN10TK/O0X/h7kzzDbfMgsmR2vMkcNJjMWxy8/WrrZw=="
 }
