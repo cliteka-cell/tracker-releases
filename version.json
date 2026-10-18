@@ -1,15 +1,13 @@
 {
-  "version": "0.22.0",
-  "date": "2026-10-18",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.22.0/Tracker-Setup-0.22.0.exe",
-  "sha256": "864bfc1dd6a87b50514b80c6e2bb521062194dcb23d655086c7c0e15bcf7992c",
+  "version": "0.23.0",
+  "date": "2026-10-19",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.23.0/Tracker-Setup-0.23.0.exe",
+  "sha256": "acdb8d3d985c58569f7d7787af0dac53b8513f03f17930ecb00cfb7894aedf03",
   "notes": [
-    "Use Tracker from your phone: pair it with a QR code, and it opens Tracker on your computer (off by default)",
-    "Away from home through Tailscale, linked from App settings, Your phone; Ollama has a download button too",
-    "Read another book beside the one in the reader, to read two texts on one topic side by side",
-    "The reader on a phone: pages fit, the notes open over the page, and selecting words with a finger works",
-    "Names: each tracker's Archive tab is now Library, with Books and Writing; the Archive in the sidebar stays",
-    "Fixed: Fit the width fitted the cover, so pages of another size came out too wide"
+    "Your choices follow you from browser to browser: start the timer on the computer and stop it on the phone",
+    "The theme, the notes graph's shapes and look, your highlight colours and shortcuts are the same everywhere",
+    "Open a book in its own window, for a second screen: from the book beside in the reader, and in Writing",
+    "On a phone: text boxes beside the page can be reached, the sidebar fills the screen, tidier buttons"
   ],
-  "signature": "lNhRKWSUWHQl+JiZbFU7t6pCkAUJemhwJBrLZ2iuwB5vYYwtP9p3LOWPhekzCMhsk0eF+J7l+/Skvq3HC12wug=="
+  "signature": "eG37xp33Z0WWmxP/JEhF5kHhB0krMj2W/63TSMN15QU+GaxuHjwfPV+8IBwBnEGeSIiCx1iMxkn4r7e1sY5mKg=="
 }
