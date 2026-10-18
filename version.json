@@ -1,15 +1,15 @@
 {
-  "version": "0.21.0",
+  "version": "0.22.0",
   "date": "2026-10-18",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.21.0/Tracker-Setup-0.21.0.exe",
-  "sha256": "b1028ca14617dee1b7e6eef61ca7fdc390596b3af6766ce2f4f83ee724245aba",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.22.0/Tracker-Setup-0.22.0.exe",
+  "sha256": "864bfc1dd6a87b50514b80c6e2bb521062194dcb23d655086c7c0e15bcf7992c",
   "notes": [
-    "Flashcards are scheduled with FSRS, as in Anki, with decks, and Anki decks can be brought in and saved for Anki",
-    "A shared Archive for books in no tracker, folders for books and documents, and books under books",
-    "Dropped PDFs and EPUBs fill in their page count, cover and details",
-    "Reader: share a page or pages as PDF or PNG, eight highlight colours and your own, text boxes beside the page",
-    "Raised and lowered letters in text boxes (kʲ, x₂), and the notes list follows the page you read",
-    "Fixed: opening another text box lost what was being written in the first"
+    "Use Tracker from your phone: pair it with a QR code, and it opens Tracker on your computer (off by default)",
+    "Away from home through Tailscale, linked from App settings, Your phone; Ollama has a download button too",
+    "Read another book beside the one in the reader, to read two texts on one topic side by side",
+    "The reader on a phone: pages fit, the notes open over the page, and selecting words with a finger works",
+    "Names: each tracker's Archive tab is now Library, with Books and Writing; the Archive in the sidebar stays",
+    "Fixed: Fit the width fitted the cover, so pages of another size came out too wide"
   ],
-  "signature": "4LKTNT+TPlLsiG1RonvPeyllSfXArunPf88fzqqQipvFwIv9LEFFnnfP7KvkO8wlKqilclnV6p5qHanerv9khQ=="
+  "signature": "lNhRKWSUWHQl+JiZbFU7t6pCkAUJemhwJBrLZ2iuwB5vYYwtP9p3LOWPhekzCMhsk0eF+J7l+/Skvq3HC12wug=="
 }
