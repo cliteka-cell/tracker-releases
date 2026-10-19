@@ -1,13 +1,13 @@
 {
-  "version": "0.23.0",
+  "version": "0.24.0",
   "date": "2026-10-19",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.23.0/Tracker-Setup-0.23.0.exe",
-  "sha256": "acdb8d3d985c58569f7d7787af0dac53b8513f03f17930ecb00cfb7894aedf03",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.24.0/Tracker-Setup-0.24.0.exe",
+  "sha256": "2655c7e82e5df48543e133a8c89e38b10fae28a0e2f477a5546ab7ec4b2f205e",
   "notes": [
-    "Your choices follow you from browser to browser: start the timer on the computer and stop it on the phone",
-    "The theme, the notes graph's shapes and look, your highlight colours and shortcuts are the same everywhere",
-    "Open a book in its own window, for a second screen: from the book beside in the reader, and in Writing",
-    "On a phone: text boxes beside the page can be reached, the sidebar fills the screen, tidier buttons"
+    "Lock text boxes (the reader's More): on a phone, scrolling over a box no longer moves it",
+    "A text box that is a note shows the note's title at its top, and keeps 1), 2) and bullets",
+    "On a phone: the sidebar button no longer covers the first tab, and the reader's bar fits",
+    "Flashcards are in the middle of a phone's screen while reviewing"
   ],
-  "signature": "eG37xp33Z0WWmxP/JEhF5kHhB0krMj2W/63TSMN15QU+GaxuHjwfPV+8IBwBnEGeSIiCx1iMxkn4r7e1sY5mKg=="
+  "signature": "TWgDqCf0TnduiGxpkXxfVNF35BTAgWFU+SbTFCltoE8QOg1rj68/0FfLXanDzfU1yE1ZC+kN1aXe7F5Yhmj6CQ=="
 }
