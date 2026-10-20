@@ -1,12 +1,12 @@
 {
-  "version": "0.25.2",
+  "version": "0.25.3",
   "date": "2026-10-20",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.25.2/Tracker-Setup-0.25.2.exe",
-  "sha256": "19b1d97b8abc7e68e697b627783b7773c560fbb400d64f1988b0169757663559",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.25.3/Tracker-Setup-0.25.3.exe",
+  "sha256": "dc389145d2cfe5a30ff898c0659f954a577f2c235e88965e71dc8ea3442ad20c",
   "notes": [
-    "Folders close like a book's contents: an arrow hides the folders inside, and they stay closed",
-    "A folder's number counts the books in the folders inside it too",
-    "Stats and the Overview: the Charts / Week in review switch no longer moves when you switch"
+    "Opening a text box for writing no longer jumps to its top: the page stays where it is",
+    "The caret goes where you double-clicked in the box",
+    "A box that runs past the bottom of its page stays on top of the next page, and can be clicked there"
   ],
-  "signature": "dktQEonGTIXurW/PBGfrfXcaTwwUlAej1VlibuTWGjYpkg00oEFvFcjAJ6NPsTADTmYo/GDdKzRcbiquO7QFvw=="
+  "signature": "RVAhwMvtIk6O3ie3bsN8ZZI2dzCUvR0dLePHrQBkjb16kPqhDpQ19t4OU/aBZ8KOMUd+SgrHPRUoN4gAy7fv/A=="
 }
