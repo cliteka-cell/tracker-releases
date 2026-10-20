@@ -1,14 +1,12 @@
 {
-  "version": "0.25.0",
+  "version": "0.25.1",
   "date": "2026-10-20",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.25.0/Tracker-Setup-0.25.0.exe",
-  "sha256": "dbf2a5c436298e0c49efbbb516e064e6b36282ad93778a9ece65dc4c28d86f98",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.25.1/Tracker-Setup-0.25.1.exe",
+  "sha256": "9a711069780424d92ffd3e81acdb65b44932c325ce5abd1324b62df264468404",
   "notes": [
-    "Look up a word in the reader: its meaning in that sentence, and a flashcard from it in one press",
-    "Flashcards on the phone go on without a connection, and with Tailscale's https even with the computer off",
-    "Week in review in Stats and the Overview, and a reading plan: finish a book by a day, pages a day",
-    "Search inside every book with Ctrl+K, cloze cards, review stats, and text boxes in EPUBs",
-    "Import can add a file's data to yours instead of replacing it"
+    "The Archive's folders are its own: any book can go in one, in a tracker or not",
+    "A book keeps its folder in its tracker's Library and has another in the Archive",
+    "Edit any book from the Archive, with its tracker's courses to choose from"
   ],
-  "signature": "0fgJSjo22E6dLJzruRlGIHGg2r7sWngAW3x5MXGbGzsMBAiUSzpLDtuR6JufAzg0XSeykZ0l/OBSFoST4JGwAA=="
+  "signature": "T9uHhcj1uEJSlp55OtLTX8pjHaNT9QD72/i7pcd20WrW07wgGNy2n5LvHFvY16v8cnkf6C7zq+E0xhwdmuQ5sw=="
 }
