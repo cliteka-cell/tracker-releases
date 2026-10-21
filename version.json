@@ -1,12 +1,10 @@
 {
-  "version": "0.25.3",
-  "date": "2026-10-20",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.25.3/Tracker-Setup-0.25.3.exe",
-  "sha256": "dc389145d2cfe5a30ff898c0659f954a577f2c235e88965e71dc8ea3442ad20c",
+  "version": "0.25.4",
+  "date": "2026-10-21",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.25.4/Tracker-Setup-0.25.4.exe",
+  "sha256": "f33d0bb6df7cc76cfbbf639cf94e47b60d85c843b03ad2a5ce8451d18e8918ef",
   "notes": [
-    "Opening a text box for writing no longer jumps to its top: the page stays where it is",
-    "The caret goes where you double-clicked in the box",
-    "A box that runs past the bottom of its page stays on top of the next page, and can be clicked there"
+    "Tracker for Mac now runs on macOS 11 (Big Sur) and newer, so Macs that stopped at macOS 11 or 12 can use it"
   ],
-  "signature": "RVAhwMvtIk6O3ie3bsN8ZZI2dzCUvR0dLePHrQBkjb16kPqhDpQ19t4OU/aBZ8KOMUd+SgrHPRUoN4gAy7fv/A=="
+  "signature": "7HsmAx9ggpIUaZWRgeWISft0OW6z7IMu7tZCys0mKtOFIK3oHjzEjJjCCwNGJ+dWqnjgbnFgu6gwRw+63+JHRA=="
 }
