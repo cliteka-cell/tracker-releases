@@ -1,10 +1,12 @@
 {
-  "version": "0.25.4",
+  "version": "0.25.5",
   "date": "2026-10-21",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.25.4/Tracker-0.25.4-mac.zip",
-  "sha256": "5246dcac2240b5aac98d5f9a233014a52e7f5ef8132e0b57bf9aa8cedc0c8b78",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.25.5/Tracker-0.25.5-mac.zip",
+  "sha256": "4063f8e0de859909d95d824541d5fbb2c9b09c81dd0cf2a95847ccdddbfa42cb",
   "notes": [
-    "Tracker for Mac now runs on macOS 11 (Big Sur) and newer, so Macs that stopped at macOS 11 or 12 can use it"
+    "The notes graph holds still: pressing a dot moves nothing, and dragging settles as soon as you stop",
+    "No more dots turning round a busy note or a group drifting off while you hold a dot",
+    "Names in the graph no longer pile up when zoomed out, and dots keep a little room between them"
   ],
-  "signature": "kIwIrdHI2PT+2JiHuJh7oD0kYjjpda061fThkBnav/wUKwXIaOi2QlLxVLxypFV2FZwiq5eDqHKbUPGDDhiaeQ=="
+  "signature": "KOdn40oPQL496jNqytxuY6lyhtJeY6mCbW1v5fvFOxGNWxdm2sWIhfHfOpFS6mv/BvmjmMzzJniSLQkzCkgDFw=="
 }
