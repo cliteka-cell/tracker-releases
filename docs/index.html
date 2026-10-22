@@ -175,8 +175,10 @@ footer p { margin: 0 0 8px; }
         <ul>
           <li><strong>Book and article search</strong> sends the ISBN, DOI or words you type to Open Library, Crossref and (if you saved a key) Google Books or ISBNdb. Only when you press Search, or drop a book file that names its ISBN (this can be turned off).</li>
           <li><strong>Cover pictures</strong> are loaded from the cover sites when search results show them. Turn covers off and none is loaded.</li>
+          <li><strong>Reading a scanned book</strong> (OCR) downloads each language&rsquo;s reading data once from jsDelivr, the first time you use it. The pages are read on your computer and never sent.</li>
           <li><strong>The AI tab</strong> is off by default. With a model on your own computer, nothing leaves it. With an online service you choose and give a key to, the text it needs to answer does go to that service.</li>
           <li><strong>Your phone</strong> is off by default. Turn it on and pair a phone, and that phone opens Tracker on your computer over your own Wi-Fi (or Tailscale), with nothing in between.</li>
+          <li><strong>Writing together live</strong> is off until you share a document: then that one document goes to the browser of whoever opens its link, over your own network or Tailscale, and nowhere else.</li>
           <li><strong>Updates</strong> ask GitHub for one small file when you press Check now, or once a day if you turn that on. They carry only the program&rsquo;s name and version.</li>
         </ul>
         <p style="margin:12px 0 0">There are no analytics, crash reports or advertising, and the program only answers to your own computer (and to phones you pair yourself, if you turn that on). Inside Tracker, <strong>App settings, Privacy</strong> lists all of this again with your own settings, and it is checked against the program&rsquo;s code by a test.</p>
