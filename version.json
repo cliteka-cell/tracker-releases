@@ -1,15 +1,13 @@
 {
-  "version": "0.34.0",
+  "version": "0.34.1",
   "date": "2026-10-22",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.34.0/Tracker-Setup-0.34.0.exe",
-  "sha256": "40e4b26ba533153f7434b0f2cd531a7cc8a828d858e51f9ee7537acac5086e2e",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.34.1/Tracker-Setup-0.34.1.exe",
+  "sha256": "7628557d7a91b4cfe20d7d2c3a6a1377a8c8fe72455b9d3adbceac1994b6ffc1",
   "notes": [
-    "Share live: write in a document with someone at the same time, through your computer, cursors and names shown",
-    "Suggest changes, Accept or Reject them, and send a document for review to someone with Tracker or Word",
-    "Scanned books: Tracker reads the text of picture-only PDFs on your computer, so they can be highlighted and searched",
-    "Writing: find and replace, a table of contents, numbered captions, cross-references and comments",
-    "For linguists: syntax trees from brackets, LaTeX export with gb4e or expex, and Harvard citations",
-    "Bring in your Zotero library and your Obsidian or Notion notes; templates, a word limit and deadlines"
+    "A Word file keeps its look when imported: font, spacing, margins, page numbers, centred and justified text, indents",
+    "A title page stays on its own page, and Word's table of contents becomes Tracker's, under its own title",
+    "Page breaks (Ctrl+Enter) and hanging indents for reference lists, in the pages, the PDF and every download",
+    "Share live: the guest has the Paper view and sees the references under the text"
   ],
-  "signature": "viA78pLftybmcpO2P6kwgjKWiyMveFacbu4vuEg2CazejXQmUc9NHSKdywJVPtNWkPmvOpZLCBo0FYRm6geKLg=="
+  "signature": "ZVNk4cwMoZumm4zOVcTL4RPWtr73HALOoE00L34YhZFwA2cEyEf34TsjbNbbiT6hqE/Oo+O2Ovrryciqt/rbvQ=="
 }
