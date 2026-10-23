@@ -1,13 +1,13 @@
 {
-  "version": "0.35.0",
+  "version": "0.36.0",
   "date": "2026-10-23",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.35.0/Tracker-Setup-0.35.0.exe",
-  "sha256": "b19bd7562df7d73e4b63b3b039f3705e3c89cecdf212d551c324f2357f6c1015",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.36.0/Tracker-Setup-0.36.0.exe",
+  "sha256": "e90d76506f0dfca8e7dc80ad5942553ffdcb23ff30ed8505f617598083bd35f3",
   "notes": [
-    "A Word paper comes in whole: footnote italics, chapters on new pages, its title page and page numbers",
-    "Click a footnote at the foot of the page to write in it there, with italics",
-    "Title, Subtitle and Heading 5 and 6 in Writing",
-    "Easier on a phone and with the keyboard: side panels open as a sheet, the reader's bar fits, and Tab goes everywhere"
+    "Flashcards has a home page: what is due today, Study now, and a tile for each deck with its own Study",
+    "Browse cards: filter, sort, tick many cards and move, suspend, forget, export or delete them together",
+    "Rename, move and delete decks; open a card to edit it and see every answer it was given",
+    "In Writing, the document's buttons stay on screen with the toolbar while you scroll"
   ],
-  "signature": "dfaGmwxXjcaRIUGkBXLA1j++ZnbLgSRXqCFe2qzd8l36Th8E9gy2pA2P8XELdi4HjlFyaSFJ0ZZH8GAL4dEW7A=="
+  "signature": "4aWJqS/+GoMtvBgRL0+NSWgr65z6rPODSU5uh2eyzm8rDMlLE29X7nzqVvLjMIhWIfUgrN7jnYRichrCHyWFWA=="
 }
