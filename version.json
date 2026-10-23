@@ -1,13 +1,13 @@
 {
-  "version": "0.36.0",
+  "version": "0.37.0",
   "date": "2026-10-23",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.36.0/Tracker-Setup-0.36.0.exe",
-  "sha256": "e90d76506f0dfca8e7dc80ad5942553ffdcb23ff30ed8505f617598083bd35f3",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.37.0/Tracker-Setup-0.37.0.exe",
+  "sha256": "be89020bea5cbfdc68bf6554f78094c27ca98c9b5b405abc7a4fc8151bf8ebd0",
   "notes": [
-    "Flashcards has a home page: what is due today, Study now, and a tile for each deck with its own Study",
-    "Browse cards: filter, sort, tick many cards and move, suspend, forget, export or delete them together",
-    "Rename, move and delete decks; open a card to edit it and see every answer it was given",
-    "In Writing, the document's buttons stay on screen with the toolbar while you scroll"
+    "The hall: Tracker's main hall, in place of the Overview and the Archive, for books, writing and notes of any kind",
+    "Its Home: continue the book or document you left, see what is due today, and a door for each room",
+    "Trackers are now rooms: study rooms of their own, listed under the hall",
+    "The hall has its own writing and notes, and every room's books and writing in one place"
   ],
-  "signature": "4aWJqS/+GoMtvBgRL0+NSWgr65z6rPODSU5uh2eyzm8rDMlLE29X7nzqVvLjMIhWIfUgrN7jnYRichrCHyWFWA=="
+  "signature": "EkFFV05PSKSu9/PfD7xabTQSTOVbO4pbdaA6RUiJy+A28M4CaqipVEfUBgdWY/tqpia9Uu8pcK5iYlW7sxKjpQ=="
 }
