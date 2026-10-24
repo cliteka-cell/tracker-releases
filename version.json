@@ -1,13 +1,11 @@
 {
-  "version": "0.38.0",
-  "date": "2026-10-23",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.38.0/Tracker-Setup-0.38.0.exe",
-  "sha256": "8e42c66a9fddd5d8ef9a1a93aa206870016a5747b49c49233879640387b67518",
+  "version": "0.39.0",
+  "date": "2026-10-24",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.39.0/Tracker-Setup-0.39.0.exe",
+  "sha256": "9767a11f2dcc988292e598925cb07630019131f8bb0d76689b201517d401cbc1",
   "notes": [
-    "A compact top bar that slides away as you scroll down and comes back at the top edge of the window",
-    "Time in the hall: reading a hall book or writing a hall document is timed with one click, nothing to choose",
-    "Move a note or a document between the hall and a room",
-    "The hall's documents can cite any book on its shelves"
+    "Every book has a page of its own, with its progress, notes, highlights, reading, file and citation together",
+    "Quieter book cards: a library shows about twice as many books at once"
   ],
-  "signature": "GzzDzGvDp1j4xh7Nx39DQSZVl87zMpaJgwU7Rnmjx+OrLtU7RYIg75lJgTXB+vzdDlnaQwiqB80Nukk0WaKREA=="
+  "signature": "K9EmU+vsjKYOAIn0Lhxgp68sUpBD2YEREQkeHfm0hkPp0zfJ7sKsJ/wWntaWmIYDJwfvmDLXgkT2UwKvwF1Ajw=="
 }
