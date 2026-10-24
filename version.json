@@ -1,11 +1,12 @@
 {
-  "version": "0.39.0",
+  "version": "0.40.0",
   "date": "2026-10-24",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.39.0/Tracker-Setup-0.39.0.exe",
-  "sha256": "9767a11f2dcc988292e598925cb07630019131f8bb0d76689b201517d401cbc1",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.40.0/Tracker-Setup-0.40.0.exe",
+  "sha256": "2f0204c7fecec73d4421204cb8803394e283099181f7a4b406e4572942855942",
   "notes": [
-    "Every book has a page of its own, with its progress, notes, highlights, reading, file and citation together",
-    "Quieter book cards: a library shows about twice as many books at once"
+    "The Library as a shelf of covers or a list, with Continue reading at the top",
+    "Made covers for books without a picture, and Find missing covers",
+    "Group, sort and filter your books"
   ],
-  "signature": "K9EmU+vsjKYOAIn0Lhxgp68sUpBD2YEREQkeHfm0hkPp0zfJ7sKsJ/wWntaWmIYDJwfvmDLXgkT2UwKvwF1Ajw=="
+  "signature": "g6N69x62OOmcn7ETlIbID49MTX3luXaJmEK9JcqVo1Tq4zHUuVDgYLYvWlsjuRl/HzsKf+0cqGEhUie655niHw=="
 }
