@@ -1,12 +1,12 @@
 {
-  "version": "0.40.0",
-  "date": "2026-10-24",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.40.0/Tracker-Setup-0.40.0.exe",
-  "sha256": "2f0204c7fecec73d4421204cb8803394e283099181f7a4b406e4572942855942",
+  "version": "0.41.0",
+  "date": "2026-10-29",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.41.0/Tracker-Setup-0.41.0.exe",
+  "sha256": "48cafdff8bdce833ef563eb7b6647c52aed85659c16e14d6d6bfb245424721ef",
   "notes": [
-    "The Library as a shelf of covers or a list, with Continue reading at the top",
-    "Made covers for books without a picture, and Find missing covers",
-    "Group, sort and filter your books"
+    "Folders are shelves now: a book or a document can be on several, and smart shelves fill themselves",
+    "Choose several books and act on them together",
+    "Every document has a page of its own, with its words over time and the books it cites"
   ],
-  "signature": "g6N69x62OOmcn7ETlIbID49MTX3luXaJmEK9JcqVo1Tq4zHUuVDgYLYvWlsjuRl/HzsKf+0cqGEhUie655niHw=="
+  "signature": "TN7zumZHESdHQWnfLe5/YngQGEdw6Q2m2WshghkkZdmgMNuh0SZKl1TyfGpnGMPt4NyyWe1ZDLoY4F3zFHd+iw=="
 }
