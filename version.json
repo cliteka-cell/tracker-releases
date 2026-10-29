@@ -1,12 +1,15 @@
 {
-  "version": "0.41.0",
+  "version": "0.42.0",
   "date": "2026-10-29",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.41.0/Tracker-Setup-0.41.0.exe",
-  "sha256": "48cafdff8bdce833ef563eb7b6647c52aed85659c16e14d6d6bfb245424721ef",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.42.0/Tracker-Setup-0.42.0.exe",
+  "sha256": "a432e85b5431471f77b24e250c9599d0e573c2d14325d3766d34e9f33968393b",
   "notes": [
-    "Folders are shelves now: a book or a document can be on several, and smart shelves fill themselves",
-    "Choose several books and act on them together",
-    "Every document has a page of its own, with its words over time and the books it cites"
+    "Writing is calmer: one toolbar row, with Insert and Format menus and the side panels behind one button",
+    "Type / for a heading, a citation, a table or an example; a small bar comes up over selected words",
+    "Focus hides everything but the document (Ctrl+Shift+F)",
+    "Fixed: a long PDF's text crept into the top margin until lines were cut across two pages",
+    "Fixed: numbered headings start their sections from 1 again in each chapter (5.1, not 5.2)",
+    "The hall's Home shows what is on the desk and everything due soon, and a room can be closed"
   ],
-  "signature": "TN7zumZHESdHQWnfLe5/YngQGEdw6Q2m2WshghkkZdmgMNuh0SZKl1TyfGpnGMPt4NyyWe1ZDLoY4F3zFHd+iw=="
+  "signature": "+0vCF8SufA2u1AIcidMzjGBrG2XKMKoAcrmT+Mwnprd38qmGObGdeMwzwMiuIZQIHTaJq8sSYwKXZnm9aPkp4A=="
 }
