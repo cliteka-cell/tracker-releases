@@ -1,15 +1,15 @@
 {
-  "version": "0.42.0",
-  "date": "2026-10-29",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.42.0/Tracker-Setup-0.42.0.exe",
-  "sha256": "a432e85b5431471f77b24e250c9599d0e573c2d14325d3766d34e9f33968393b",
+  "version": "0.47.0",
+  "date": "2026-10-31",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.47.0/Tracker-Setup-0.47.0.exe",
+  "sha256": "583b1a15c47a0a7a0885aa0d1165255731271be839119aacc91c56c445bb39fa",
   "notes": [
-    "Writing is calmer: one toolbar row, with Insert and Format menus and the side panels behind one button",
-    "Type / for a heading, a citation, a table or an example; a small bar comes up over selected words",
-    "Focus hides everything but the document (Ctrl+Shift+F)",
-    "Fixed: a long PDF's text crept into the top margin until lines were cut across two pages",
-    "Fixed: numbered headings start their sections from 1 again in each chapter (5.1, not 5.2)",
-    "The hall's Home shows what is on the desk and everything due soon, and a room can be closed"
+    "Flashcards grew up: undo, editing in review, cloze filled in place, typing the answer, tags, flags, Study more",
+    "Notes with fields and note types of your own, deck options presets, pictures, sounds, maths and image occlusion",
+    "Write Chinese characters stroke by stroke, or any script on a free pad",
+    "The card browser searches as Anki's does, with a sidebar, columns, find and replace, duplicates and a Stats tab",
+    "FSRS can be trained on your own answers (kept only if it predicts them better), with load balancing and easy days",
+    "Import a CSV or text file, export as CSV, text or a deck without your progress, and Check the cards"
   ],
-  "signature": "+0vCF8SufA2u1AIcidMzjGBrG2XKMKoAcrmT+Mwnprd38qmGObGdeMwzwMiuIZQIHTaJq8sSYwKXZnm9aPkp4A=="
+  "signature": "gUGeCaFNPBw3b0bmpzQH3YIF4IfWArKSxVsdy3bCb/abZa8eS2FvKh/zQXY4RZbaoGIM5/75jqThT2ZnKD6b1w=="
 }
