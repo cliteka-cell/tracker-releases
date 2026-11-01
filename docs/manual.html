@@ -23,7 +23,7 @@
   </header>
 
   <h1>The full user manual</h1>
-  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.49.0; later versions may add things, and App settings, About lists what changed.</p>
+  <p class="lead">Everything Tracker does, part by part. New here? Start with <a href="guide.html">Getting started in ten minutes</a>. This manual describes version 0.49.1; later versions may add things, and App settings, About lists what changed.</p>
 
   <div class="layout">
     <nav class="toc" aria-label="Contents">
@@ -557,6 +557,8 @@
         <p>Only the person who made the circle can remove a member (the bin button beside them). The circle then gets a new key and a new invite code, which the removed member never receives, so their Tracker can no longer connect to it, and it is told it was removed. Members who were away get the new key from the first member they meet. What someone already saw stays with them. <strong>Leave</strong> (with the circle&rsquo;s name, inside it) removes that circle from your Tracker and tells its members; your other circles go on; if you made it, it goes on for them, but nobody can remove anyone from it any more.</p>
         <h3>What a circle sends</h3>
         <p>Only while you are in a circle and Tracker is running. To find the members, Tracker joins a public directory that many apps share (Hyperswarm&rsquo;s, first through three addresses run by the project that makes it); the directory sees that a computer joined and the circle&rsquo;s meeting place, a scrambled form of its key, never the key itself. Members see each other&rsquo;s internet addresses, as in any direct connection. What goes between members is your name in the circle, who is in it and who is online. Nothing else of yours (notes, books, sessions, cards) is reachable through a circle: a circle runs in a small program of its own that answers only circle messages. The circle&rsquo;s key is left out of complete copies and exports; after putting a copy back on another computer, join again with an invite.</p>
+        <h3>When something seems wrong</h3>
+        <p>Everything a circle does is written to Tracker&rsquo;s log, one line each, with the time: when it starts, who connects and how (directly, or through another member), who disconnects, when this computer&rsquo;s network changes (another Wi-Fi, waking from sleep), new keys, and connections it refused. App settings, About shows where the log is. Members are named as they named themselves, never by their internet address, so you can send the log to someone helping you. A member whose computer is switched off or loses its connection shows as disconnected only after a short while, when the connection times out; leaving and being removed show at once.</p>
 
         <h2 id="look">17. Themes and looks</h2>
         <p>Settings, <em>Theme</em> (in any room) offers six themes: <strong>Midnight</strong> (the default dark one), <strong>Black</strong>, <strong>Light</strong>, <strong>Forest</strong>, <strong>Rose</strong> and <strong>Frutiger Aero</strong> (a glassy, see-through style), plus <strong>Custom</strong>.</p>
