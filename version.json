@@ -1,15 +1,14 @@
 {
-  "version": "0.47.0",
-  "date": "2026-10-31",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.47.0/Tracker-Setup-0.47.0.exe",
-  "sha256": "583b1a15c47a0a7a0885aa0d1165255731271be839119aacc91c56c445bb39fa",
+  "version": "0.48.0",
+  "date": "2026-11-01",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.48.0/Tracker-Setup-0.48.0.exe",
+  "sha256": "95dc90a9de5d74693c00fa50406f09ee36ffcfa66160d7e9e7d32d5885c2137a",
   "notes": [
-    "Flashcards grew up: undo, editing in review, cloze filled in place, typing the answer, tags, flags, Study more",
-    "Notes with fields and note types of your own, deck options presets, pictures, sounds, maths and image occlusion",
-    "Write Chinese characters stroke by stroke, or any script on a free pad",
-    "The card browser searches as Anki's does, with a sidebar, columns, find and replace, duplicates and a Stats tab",
-    "FSRS can be trained on your own answers (kept only if it predicts them better), with load balancing and easy days",
-    "Import a CSV or text file, export as CSV, text or a deck without your progress, and Check the cards"
+    "Study circles: friends whose Trackers connect directly, with no server and no account (App settings, Circle)",
+    "IEEE citations, numbered in the order they are first cited, everywhere a document goes",
+    "Word documents keep their heading sizes and a paragraph's own line spacing",
+    "A timer stopped within a minute is not saved, and the browser tab shows a running timer",
+    "The card search's prop:r and the R column follow each deck's preset, and dupe: finds duplicates"
   ],
-  "signature": "gUGeCaFNPBw3b0bmpzQH3YIF4IfWArKSxVsdy3bCb/abZa8eS2FvKh/zQXY4RZbaoGIM5/75jqThT2ZnKD6b1w=="
+  "signature": "Ru9gUhAWn2TiBKge+UNkuyIX0Pg+3u4L8VTUV2e6vjKv5/VE0eCM/Xy3zda68zDN4A0OqfHTFHJJzRqC3ef6Jg=="
 }
