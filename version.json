@@ -1,11 +1,12 @@
 {
-  "version": "0.50.0",
+  "version": "0.51.0",
   "date": "2026-11-02",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.50.0/Tracker-Setup-0.50.0.exe",
-  "sha256": "1db037f67933ab56422f09ce9c088d99760a00da2df506c8828c0d658fd9efa5",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.51.0/Tracker-Setup-0.51.0.exe",
+  "sha256": "7841eb7a4c551605b6aa52531238434453b46b54a5adf72d1da4a5961b80e655",
   "notes": [
-    "Share your progress with a study circle, room by room: today, your streak and the week (the hall, Circles)",
-    "A one-tap Nice work on a circle member's day"
+    "Share a deck with a study circle: members bring it into a room of theirs and study it too",
+    "Read a book together: a plan for the circle, and everyone's page in their own copy",
+    "A chat and a study room for each circle: the same countdown for everyone in it"
   ],
-  "signature": "TtmLKU3WDZ7NNpENo35ICQqo/v+dldlmbmkCFgTBTUcTwJyeIK4E/vW2349IHZzfogwqP6iRDSUvY4OCRrKnMw=="
+  "signature": "h/RH+GGZpKkuqftpZIHkdOAcog/RZBbvqji6Zmls1MgCfg6BCAXVIWGr2ZZ8w5ounKrlUURQOIgtgCct9r7u8g=="
 }
