@@ -1,11 +1,10 @@
 {
-  "version": "0.49.0",
+  "version": "0.49.1",
   "date": "2026-11-01",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.49.0/Tracker-Setup-0.49.0.exe",
-  "sha256": "3f026120ea517d6afd4b49efa4ec6443d0b40975bfb4c5ab7ebb798e4fd0a37a",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.49.1/Tracker-Setup-0.49.1.exe",
+  "sha256": "5379aeef16bff3ff0087712ccb9945edf7f2207abf884cf365dbefa1454835e7",
   "notes": [
-    "Be in several study circles at once: a book club, a language group, a class (App settings, Circles)",
-    "Each circle has its own invite code, members and key, and none can tell you are in the others"
+    "Study circles write what happens to Tracker's log, so a dropped connection can be looked up afterwards"
   ],
-  "signature": "K00rBJ9Ur7EH2M/YHVh/vrDu+RX64PjJj7rE5i7hbs+ytddEspXlPJmoM0unDykd7RolC8koWNm0abPI7o6TqQ=="
+  "signature": "ewxBSVhyDiRubJ5shp9JCuM+GG4myOQB7r7zxp4wlqWQmGiEQqMKkpKo31I7N0QZLJtXp8WNebTtH91HQg+JjQ=="
 }
