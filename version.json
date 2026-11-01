@@ -1,14 +1,11 @@
 {
-  "version": "0.48.0",
+  "version": "0.49.0",
   "date": "2026-11-01",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.48.0/Tracker-Setup-0.48.0.exe",
-  "sha256": "95dc90a9de5d74693c00fa50406f09ee36ffcfa66160d7e9e7d32d5885c2137a",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.49.0/Tracker-Setup-0.49.0.exe",
+  "sha256": "3f026120ea517d6afd4b49efa4ec6443d0b40975bfb4c5ab7ebb798e4fd0a37a",
   "notes": [
-    "Study circles: friends whose Trackers connect directly, with no server and no account (App settings, Circle)",
-    "IEEE citations, numbered in the order they are first cited, everywhere a document goes",
-    "Word documents keep their heading sizes and a paragraph's own line spacing",
-    "A timer stopped within a minute is not saved, and the browser tab shows a running timer",
-    "The card search's prop:r and the R column follow each deck's preset, and dupe: finds duplicates"
+    "Be in several study circles at once: a book club, a language group, a class (App settings, Circles)",
+    "Each circle has its own invite code, members and key, and none can tell you are in the others"
   ],
-  "signature": "Ru9gUhAWn2TiBKge+UNkuyIX0Pg+3u4L8VTUV2e6vjKv5/VE0eCM/Xy3zda68zDN4A0OqfHTFHJJzRqC3ef6Jg=="
+  "signature": "K00rBJ9Ur7EH2M/YHVh/vrDu+RX64PjJj7rE5i7hbs+ytddEspXlPJmoM0unDykd7RolC8koWNm0abPI7o6TqQ=="
 }
