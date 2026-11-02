@@ -1,11 +1,10 @@
 {
-  "version": "0.52.1",
+  "version": "0.52.2",
   "date": "2026-11-02",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.52.1/Tracker-Setup-0.52.1.exe",
-  "sha256": "f309bcc65a3e5635767bf65f7d8210808df84fa78923b4e26f4e52d553cd8e1f",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.52.2/Tracker-Setup-0.52.2.exe",
+  "sha256": "473e4ef31e7e0769ed16425617c0bbd1cfd5f764a01279e82b47cc4ff0aaf580",
   "notes": [
-    "Writing: no blank page in the PDF after a page break at the foot of a page",
-    "Writing: a document's buttons on one row"
+    "Circles on a phone: Join and Make work from the Members tab"
   ],
-  "signature": "FK8HYKgDnr0rgxO7Qco8o9i8GXs42KOy9JeOvzXuCbp/wQy/aW7n9mv5/hESVqiVCOSa10cnxhL47L17qlEp+g=="
+  "signature": "LWGkJ/f8bOuvxrgm2nLeS6upnBm5qpqOSow0c0L2wgc5h8LpY7Vn0+UAWPgSGB3u0a+Q7B6HmZAsxi6NNUUp6w=="
 }
