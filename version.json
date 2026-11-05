@@ -1,12 +1,12 @@
 {
-  "version": "0.57.0",
-  "date": "2026-11-05",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.57.0/Tracker-Setup-0.57.0.exe",
-  "sha256": "96b68b11f899bf520b79a7401e6199d2d5c7d6270d324b1c86d4fd0ff0de53ba",
+  "version": "0.61.0",
+  "date": "2026-11-06",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.61.0/Tracker-Setup-0.61.0.exe",
+  "sha256": "7d99035f272d2c3b7bb767fb88e6650a1298fe5b156d3694f330e1ebb7f7ed95",
   "notes": [
-    "Four new themes: Folio, Folio Night, Aero Aurora and TempleOS",
-    "Frutiger Aero is now Aero Sky: round bubbles at the edges, lower hills",
-    "TempleOS has its own square 8 by 8 letters in the bars, buttons and titles"
+    "Profiles in circles: a line about you, the books and articles you choose to show, what you are reading now",
+    "Ask a member for a book's file or a copy of an article; they send it or decline",
+    "An article arrives as a document of your own Writing, with the books it cites"
   ],
-  "signature": "Vf3spq8aTP26/a/rp8sbXPjiivcWNMypFAIYKP3JAuBoOQm06yCbnfS46otzzcVOCLYhCN+RoZCSZKHXv7id7Q=="
+  "signature": "S8xdrZgLDa67/4PogNiRu7hqEWafk8YDVZPGEZCRnZ5kK0RUz7Ae2//u5Wkzuf12hAjz/Mk8JDr3Wh8m5Hgf2g=="
 }
