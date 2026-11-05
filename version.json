@@ -1,14 +1,12 @@
 {
-  "version": "0.55.0",
+  "version": "0.57.0",
   "date": "2026-11-05",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.55.0/Tracker-Setup-0.55.0.exe",
-  "sha256": "f5213b76d1ed439b587d9c3105d0a7f1987136b99c346761fcc21c7e90ca29e3",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.57.0/Tracker-Setup-0.57.0.exe",
+  "sha256": "96b68b11f899bf520b79a7401e6199d2d5c7d6270d324b1c86d4fd0ff0de53ba",
   "notes": [
-    "The same tabs in the hall and every room: Home, Library, Writing, Notes, Flashcards, Stats, Circles",
-    "No more sidebar: the rooms are in a menu at the start of the top bar, and the page has the whole width",
-    "Choosing another room keeps the tab you are on",
-    "Flashcards and Writing have tabs of their own; the Log is Stats, Sessions",
-    "On a phone: a bottom bar with Home, Library, Notes, Circles and More"
+    "Four new themes: Folio, Folio Night, Aero Aurora and TempleOS",
+    "Frutiger Aero is now Aero Sky: round bubbles at the edges, lower hills",
+    "TempleOS has its own square 8 by 8 letters in the bars, buttons and titles"
   ],
-  "signature": "XEdm1LzBuNDsg1RN7MguJ6e/b7NYBs6p5gYKmduc7fCQ4IjisqDnql5rDITQ1h7vIyROH1iLKsUv5mvffhujmw=="
+  "signature": "Vf3spq8aTP26/a/rp8sbXPjiivcWNMypFAIYKP3JAuBoOQm06yCbnfS46otzzcVOCLYhCN+RoZCSZKHXv7id7Q=="
 }
