@@ -1,13 +1,12 @@
 {
-  "version": "0.64.0",
+  "version": "0.65.0",
   "date": "2026-11-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.64.0/Tracker-Setup-0.64.0.exe",
-  "sha256": "8e08d11a197c3370c4c80b4b722bb05000589340350704ed4364e0189e9e937f",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.65.0/Tracker-Setup-0.65.0.exe",
+  "sha256": "29da6e990d54ed5f79b8f0331bfd250def09fc1a94319ebe65179eed51787bff",
   "notes": [
-    "Share a document with members of a circle: you write in it together, each in your own Voynich",
-    "What each of you writes while apart comes together the next time you are both connected",
-    "The books a shared document cites come with it, so citations and references come out right",
-    "Voice messages in a circle's chat: record, listen, send; members who were away get them later"
+    "Talk in a circle's study room: hold to talk (or hold V), or leave the microphone open",
+    "In the breaks only, unless the room's opener lets you talk while studying too",
+    "A sign beside whoever is talking, and a mute for each member"
   ],
-  "signature": "4UBkAwWx0AElMQSD5OMWyWahjru1ciGkUFCB99KI8JvnJL2CNBzZTIf7gXF89ywXZHyFMCxmxZgNpgGZT813sg=="
+  "signature": "9rry3fsV7v+e7gaqLvT9MAQEH/NOa8ZRb4dwdOuwg75VaQczFCuH273m9xrSfAizNVmESxkQ5r3N1plpbaHUjA=="
 }
