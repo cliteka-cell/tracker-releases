@@ -1,11 +1,12 @@
 {
-  "version": "0.69.0",
+  "version": "0.70.0",
   "date": "2026-11-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.69.0/Tracker-Setup-0.69.0.exe",
-  "sha256": "5bad0f0e4081ba617c3f216d0a6d03eeb90850cf63dd6529654ed84d14c594a0",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.70.0/Tracker-Setup-0.70.0.exe",
+  "sha256": "52fd15c92e8893716721a02a0e71f642b016ad980fe2f4deaba13675301f0c86",
   "notes": [
-    "Images and files in the chat are now the third choice of a circle's Files setting, off unless its maker chooses it",
-    "Delete for me: take an image or a file out of your own chat"
+    "A CCRU theme: black and phosphor green, with the Numogram in the left margin",
+    "Take off the list works for files sent for your requests",
+    "A new icon: a tall card with another character of the manuscript"
   ],
-  "signature": "eax9U4nSgqCDpF60OuqLh2pkPfQJ1p0MsF6/tkcY6Bsi/vitO3bSJW8pes8TxaOGyWvpMLHbLooirMCZkOge7w=="
+  "signature": "fro01HBgyIJ5Ll7Bjegc/qCBXun9N4VWCI4IN6z0w4hOslb7BHE9/srhhDL/xqA2cFpwG9mNNgFjP3QeWkxUEQ=="
 }
