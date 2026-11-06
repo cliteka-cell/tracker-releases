@@ -1,10 +1,10 @@
 {
-  "version": "0.66.0",
+  "version": "0.67.0",
   "date": "2026-11-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.66.0/Tracker-Setup-0.66.0.exe",
-  "sha256": "42080d2af1c3d52e1d6b9372c062c58d984987428a3d14026da29e7d9710135d",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.67.0/Tracker-Setup-0.67.0.exe",
+  "sha256": "b1d80180c642cfc5d62610a08a1e40d7726c16861fb0d45dc24a77f0284a4ec0",
   "notes": [
-    "A discussion room in each circle: no timer, talk at any time, open until it is closed"
+    "A talk in a room now goes on through every tab and page of Voynich, until you leave it"
   ],
-  "signature": "rAmIOvGr1Zt65At4xz4W29oRc72v4u6vwHOiDPRFl9fD0Nm0JqKhvdRAXvj6b16Syn/6alOQSzgrGjywcHJDmA=="
+  "signature": "5BbsN5KExJiWe6JwzFE4mq3eh8KeSmfTLRWNd8DsUdP2pNx4tdvIMIeLs0BA0e3yNjjjhXmOADXIpGTf5gJIJw=="
 }
