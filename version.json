@@ -1,14 +1,13 @@
 {
-  "version": "0.62.0",
+  "version": "0.64.0",
   "date": "2026-11-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.62.0/Tracker-Setup-0.62.0.exe",
-  "sha256": "f45274940ad77d87f791c7b648b040f5a357f466e291a7a4eb4c3bb836c776fd",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.64.0/Tracker-Setup-0.64.0.exe",
+  "sha256": "8e08d11a197c3370c4c80b4b722bb05000589340350704ed4364e0189e9e937f",
   "notes": [
-    "Share highlights in a circle's chat, as quotations with their book and page",
-    "A circle's maker can let anyone send any file, to everyone or to one member",
-    "Change your name in a circle, and hand a circle to another member",
-    "Hand passages of a book you read together to a member, to read and tick",
-    "A passage opens in your own copy, found by its words in any edition"
+    "Share a document with members of a circle: you write in it together, each in your own Voynich",
+    "What each of you writes while apart comes together the next time you are both connected",
+    "The books a shared document cites come with it, so citations and references come out right",
+    "Voice messages in a circle's chat: record, listen, send; members who were away get them later"
   ],
-  "signature": "R642dIHz+G1TSquVZaX/ldREUbCar+dvrPdccQBorL2Mwqc+h4YhA51rrIEVCCH/8a9UM5vfpHXtw5G2m7L4UA=="
+  "signature": "4UBkAwWx0AElMQSD5OMWyWahjru1ciGkUFCB99KI8JvnJL2CNBzZTIf7gXF89ywXZHyFMCxmxZgNpgGZT813sg=="
 }
