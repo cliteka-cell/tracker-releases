@@ -1,12 +1,10 @@
 {
-  "version": "0.65.0",
+  "version": "0.66.0",
   "date": "2026-11-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.65.0/Tracker-Setup-0.65.0.exe",
-  "sha256": "29da6e990d54ed5f79b8f0331bfd250def09fc1a94319ebe65179eed51787bff",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.66.0/Tracker-Setup-0.66.0.exe",
+  "sha256": "42080d2af1c3d52e1d6b9372c062c58d984987428a3d14026da29e7d9710135d",
   "notes": [
-    "Talk in a circle's study room: hold to talk (or hold V), or leave the microphone open",
-    "In the breaks only, unless the room's opener lets you talk while studying too",
-    "A sign beside whoever is talking, and a mute for each member"
+    "A discussion room in each circle: no timer, talk at any time, open until it is closed"
   ],
-  "signature": "9rry3fsV7v+e7gaqLvT9MAQEH/NOa8ZRb4dwdOuwg75VaQczFCuH273m9xrSfAizNVmESxkQ5r3N1plpbaHUjA=="
+  "signature": "rAmIOvGr1Zt65At4xz4W29oRc72v4u6vwHOiDPRFl9fD0Nm0JqKhvdRAXvj6b16Syn/6alOQSzgrGjywcHJDmA=="
 }
