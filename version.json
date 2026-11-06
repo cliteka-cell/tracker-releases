@@ -1,12 +1,10 @@
 {
-  "version": "0.70.0",
-  "date": "2026-11-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.70.0/Tracker-Setup-0.70.0.exe",
-  "sha256": "52fd15c92e8893716721a02a0e71f642b016ad980fe2f4deaba13675301f0c86",
+  "version": "0.70.1",
+  "date": "2026-11-07",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.70.1/Tracker-Setup-0.70.1.exe",
+  "sha256": "2e28ed77307153c608c32546151468332b1e6698d11ffec74ed387fb0bb94bd3",
   "notes": [
-    "A CCRU theme: black and phosphor green, with the Numogram in the left margin",
-    "Take off the list works for files sent for your requests",
-    "A new icon: a tall card with another character of the manuscript"
+    "In flashcards, Enter shows the answer and Enter again answers Good"
   ],
-  "signature": "fro01HBgyIJ5Ll7Bjegc/qCBXun9N4VWCI4IN6z0w4hOslb7BHE9/srhhDL/xqA2cFpwG9mNNgFjP3QeWkxUEQ=="
+  "signature": "Q7k/1+YBRD9j7G3QFTlsyKiTQfMoRoGBgEuuAqLIM0wTeyBxsgdGsE21ZwqUiu9IKvVYdbrGOYCebr/RsS923w=="
 }
