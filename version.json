@@ -1,11 +1,11 @@
 {
-  "version": "0.68.0",
+  "version": "0.69.0",
   "date": "2026-11-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.68.0/Tracker-Setup-0.68.0.exe",
-  "sha256": "a80befd3553f5352f8b353c1241ddb0a7872af1e644cb2aa43c0e5c461d5278a",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.69.0/Tracker-Setup-0.69.0.exe",
+  "sha256": "5bad0f0e4081ba617c3f216d0a6d03eeb90850cf63dd6529654ed84d14c594a0",
   "notes": [
-    "Images and files in a circle's chat: an image shows blurred until you press Download",
-    "The circles page remembers where you were"
+    "Images and files in the chat are now the third choice of a circle's Files setting, off unless its maker chooses it",
+    "Delete for me: take an image or a file out of your own chat"
   ],
-  "signature": "WdqiEVJFVylWB+bwenUXd0JfuHaPmr0zCxnohUKa3YS351HeFqh0m6Mz37W9fGm4leJwkc/gpFNHWZ+n/6nh2w=="
+  "signature": "eax9U4nSgqCDpF60OuqLh2pkPfQJ1p0MsF6/tkcY6Bsi/vitO3bSJW8pes8TxaOGyWvpMLHbLooirMCZkOge7w=="
 }
