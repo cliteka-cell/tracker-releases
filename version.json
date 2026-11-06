@@ -1,10 +1,10 @@
 {
-  "version": "0.70.1",
+  "version": "0.70.2",
   "date": "2026-11-07",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.70.1/Tracker-Setup-0.70.1.exe",
-  "sha256": "2e28ed77307153c608c32546151468332b1e6698d11ffec74ed387fb0bb94bd3",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.70.2/Tracker-Setup-0.70.2.exe",
+  "sha256": "5b31a019117a71f9c4e1543fa29344c5c29833dae58a968af058d2eb59644827",
   "notes": [
-    "In flashcards, Enter shows the answer and Enter again answers Good"
+    "A circle's chat keeps to the newest message while its pictures load, with a button back to it"
   ],
-  "signature": "Q7k/1+YBRD9j7G3QFTlsyKiTQfMoRoGBgEuuAqLIM0wTeyBxsgdGsE21ZwqUiu9IKvVYdbrGOYCebr/RsS923w=="
+  "signature": "mRvRoNoYvSIGNamNmpORp+X2ajkrGkn3/Hs3u3UHMhGLLViu3X6GntYbWEqQ3xW6aMvHlGzWORuE24ZQ8qKjGA=="
 }
