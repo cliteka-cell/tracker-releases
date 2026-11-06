@@ -1,12 +1,14 @@
 {
-  "version": "0.61.0",
+  "version": "0.62.0",
   "date": "2026-11-06",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.61.0/Tracker-Setup-0.61.0.exe",
-  "sha256": "7d99035f272d2c3b7bb767fb88e6650a1298fe5b156d3694f330e1ebb7f7ed95",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.62.0/Tracker-Setup-0.62.0.exe",
+  "sha256": "f45274940ad77d87f791c7b648b040f5a357f466e291a7a4eb4c3bb836c776fd",
   "notes": [
-    "Profiles in circles: a line about you, the books and articles you choose to show, what you are reading now",
-    "Ask a member for a book's file or a copy of an article; they send it or decline",
-    "An article arrives as a document of your own Writing, with the books it cites"
+    "Share highlights in a circle's chat, as quotations with their book and page",
+    "A circle's maker can let anyone send any file, to everyone or to one member",
+    "Change your name in a circle, and hand a circle to another member",
+    "Hand passages of a book you read together to a member, to read and tick",
+    "A passage opens in your own copy, found by its words in any edition"
   ],
-  "signature": "S8xdrZgLDa67/4PogNiRu7hqEWafk8YDVZPGEZCRnZ5kK0RUz7Ae2//u5Wkzuf12hAjz/Mk8JDr3Wh8m5Hgf2g=="
+  "signature": "R642dIHz+G1TSquVZaX/ldREUbCar+dvrPdccQBorL2Mwqc+h4YhA51rrIEVCCH/8a9UM5vfpHXtw5G2m7L4UA=="
 }
