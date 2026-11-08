@@ -1,10 +1,10 @@
 {
-  "version": "0.70.2",
-  "date": "2026-11-07",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.70.2/Tracker-Setup-0.70.2.exe",
-  "sha256": "5b31a019117a71f9c4e1543fa29344c5c29833dae58a968af058d2eb59644827",
+  "version": "0.70.3",
+  "date": "2026-11-08",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.70.3/Tracker-Setup-0.70.3.exe",
+  "sha256": "499bf4dababe12288d814cfda728a878c62de3f0d9065f03ee9cfd633d20db68",
   "notes": [
-    "A circle's chat keeps to the newest message while its pictures load, with a button back to it"
+    "Flashcards brought in from Anki keep each part on its own line, as in Anki"
   ],
-  "signature": "mRvRoNoYvSIGNamNmpORp+X2ajkrGkn3/Hs3u3UHMhGLLViu3X6GntYbWEqQ3xW6aMvHlGzWORuE24ZQ8qKjGA=="
+  "signature": "ThPpXP6Ly+Z+2nEqZcQLtN2hQe4eelgsl3PE3C3J/1iFgm/RL/BEa1vSJm2BQ6qMUP6CBxGxiqmS/NzbH0S0tw=="
 }
