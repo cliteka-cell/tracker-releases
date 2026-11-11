@@ -1,12 +1,13 @@
 {
-  "version": "0.71.0",
+  "version": "0.72.0",
   "date": "2026-11-11",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.71.0/Tracker-Setup-0.71.0.exe",
-  "sha256": "9601a10f38f0b8c049d19ac315d6cc5c0d84eb5fb1ee1961fcdb0f569a6db450",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.72.0/Tracker-Setup-0.72.0.exe",
+  "sha256": "36dfce7b24125c73f1d054b99e32969ad31e911c8d41f5e1ec247f23126ee773",
   "notes": [
-    "The graph gives each course a home of its own: choosing one course, then All, no longer tangles them",
-    "A canvas beside Cards and Graph: put notes, books and your own words on a board and draw labelled lines",
-    "An open note shows the notes around it, and the graph lists its loose ends"
+    "The AI answers questions your notes do not cover, clearly labelled Not from your notes, instead of refusing",
+    "An Ask button on every page: the AI beside what you are doing, knowing the passage, note or document you have open",
+    "Connecting an online AI is easier: pick Gemini, OpenAI, Mistral and others from a list, and Test says what is wrong",
+    "Look up can use a small, fast model, and no longer makes up pronunciations"
   ],
-  "signature": "2qQxt1kfYAYGJv9hXA3zmV8Kp9EHac8ChUQ0CayvKE8HYacA0w7ksobrjXEUAVIu5v7Gdcl8q1VCAZBpQJWHhA=="
+  "signature": "eu5dKbqbqbkDijG5Y5xuwGkXrqJYHSO1BHlNWgEFTuc01dhVElBf5NS5AhBI6+bG+BcMwg2/LZcJXTLQhZHMiw=="
 }
