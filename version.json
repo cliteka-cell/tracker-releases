@@ -1,13 +1,12 @@
 {
-  "version": "0.72.0",
+  "version": "0.73.0",
   "date": "2026-11-11",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.72.0/Tracker-Setup-0.72.0.exe",
-  "sha256": "36dfce7b24125c73f1d054b99e32969ad31e911c8d41f5e1ec247f23126ee773",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.73.0/Tracker-Setup-0.73.0.exe",
+  "sha256": "259e2cfa557e80bce5c0ec8e87f25ee8e261d88ec0508ed76e52ca8669c839e3",
   "notes": [
-    "The AI answers questions your notes do not cover, clearly labelled Not from your notes, instead of refusing",
-    "An Ask button on every page: the AI beside what you are doing, knowing the passage, note or document you have open",
-    "Connecting an online AI is easier: pick Gemini, OpenAI, Mistral and others from a list, and Test says what is wrong",
-    "Look up can use a small, fast model, and no longer makes up pronunciations"
+    "Sync your own computers: notes, books, flashcards, sessions and documents, kept the same over the circle network",
+    "No account and no cloud: a computer that was closed catches up when it is opened again",
+    "A note changed on two computers while apart keeps both versions"
   ],
-  "signature": "eu5dKbqbqbkDijG5Y5xuwGkXrqJYHSO1BHlNWgEFTuc01dhVElBf5NS5AhBI6+bG+BcMwg2/LZcJXTLQhZHMiw=="
+  "signature": "dwj80yxPO7DQQaWtfPXI7DDUyCgeYeWd/fNic4pmqBkAWNl76LaczFLIkfurX5qwiw2BGpPgZNDz1uncqrOI7g=="
 }
