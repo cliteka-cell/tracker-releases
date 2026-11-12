@@ -1,14 +1,13 @@
 {
-  "version": "0.74.0",
+  "version": "0.75.0",
   "date": "2026-11-12",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.74.0/Tracker-Setup-0.74.0.exe",
-  "sha256": "efe6ed326bb2371ae267f086cd2759d2e6e735a7dc6f175355fc1f81609190a5",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.75.0/Tracker-Setup-0.75.0.exe",
+  "sha256": "20c60cf3bb7f9516791b91beea35c59981ac4ea31c11c14b4e0820ce2b6758af",
   "notes": [
-    "Share your screen in a study room: a screen, a window or a tab, to the members who press Watch",
-    "Sharp for reading and Smooth for anything moving, up to 60 frames a second, directly and encrypted, kept nowhere",
-    "The picture follows each viewer's line: smaller or slower, not broken, and files give way to it",
-    "With its sound: a tab's sound, or the whole computer's, with a volume slider for those who watch",
-    "Talking in a room holds up better on a poor line, and shows who is hard to hear"
+    "Cameras in a room's talk: see each other while you talk, up to five people, directly and encrypted, kept nowhere",
+    "A preview first: nothing is sent until you press Turn on, and a red sign names who sees you",
+    "Each picture shown with that person's voice from the same moment, so lips and words go together",
+    "Untick Pictures to spare your line: you still hear everyone"
   ],
-  "signature": "0pzOFUJk0zQYiD2ObhS0cbcOlm7zs6SYV3s5M8xJ2n0+DQ3ov1Ne6qTMyXp2M3gKPz99t0OcsYG5RJzl/uBZJw=="
+  "signature": "ybm0LadkhyjVkViV7o+wL/0cXP8iJX73UR0nSk2QWFQfbGclh+cF4lXxaJ0pLOcQE7CpM/7YWfo9VNWnoz2ELg=="
 }
