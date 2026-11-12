@@ -1,13 +1,14 @@
 {
-  "version": "0.75.0",
+  "version": "0.76.0",
   "date": "2026-11-12",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.75.0/Tracker-Setup-0.75.0.exe",
-  "sha256": "20c60cf3bb7f9516791b91beea35c59981ac4ea31c11c14b4e0820ce2b6758af",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.76.0/Tracker-Setup-0.76.0.exe",
+  "sha256": "f4fe2cd3aa988c35c3bbe92da0580279d4b1131c3e48a1dcb60cab7a3dd9d2ff",
   "notes": [
-    "Cameras in a room's talk: see each other while you talk, up to five people, directly and encrypted, kept nowhere",
-    "A preview first: nothing is sent until you press Turn on, and a red sign names who sees you",
-    "Each picture shown with that person's voice from the same moment, so lips and words go together",
-    "Untick Pictures to spare your line: you still hear everyone"
+    "The guide inside Voynich: the whole manual, searchable, and it works without the internet",
+    "The ? at the top of every page opens the guide at the part about that page",
+    "What is this?: press any button to see what it does, instead of pressing it",
+    "The Mac version catches up: the same version and everything Windows has",
+    "Chinese writing cards draw their characters again in the installed program"
   ],
-  "signature": "ybm0LadkhyjVkViV7o+wL/0cXP8iJX73UR0nSk2QWFQfbGclh+cF4lXxaJ0pLOcQE7CpM/7YWfo9VNWnoz2ELg=="
+  "signature": "EpS4YCECReVV4lV8iqFwAkL3O59SL2YUO7R89JA9XCUKGRzdzi9ia93r/02DMwpbS72sV+dM7L4foS+XLWdzHg=="
 }

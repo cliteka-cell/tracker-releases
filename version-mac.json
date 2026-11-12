@@ -1,12 +1,14 @@
 {
-  "version": "0.25.5",
-  "date": "2026-10-21",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.25.5/Tracker-0.25.5-mac.zip",
-  "sha256": "4063f8e0de859909d95d824541d5fbb2c9b09c81dd0cf2a95847ccdddbfa42cb",
+  "version": "0.76.0",
+  "date": "2026-11-12",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.76.0/Tracker-0.76.0-mac.zip",
+  "sha256": "c80ac6e1f293971a291d6402bda9f8b25074245d88f6650ec74ba9ba1a6921e9",
   "notes": [
-    "The notes graph holds still: pressing a dot moves nothing, and dragging settles as soon as you stop",
-    "No more dots turning round a busy note or a group drifting off while you hold a dot",
-    "Names in the graph no longer pile up when zoomed out, and dots keep a little room between them"
+    "The guide inside Voynich: the whole manual, searchable, and it works without the internet",
+    "The ? at the top of every page opens the guide at the part about that page",
+    "What is this?: press any button to see what it does, instead of pressing it",
+    "The Mac version catches up: the same version and everything Windows has",
+    "Chinese writing cards draw their characters again in the installed program"
   ],
-  "signature": "KOdn40oPQL496jNqytxuY6lyhtJeY6mCbW1v5fvFOxGNWxdm2sWIhfHfOpFS6mv/BvmjmMzzJniSLQkzCkgDFw=="
+  "signature": "8bHScPrS8kFgixDWIyrysAxdQnayXmkR9UeKwbbtkEerKOHEE+qjBKbcPk8I4qT+QV8Tuc3nj+7mtCFBX8uiWQ=="
 }
