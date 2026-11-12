@@ -1,14 +1,15 @@
 {
-  "version": "0.76.0",
-  "date": "2026-11-12",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.76.0/Tracker-Setup-0.76.0.exe",
-  "sha256": "f4fe2cd3aa988c35c3bbe92da0580279d4b1131c3e48a1dcb60cab7a3dd9d2ff",
+  "version": "0.77.0",
+  "date": "2026-11-13",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.77.0/Tracker-Setup-0.77.0.exe",
+  "sha256": "49738334eb71c84a5555bc30886496c13625f760da279914d6e8791bc89cda6c",
   "notes": [
-    "The guide inside Voynich: the whole manual, searchable, and it works without the internet",
-    "The ? at the top of every page opens the guide at the part about that page",
-    "What is this?: press any button to see what it does, instead of pressing it",
-    "The Mac version catches up: the same version and everything Windows has",
-    "Chinese writing cards draw their characters again in the installed program"
+    "Circles with channels: text channels to write in, voice channels to talk in, as in Discord",
+    "Your circles down the side, the channels beside them, and who is online on the right",
+    "Press a voice channel to join it: see who is there before you join, and who is talking",
+    "Mute, Deafen, Camera, Screen and Leave in one bar, the same in every call",
+    "Study rounds inside any voice channel, with the time left beside it in the list",
+    "Everyone in a circle needs 0.77 to talk in its voice channels"
   ],
-  "signature": "EpS4YCECReVV4lV8iqFwAkL3O59SL2YUO7R89JA9XCUKGRzdzi9ia93r/02DMwpbS72sV+dM7L4foS+XLWdzHg=="
+  "signature": "TU1dlW5gH7V1KrXhr16Te8l9ac5IYMnYUM8QkLqTs1E11rtraFwkptkjWbPvZTYxZd+UreYIL3D4YURN5EXBTw=="
 }
