@@ -1,12 +1,12 @@
 {
-  "version": "0.78.0",
+  "version": "0.79.0",
   "date": "2026-11-13",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.78.0/Tracker-Setup-0.78.0.exe",
-  "sha256": "8bf6987bfdefa0325eec12960c1bf5a515dedb49f79fed67bb737101aa99c517",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.79.0/Tracker-Setup-0.79.0.exe",
+  "sha256": "fe02a178dbbb6eee5ec89eadaf9179cf78a7cafefafdb86ebd8154c9a6bbb36f",
   "notes": [
-    "Noise suppression for your microphone: a loud laptop fan, hum or a noisy room taken out before your voice is sent",
-    "Strong, Standard or Off, in Circle settings, Voice; Strong to begin with",
-    "Test your microphone: five seconds of you, played back as the others hear you"
+    "Reading channels: each book the circle reads together is a channel, with the reading on top and its talk below",
+    "Reply to a message, @mention someone, react with one of eight emoji, and pin a message for the circle",
+    "A red count when someone mentions you, and a notice saying who and where"
   ],
-  "signature": "5m+3ZT+h/Rk7zED7EOEDjq3xKW9zQlCsT9hy8PrQg+GXTlGMonO5I+fF3tqdC48dL7hV58XHGvUwT4l9zaz/dg=="
+  "signature": "hdpaO0pIdwKczywViCOVMQ3nO6n1DSiFDhvNqOLsfpQdpZpSO4xYfqL3Hf91tP9pV7r6Eon0wt/xsyBloAhw3g=="
 }
