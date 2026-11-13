@@ -1,12 +1,12 @@
 {
-  "version": "0.79.0",
+  "version": "0.80.0",
   "date": "2026-11-13",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.79.0/Tracker-Setup-0.79.0.exe",
-  "sha256": "fe02a178dbbb6eee5ec89eadaf9179cf78a7cafefafdb86ebd8154c9a6bbb36f",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.80.0/Tracker-Setup-0.80.0.exe",
+  "sha256": "f19bb5356089fd2a413eda48faa274da211fda03b140733bd10328b861d8d5b8",
   "notes": [
-    "Reading channels: each book the circle reads together is a channel, with the reading on top and its talk below",
-    "Reply to a message, @mention someone, react with one of eight emoji, and pin a message for the circle",
-    "A red count when someone mentions you, and a notice saying who and where"
+    "Voynich in a window of its own on Windows, like any program, not a browser tab",
+    "Start with Windows, and open PDFs, EPUBs, Markdown and Word files with Voynich from Explorer",
+    "Voynich documents (.vyn): a paper with its versions, comments, pictures and cited books in one file"
   ],
-  "signature": "hdpaO0pIdwKczywViCOVMQ3nO6n1DSiFDhvNqOLsfpQdpZpSO4xYfqL3Hf91tP9pV7r6Eon0wt/xsyBloAhw3g=="
+  "signature": "aoUnuzt0QpGbYnPhi8Zkq4dlhNuz6MIcnvfNdzLpthAE7mwJT+vgLflVBCf0O0ugDTdaPiYmnoVeSgORM08JGA=="
 }
