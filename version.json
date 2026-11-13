@@ -1,10 +1,12 @@
 {
-  "version": "0.80.1",
+  "version": "0.81.0",
   "date": "2026-11-13",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.80.1/Tracker-Setup-0.80.1.exe",
-  "sha256": "c6d5b70ed874adaad84c1bcae1b190b8107390700598321d1a1051d8393570e2",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.81.0/Tracker-Setup-0.81.0.exe",
+  "sha256": "8d6abd73affe2fbc145c772185dc39731b2c95fece2fc75ffa948bbbe9461cfa",
   "notes": [
-    "A file double-clicked in Explorer while Voynich is running now opens that file, not the page you were on"
+    "One bar at the top on Windows: Voynich's own bar is the window's title bar, with minimize, maximize and close at its end",
+    "The pages use the whole window, with no empty space at the sides",
+    "Circles fills the window edge to edge, like the rest of Voynich"
   ],
-  "signature": "/Uib6j/fUxSgIL+7ZmTwAz3YWcR8vBl9hwSm87CLeJ5tLMhAhyWd3YrWNsrxY/hJHpE0J+UTtCOu1EqIh4J0Hw=="
+  "signature": "wM9c48aOhu2nGLsF5yMSQdBANeZ9fffdTt1TS8iNS5g64JX30YcYVuhwAvzPEk1EF7p1gCc4BAWeWONtGsznEg=="
 }
