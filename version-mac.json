@@ -1,15 +1,13 @@
 {
-  "version": "0.77.0",
+  "version": "0.81.0",
   "date": "2026-11-13",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.77.0/Tracker-0.77.0-mac.zip",
-  "sha256": "7f489324ea253750874e3b9477c6295a1befe192625029fa8583c5c6ca8b1f0b",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.81.0/Tracker-0.81.0-mac.zip",
+  "sha256": "f4d380d6df1682d8bcf26f6aff5a62bc15990b9fe84d1a02ded74ace3b5b99a7",
   "notes": [
-    "Circles with channels: text channels to write in, voice channels to talk in, as in Discord",
-    "Your circles down the side, the channels beside them, and who is online on the right",
-    "Press a voice channel to join it: see who is there before you join, and who is talking",
-    "Mute, Deafen, Camera, Screen and Leave in one bar, the same in every call",
-    "Study rounds inside any voice channel, with the time left beside it in the list",
-    "Everyone in a circle needs 0.77 to talk in its voice channels"
+    "Noise suppression for your microphone: a loud fan, hum or a noisy room taken out before your voice is sent (Circle settings, Voice)",
+    "Test your microphone: five seconds of you, played back as the others hear you",
+    "Circles: reading channels, replies, @mentions, reactions and pinned messages",
+    "The pages use the whole width, with no empty space at the sides; Circles fills it edge to edge"
   ],
-  "signature": "TCt+uBvnVdb2WtKlMxhIyPfbsg+7MBzv5U3xJCtJIlfMPiFhqI9ORSqZTGhQDqjvUy5Z4N6cp0NjRXZQfuESQQ=="
+  "signature": "T0wMkAr2XUM2D6r7KjsBDS5RBZ6TMMfyZp1Iz2GMMpmMv9ApRKHGURBI+jmPlyotzfXq6gY6tWWiIfOnRH6irA=="
 }
