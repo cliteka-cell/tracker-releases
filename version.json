@@ -1,12 +1,12 @@
 {
-  "version": "0.81.0",
+  "version": "0.82.0",
   "date": "2026-11-13",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.81.0/Tracker-Setup-0.81.0.exe",
-  "sha256": "8d6abd73affe2fbc145c772185dc39731b2c95fece2fc75ffa948bbbe9461cfa",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.82.0/Tracker-Setup-0.82.0.exe",
+  "sha256": "011ecfe5682fd7665ffc8e0eee00a91ed97ce5326078c5e774e9ccf46b943b34",
   "notes": [
-    "One bar at the top on Windows: Voynich's own bar is the window's title bar, with minimize, maximize and close at its end",
-    "The pages use the whole window, with no empty space at the sides",
-    "Circles fills the window edge to edge, like the rest of Voynich"
+    "On a Mac, Voynich opens in a window of its own, with the Mac's three buttons in its top bar",
+    "On a Mac, the app is now called Voynich (an updated Tracker renames itself), and your data stays where it was",
+    "On a Mac, start Voynich when you log in, and open PDFs, EPUBs, Markdown and Word files with it from the Finder"
   ],
-  "signature": "wM9c48aOhu2nGLsF5yMSQdBANeZ9fffdTt1TS8iNS5g64JX30YcYVuhwAvzPEk1EF7p1gCc4BAWeWONtGsznEg=="
+  "signature": "7m/4sNYy96u+WSJ88M/QXwn/IK0udGqLDxJq8521n7y3ceuAMlRKvyPJRlPKXpuhDd7jlLYhvNLeBVF9ifTjhw=="
 }
