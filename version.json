@@ -1,13 +1,13 @@
 {
-  "version": "0.83.0",
+  "version": "0.84.0",
   "date": "2026-11-14",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.83.0/Tracker-Setup-0.83.0.exe",
-  "sha256": "1d4d64416c415e13f4ca15926e40cfc5b6e5556f3ce68904c02063ab5494f814",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.84.0/Tracker-Setup-0.84.0.exe",
+  "sha256": "e8199fa761695b2cc154d27cfc62313af695d108248d2f030679c926791d62eb",
   "notes": [
-    "Security: only you can open Voynich now, not another account on this computer or a web page",
-    "Lock a complete copy of your data with a passphrase, and clear deleted things out of the data file with Compact now",
-    "Study circles hold up against a hostile member: nothing a member sends can stop your circles or fill your disk",
-    "An update that is not signed is shown with a warning and no download link"
+    "A wide window is used, not left blank: Library and Writing show the book or document you click beside the list",
+    "Choose your microphone and speakers for voice in circles (User settings, Voice and video)",
+    "Flashcards, Stats and Settings fill the window: Today beside your decks, totals beside your sessions",
+    "One look across the app: the same page titles, spacing and depth for cards, menus and dialogs"
   ],
-  "signature": "nT4ZOP2xkPDus7fSQlV2pZBmeocerNePr/1pUPLCuOWatgPZOb4poRU8F/x+8ElVg4hQyAuzHjvG1MupqQz+rg=="
+  "signature": "YGfwsDn/Cr8Pjj574fC9cKSeH5zLj8xQHV62lERWL86l+vGAXh87ZyvfCviI4V5mbUgOeh1Usw5qIpXB+OzDNQ=="
 }
