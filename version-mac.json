@@ -1,12 +1,13 @@
 {
-  "version": "0.82.0",
-  "date": "2026-11-13",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.82.0/Tracker-0.82.0-mac.zip",
-  "sha256": "dc56b1456250cca4efcbd6872ba2d7ad268ba2cf9d3c3bb0c3134ebf2bd27ece",
+  "version": "0.83.0",
+  "date": "2026-11-14",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.83.0/Tracker-0.83.0-mac.zip",
+  "sha256": "0cff8b8b1fa39ff4f9c170ba609c8e3f4b35394f880893140eaeb5f7bc59ab06",
   "notes": [
-    "Voynich opens in a window of its own, with the Mac's three buttons in its top bar",
-    "The app is now called Voynich (Tracker renames itself when it updates), and your data stays where it was",
-    "Start Voynich when you log in, and open PDFs, EPUBs, Markdown and Word files with it from the Finder"
+    "Security: only you can open Voynich now, not another account on this computer or a web page",
+    "Lock a complete copy of your data with a passphrase, and clear deleted things out of the data file with Compact now",
+    "Study circles hold up against a hostile member: nothing a member sends can stop your circles or fill your disk",
+    "An update that is not signed is shown with a warning and no download link"
   ],
-  "signature": "eqQ+jy1C7OKUwqGirDKrGrEXDI8VxGz2IAYsXHw21sPwWuoPNfSiKQwCFfz6+TPwuGCBpA2OqRJBT1DGaOaSvA=="
+  "signature": "d/Kuhu8+y/UY1fqMANU9KKkzJHWn0dnVT5eMeScqHMLz3MjJpvI5ANtq43euQjk+UIYB2oA8IVLSy2CJ/ZynRg=="
 }
