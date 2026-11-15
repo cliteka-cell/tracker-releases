@@ -1,13 +1,12 @@
 {
-  "version": "0.86.0",
+  "version": "0.86.1",
   "date": "2026-11-15",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.86.0/Tracker-Setup-0.86.0.exe",
-  "sha256": "353fa0246b0e8351d91f6c91afb03975458407a194ecef8867c56191f7b7471b",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.86.1/Tracker-Setup-0.86.1.exe",
+  "sha256": "aaf3707b4fc1d74b2611b75dda5a5702bfea23966c5be8ec7b10e9521a63ccad",
   "notes": [
-    "Bookmarks in the reader: mark as many places in a book as you like, in a PDF or an EPUB, and go back to any of them",
-    "Turning your phone keeps your place in the book, and an EPUB's highlights stay on their words",
-    "Reading on a phone on its side: the notes panel scrolls, so the list of notes is there under the note box",
-    "Notes in Full text on a phone: a note's title has the whole line again"
+    "On a phone, the bar for selected words runs along the bottom of the screen, out of the way of the phone's own menu",
+    "A tap on the page closes Contents or the text size first, and the bar stays",
+    "An iPhone no longer zooms in when you tap a box to write in, and keeps an EPUB's text at the size you set"
   ],
-  "signature": "H2/dQStwTX9FY3qiOjdiYuckhskZsvOkrUb4iOrW3lVWjFar08R87Xhd5kh66jp2axl+7Rs2iSYc+mH2hxi6ww=="
+  "signature": "QSdY0ufxyLo+fPa3xSRHtliT4DKjYlpMmpDNgFxD+ftYuPHxXkvkALr1q31kE1OrAIn5jnTWBXsOUFY3X14c0w=="
 }
