@@ -1,13 +1,13 @@
 {
-  "version": "0.85.0",
+  "version": "0.86.0",
   "date": "2026-11-15",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.85.0/Tracker-0.85.0-mac.zip",
-  "sha256": "b8bf6a967b9bc08a00967332210292c095330d88b17b952b51aabf923f9486f4",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.86.0/Tracker-0.86.0-mac.zip",
+  "sha256": "37add724d80a755278a9e3bf30902e5e3547e8a0ad2ff02e20e3636a95eb7771",
   "notes": [
-    "Arrange Home your way: Edit Home lets you drag, resize and remove its cards, with Undo and Reset",
-    "Add a widget: a note, a scratch pad, a deck, a shelf, a document, a countdown, study time, a goal ring and more",
-    "Home's cards use the room they are given: on a wide card they lay out in columns instead of a long strip",
-    "On a phone, put Home's cards in the order you want and take away the ones you do not"
+    "Bookmarks in the reader: mark as many places in a book as you like, in a PDF or an EPUB, and go back to any of them",
+    "Turning your phone keeps your place in the book, and an EPUB's highlights stay on their words",
+    "Reading on a phone on its side: the notes panel scrolls, so the list of notes is there under the note box",
+    "Notes in Full text on a phone: a note's title has the whole line again"
   ],
-  "signature": "UIo8D1Vz7sm7Rdwpghe6ZruLfXHmXvT+SdkoEqtvQ/eobEgbvfRJeDMA9w6HOzZIsOKA7klrP6FZscg6A3X4RA=="
+  "signature": "mjnv4T2C60AgfEw+slWHaYNH4/ox1eALcQ0m7DUfqvPXuLjzfsGEQsgzsTZY+qFFhirWye/PEzaShISVdsD3gA=="
 }
