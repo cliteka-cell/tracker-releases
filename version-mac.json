@@ -1,13 +1,13 @@
 {
-  "version": "0.84.0",
-  "date": "2026-11-14",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.84.0/Tracker-0.84.0-mac.zip",
-  "sha256": "550b936b298f717199e365cd61a91384c0155203ae48e3bee090a9bee6f82043",
+  "version": "0.85.0",
+  "date": "2026-11-15",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.85.0/Tracker-0.85.0-mac.zip",
+  "sha256": "b8bf6a967b9bc08a00967332210292c095330d88b17b952b51aabf923f9486f4",
   "notes": [
-    "A wide window is used, not left blank: Library and Writing show the book or document you click beside the list",
-    "Choose your microphone and speakers for voice in circles (User settings, Voice and video)",
-    "Flashcards, Stats and Settings fill the window: Today beside your decks, totals beside your sessions",
-    "One look across the app: the same page titles, spacing and depth for cards, menus and dialogs"
+    "Arrange Home your way: Edit Home lets you drag, resize and remove its cards, with Undo and Reset",
+    "Add a widget: a note, a scratch pad, a deck, a shelf, a document, a countdown, study time, a goal ring and more",
+    "Home's cards use the room they are given: on a wide card they lay out in columns instead of a long strip",
+    "On a phone, put Home's cards in the order you want and take away the ones you do not"
   ],
-  "signature": "8n0esngFaZb/ayEucTqqOLB4WDLy7q/nYcG7i4bOkrTWbtwmHfjGlFHu1eapj9sqwG3nnC/GTG49VLfKhE/HKw=="
+  "signature": "UIo8D1Vz7sm7Rdwpghe6ZruLfXHmXvT+SdkoEqtvQ/eobEgbvfRJeDMA9w6HOzZIsOKA7klrP6FZscg6A3X4RA=="
 }
