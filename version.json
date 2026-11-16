@@ -1,12 +1,13 @@
 {
-  "version": "0.86.1",
-  "date": "2026-11-15",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.86.1/Tracker-Setup-0.86.1.exe",
-  "sha256": "aaf3707b4fc1d74b2611b75dda5a5702bfea23966c5be8ec7b10e9521a63ccad",
+  "version": "0.87.0",
+  "date": "2026-11-16",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.87.0/Tracker-Setup-0.87.0.exe",
+  "sha256": "b3e2ece1208843f9348a02841287beeceb5dd634288873cf82083a84d02f00eb",
   "notes": [
-    "On a phone, the bar for selected words runs along the bottom of the screen, out of the way of the phone's own menu",
-    "A tap on the page closes Contents or the text size first, and the bar stays",
-    "An iPhone no longer zooms in when you tap a box to write in, and keeps an EPUB's text at the size you set"
+    "Read aloud can use a natural voice, made on this computer, that sounds close to a person",
+    "Kokoro for English and Chinese, and a voice of its own for German, Turkish and 36 other languages",
+    "Downloaded once when you choose (the size is shown first); nothing you read is sent anywhere",
+    "Choose the voice and its speed in Settings, Reading, Read aloud; this device's voices stay as the backup"
   ],
-  "signature": "QSdY0ufxyLo+fPa3xSRHtliT4DKjYlpMmpDNgFxD+ftYuPHxXkvkALr1q31kE1OrAIn5jnTWBXsOUFY3X14c0w=="
+  "signature": "V8M7O0swl0syZT2NwLwTO4gIOZq3LoLzwAgf8EIuFnNXfLIsTRzZtQSKC3VLLMLYkYbrLY5IgYQLyChgsW+5RQ=="
 }
