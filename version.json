@@ -1,10 +1,12 @@
 {
-  "version": "0.88.1",
+  "version": "0.89.0",
   "date": "2026-11-16",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.88.1/Tracker-Setup-0.88.1.exe",
-  "sha256": "9c0957556d4ad629cc4bc89a8e9973decbaf8291803dc088567c289f887428e2",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.89.0/Tracker-Setup-0.89.0.exe",
+  "sha256": "5b73f731ad4e07aa00ee3e1ea8b9e0937c69c3a80b21e24a578104b190580db5",
   "notes": [
-    "PDFs scroll smoothly again in Voynich's window, and their pages come at once instead of after seconds"
+    "Opening a PDF from a folder while you are in a call no longer drops you from the call",
+    "If Voynich's page loads again during a call, it rejoins your voice channel by itself",
+    "Questions such as \"Delete this book?\" are asked in Voynich's own box, so nothing stops while you answer"
   ],
-  "signature": "SviA+TWStPrqodLZlka/kN3eKoC5wZoUpPCcu5SmR/ZBXj6IgCCd//5tEa7WGgiFcYASnbDIyOu+w9GMaY6CFw=="
+  "signature": "EsoAC5BGSuZDUyTVg8fbA3BDPm6CqK2FEJ/60OoZSEpJg9ul9wWpNZ/uDU82bi7hg+xcUQp+Vzm9GDJzaK0zHw=="
 }
