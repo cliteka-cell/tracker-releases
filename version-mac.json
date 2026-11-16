@@ -1,14 +1,13 @@
 {
-  "version": "0.90.0",
+  "version": "0.91.0",
   "date": "2026-11-16",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.90.0/Tracker-0.90.0-mac.zip",
-  "sha256": "f214a74e5a1565dbc1427e7ea06ae7c193cbf4aa41027161414b21ec438d182d",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.91.0/Tracker-0.91.0-mac.zip",
+  "sha256": "780f4e546bbf97729947766737fb12c22197539998a0e04cc17aae3c215c688f",
   "notes": [
-    "React with any emoji: + under a message opens them all, found by name, in your skin tone",
-    "The green ring lights only while someone is speaking, not all the time",
-    "Links in messages can be clicked, and open in your browser",
-    "The voice panel, the cameras and a small shared screen can be dragged where you like",
-    "Make or join a circle, and New room, are no longer cut off"
+    "A new look made from Voynich's icon: Voynich (ink black and bone) and Voynich Light, the look of a new Voynich",
+    "A loading screen while Voynich starts: the icon's letter grows from its middle out, then shines",
+    "Checking for updates and installing them are on unless you turn them off",
+    "Words that did not fit (TempleOS's wide letters, long page titles) now fit or wrap"
   ],
-  "signature": "RjOG5YLZFM7GaSVkKMOSYWpFCsKCkhpWm+qAAd4ppqthgrfN6j0Zh8GKdnWcb5z8KzdaMqzGwZgQEvX9Y7d1Yg=="
+  "signature": "56IOpIfSaS9ncbVmv36jI6VeNFFQaCQyAPVv/aSYMm4pDrwpxIL4A8l22Kk08/txGgabUxzE0ek5zhrc5FfcnQ=="
 }
