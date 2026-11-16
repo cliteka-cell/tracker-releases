@@ -1,13 +1,10 @@
 {
-  "version": "0.88.0",
+  "version": "0.88.1",
   "date": "2026-11-16",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.88.0/Tracker-0.88.0-mac.zip",
-  "sha256": "6811441e4bacf3855b20b12483fdcf31ebc58feb424084008e0944f820a05e57",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.88.1/Tracker-0.88.1-mac.zip",
+  "sha256": "b7a92fd4c25be881024683824ee9f74b8694eb12641047ce660c307d1a813918",
   "notes": [
-    "Look up is a dictionary now, with no AI: meanings, kind of word, pronunciation and an example",
-    "A form leads to its word: ging to gehen, Häuser to Haus, gitti to gitmek",
-    "Download dictionaries to look words up offline: English, German, Turkish, Chinese and six more",
-    "Without one, Wiktionary is asked for the word only; Offline only turns that off"
+    "PDFs scroll smoothly again in Voynich's window, and their pages come at once instead of after seconds"
   ],
-  "signature": "kjD1dR46LeQpxOAP7grwYqAq5ujdWce2cxfxHGAIEGdqtfCb9DrxEZ7xeT57eX2LbvopRChwbDSMup2s7CQi5Q=="
+  "signature": "XUfj4PcLvHkIQ7BXrQnDGEzSmq1ddWxu6yPCJw6i/z2QP0qicttyMzIYPQuxHa+qxT7GYlOrHdydRZ3eCugVdg=="
 }
