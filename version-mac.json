@@ -1,13 +1,13 @@
 {
-  "version": "0.87.0",
+  "version": "0.88.0",
   "date": "2026-11-16",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.87.0/Tracker-0.87.0-mac.zip",
-  "sha256": "446d1fea35f07a4270867d55960a503d27a46bd146c545f42eaaef356209e544",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.88.0/Tracker-0.88.0-mac.zip",
+  "sha256": "6811441e4bacf3855b20b12483fdcf31ebc58feb424084008e0944f820a05e57",
   "notes": [
-    "Read aloud can use a natural voice, made on this computer, that sounds close to a person",
-    "Kokoro for English and Chinese, and a voice of its own for German, Turkish and 36 other languages",
-    "Downloaded once when you choose (the size is shown first); nothing you read is sent anywhere",
-    "Choose the voice and its speed in Settings, Reading, Read aloud; this device's voices stay as the backup"
+    "Look up is a dictionary now, with no AI: meanings, kind of word, pronunciation and an example",
+    "A form leads to its word: ging to gehen, Häuser to Haus, gitti to gitmek",
+    "Download dictionaries to look words up offline: English, German, Turkish, Chinese and six more",
+    "Without one, Wiktionary is asked for the word only; Offline only turns that off"
   ],
-  "signature": "xNZWVI7eAefOcdmb3873VKmnTBOwuRDhYTB2nZL4gFl0U1jFPVUgfR9b+7VER1BEe8l69oPmLxWT+BQZJBIL2g=="
+  "signature": "kjD1dR46LeQpxOAP7grwYqAq5ujdWce2cxfxHGAIEGdqtfCb9DrxEZ7xeT57eX2LbvopRChwbDSMup2s7CQi5Q=="
 }
