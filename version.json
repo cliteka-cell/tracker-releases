@@ -1,13 +1,12 @@
 {
-  "version": "0.92.0",
+  "version": "0.93.0",
   "date": "2026-11-16",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.92.0/Tracker-Setup-0.92.0.exe",
-  "sha256": "8679911fd3eb7dc9f865a231a36365eb497020c9a55ecd4608161e663015b400",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.93.0/Tracker-Setup-0.93.0.exe",
+  "sha256": "32d53d51edbd8ca13f668c1c51cb5d8547920724ba78b1c903d3a8372edac1a9",
   "notes": [
-    "Your profile: one name, picture, colour and line about yourself, brought into your circles",
-    "Making or joining a circle brings your profile, or gives that circle a profile of its own",
-    "All of a circle's settings in one place, voice and notices too, with a search",
-    "The loading screen's letter grows and shines on every computer, and opening Voynich during an update waits for it"
+    "Voynich updates itself on the loading screen when it starts, with the download's progress",
+    "A pop-up when a new version is out, with Restart and update or Later",
+    "Voynich looks for a new version every hour while it runs (it was once a day)"
   ],
-  "signature": "AdUQXgbFjT8QzKE2k/PYTHt9TZQ4OEKuOCvfSvt4VsZJp2Iw+Ls0nC0k6DzjTtQwvm6cy1Nsc7fIVyvEKHOvxg=="
+  "signature": "V9IiV9bv9lr9CAOgj4ihNApkkHxeki6eqLufziGc1MDS7YeiYgkZs3i9BNenQtvzEUAchcWeaqDoYOZo2OleFA=="
 }
