@@ -1,12 +1,14 @@
 {
-  "version": "0.93.0",
-  "date": "2026-11-16",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.93.0/Tracker-Setup-0.93.0.exe",
-  "sha256": "32d53d51edbd8ca13f668c1c51cb5d8547920724ba78b1c903d3a8372edac1a9",
+  "version": "0.94.0",
+  "date": "2026-11-23",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.94.0/Tracker-Setup-0.94.0.exe",
+  "sha256": "3c0fecf7e28404294e9d0681eccec475fb09a53ed6e147cc8be8797bca7739e7",
   "notes": [
-    "Voynich updates itself on the loading screen when it starts, with the download's progress",
-    "A pop-up when a new version is out, with Restart and update or Later",
-    "Voynich looks for a new version every hour while it runs (it was once a day)"
+    "Read aloud from the sentence you click, and on, page after page, with the sentence lit up as it is read",
+    "Pause, back a sentence and next sentence while reading aloud; Read from here on selected words",
+    "Selecting text in a PDF no longer shows its hidden text over the page (Voynich, Frutiger Aero and TempleOS themes)",
+    "A book whose own text is garbled is noticed, and its text can be read again with OCR",
+    "Page numbers do not match? on every PDF, an excerpt that starts at page 45 too"
   ],
-  "signature": "V9IiV9bv9lr9CAOgj4ihNApkkHxeki6eqLufziGc1MDS7YeiYgkZs3i9BNenQtvzEUAchcWeaqDoYOZo2OleFA=="
+  "signature": "QVKkoAxxl6enSrj1pMhWny8H0XFd/WO0CtkBAfJc/9GBuxEx5Zd7tRcZmlQSb2kohjIx6MuCsJh9zlRI/cMqKw=="
 }
