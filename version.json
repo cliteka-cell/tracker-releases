@@ -1,14 +1,12 @@
 {
-  "version": "0.95.0",
+  "version": "0.96.0",
   "date": "2026-11-24",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.95.0/Tracker-Setup-0.95.0.exe",
-  "sha256": "41194163faa3aae1966118a798ef4274496e8fff77d36f499e6c422cf981394d",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.96.0/Tracker-Setup-0.96.0.exe",
+  "sha256": "b03c815791e54e7d6a0e10b1c2d7c48078306650958525274f2d15021d98263c",
   "notes": [
-    "Highlights and notes made in another program (Acrobat, an iPad, Zotero) can be brought in from a PDF",
-    "A link in a book goes to its place, and Back returns you to where you were",
-    "Pages: every page of a PDF small, to find a chapter by its look",
-    "Night pages: light letters on a dark page",
-    "New reader keys: H highlights the selection, G goes to a page, Home and End"
+    "Add a book finds books again: its search had stopped answering in 0.88.0",
+    "A dropped article is named and filled in from the DOI on its first page; an arXiv preprint from its arXiv number",
+    "Card info while reviewing (I): a card's memory and every answer, without leaving the review"
   ],
-  "signature": "LCIIpYxmGNkLJf4vgBzs5aaAHwYXcIVFuzczzlVKukPm4R7KtvlOv/JmqVTGOZunRDMVQLZd2tjOzNx+QTne5Q=="
+  "signature": "EsB7NR2kfPaAQ9G2bAFE15kaUPnORWxhYjFJas9+qcNXjllCihWZyLgw6t/azIP82dMxQ7GuUFspM/BX0/U3qA=="
 }
