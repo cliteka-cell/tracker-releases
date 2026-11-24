@@ -1,10 +1,13 @@
 {
-  "version": "0.100.0",
+  "version": "0.101.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.100.0/Tracker-Setup-0.100.0.exe",
-  "sha256": "d3d8af47768610dccaa3e9af5ba384b70840a5fe51d3011ee248b6167eff6b32",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.101.0/Tracker-Setup-0.101.0.exe",
+  "sha256": "6ead89ed48fd4c75cb0ebf876b146877b72c96473f0ba34a7005211e3fdcf0ef",
   "notes": [
-    "Strongest noise suppression for voice channels: also takes out keyboard clicks and steady hiss"
+    "Find a free PDF: an article's legal free copy, found by its DOI and attached",
+    "Today's note in Notes, made from your own template",
+    "The study reminder comes from the tray with no window open (Windows)",
+    "Writing: page numbers per part, from any number, in i, ii, iii, and in their own place"
   ],
-  "signature": "p0NJhtRHSCFBdonoS06V4Y4DPREPKvrPQBbWl8suqFcGkcT3bpCb0P/cQsgKmsngsBY+LLdyFuxvEoIo9IOVOA=="
+  "signature": "sp1wkl2UXGt6qxQasgzexiNpW78uTl+n3KySuxfvO1QXLfyiTSXcsYUCFpyvzdpOoPbhJN1vXHcZF70p7unF9A=="
 }
