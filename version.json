@@ -1,12 +1,10 @@
 {
-  "version": "0.98.0",
+  "version": "0.99.1",
   "date": "2026-11-24",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.98.0/Tracker-Setup-0.98.0.exe",
-  "sha256": "6ace4a95d974ce1b0ab48b2f3e880f9dd7698f91e0be682e5569d3daa0f80645",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.99.1/Tracker-Setup-0.99.1.exe",
+  "sha256": "a58981951c85c13deb0bb7a35314205d930b060dae89b4d69cb55d0cd8bc7002",
   "notes": [
-    "Two pages side by side in a PDF, as a printed book opens",
-    "Picture of part of a page: drag over a figure and it becomes a note",
-    "Tags on highlights, to find them by in the notes panel"
+    "No more empty window behind the loading screen while an update installs"
   ],
-  "signature": "FY1WVuYxO0wkJpbSUNRdjnzyIBwMO+InOFxtqFcSTzlAqyUAcSu0CsrtaQ7i+dmaNdsMem8O/bOPyFveUWwSvw=="
+  "signature": "BKbqUSZ5PZVi3W/RRT90xJOW8hOCgOikjWMeteWQiidoCS2ouaG3m+g6zvFBIPTVSQzgHNtMLIDybF61VKzz4w=="
 }
