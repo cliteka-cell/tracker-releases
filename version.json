@@ -1,11 +1,11 @@
 {
-  "version": "0.113.0",
+  "version": "0.114.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.113.0/Tracker-Setup-0.113.0.exe",
-  "sha256": "e7bc037d18d942344976708bc68b705e3af039941c95c3df01b229f7d2793695",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.114.0/Tracker-Setup-0.114.0.exe",
+  "sha256": "5dafffe3c6f191224ebc4edb6a7522c5fcad4805b177b57ed80be321294dfde2",
   "notes": [
-    "Each part of Voynich on its own: 35 parts, from the top bar to call tiles and note cards",
-    "Click a part of the page and its settings open"
+    "Themes of your own: copy any theme, name it, change anything, keep as many as you like",
+    "A background picture, undo and redo, and your own CSS with a safe start"
   ],
-  "signature": "GWgWhPkzI91dv8kom9yZuWwgMsOm+RHzqEQ5o9HXmhQdNDIfa4Q/LncfIQPgEmkivxdxE9j045D2Z84/TWFgow=="
+  "signature": "Z8oyum+EIsSpxz3Ve69I1ggxBfchdpMR/mfu8r+UO7aXcvwKCPAnTEwrnBM/OFoIGZKhni2D4P+c02QuE1wJig=="
 }
