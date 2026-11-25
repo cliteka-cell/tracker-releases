@@ -1,11 +1,12 @@
 {
-  "version": "0.107.0",
+  "version": "0.108.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.107.0/Tracker-Setup-0.107.0.exe",
-  "sha256": "dbc6b24c745ab703c781e3411080f57d52fa94cbddf1dbeb47fec659c7d6c9e0",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.108.0/Tracker-Setup-0.108.0.exe",
+  "sha256": "646c3367fcc781674c5acfdd346ab3db6d413f76274b2728cb5eb166e3987438",
   "notes": [
-    "Calls, cameras and screen sharing in Firefox",
-    "The reader's word bar never hides a button on a narrow phone"
+    "One Settings for circles: everything yours and everything about the circle, in one window",
+    "The gear by your name opens it at Your profile; the circle's name opens it at Overview",
+    "Your page in a circle shows what the others see; Edit in settings changes it"
   ],
-  "signature": "AOsi6lNnYa96756scpHSxGYV9sofbNTxssIma1SLsS8qP+gB18Vjzr5Jh44qqrJThm1nAPdWi4ZN4WAuXHWl6A=="
+  "signature": "2DaTxX5YUh++0aJXEzO1FcUg9Ku298AWMQnthEMkY/kvgXTthM7HL3eqJL1K1NzuOA7kI3y44XP0MV2DtRttZA=="
 }
