@@ -1,10 +1,11 @@
 {
-  "version": "0.109.1",
+  "version": "0.110.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.109.1/Tracker-Setup-0.109.1.exe",
-  "sha256": "1fcd8dd0d8d6e50b57c22e3dc8c708507812e76890d9e814ff40a2a3546e31fe",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.110.0/Tracker-Setup-0.110.0.exe",
+  "sha256": "4f5730d101702136a8a1ed079bdae87859d7cda945d9711ab61403e0450b26ef",
   "notes": [
-    "Dragging a book or a document onto a shelf works again"
+    "Talk and use the camera in calls from your phone, on Voynich's own secure address",
+    "Voice messages and offline flashcards on the phone at home too, with no Tailscale"
   ],
-  "signature": "V3HV2pBFPj5HuPtJwsDz7FAq7IsPxmnRx6+ABQgptSCQBsUN3cSs9oOPig3ocv3yGACpMOSP7cO3ZodChaJfOQ=="
+  "signature": "Y7s7oMBoyeXFVGcyMFeduherbw6G6U+zHpvAk8Eg0rzERLDEDszJ3h8jBa84HhqqORQRxas8ZrxEU7zv6Csfog=="
 }
