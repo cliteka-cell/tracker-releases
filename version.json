@@ -1,11 +1,11 @@
 {
-  "version": "0.106.0",
+  "version": "0.107.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.106.0/Tracker-Setup-0.106.0.exe",
-  "sha256": "36d73f6eddad4bbc7877d1f4adbcc7615ba097d08714b9d1f4165c1bf1649a96",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.107.0/Tracker-Setup-0.107.0.exe",
+  "sha256": "dbc6b24c745ab703c781e3411080f57d52fa94cbddf1dbeb47fec659c7d6c9e0",
   "notes": [
-    "Direct messages between two members of a circle",
-    "Invite someone outside your circles to a document"
+    "Calls, cameras and screen sharing in Firefox",
+    "The reader's word bar never hides a button on a narrow phone"
   ],
-  "signature": "cKXCoxMrktfIDNbwcFaHcWUEmJ0+aE2mPVKiJF6d77a5jF4ovGn1Sd9zKSmb9XtVAN5L0dUijRsxN0v7n44VlQ=="
+  "signature": "AOsi6lNnYa96756scpHSxGYV9sofbNTxssIma1SLsS8qP+gB18Vjzr5Jh44qqrJThm1nAPdWi4ZN4WAuXHWl6A=="
 }
