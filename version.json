@@ -1,13 +1,12 @@
 {
-  "version": "0.101.0",
+  "version": "0.102.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.101.0/Tracker-Setup-0.101.0.exe",
-  "sha256": "6ead89ed48fd4c75cb0ebf876b146877b72c96473f0ba34a7005211e3fdcf0ef",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.102.0/Tracker-Setup-0.102.0.exe",
+  "sha256": "479015b167ee7ced06fc6c83a59928564644a455dfe06b845d72796cc0f75ade",
   "notes": [
-    "Find a free PDF: an article's legal free copy, found by its DOI and attached",
-    "Today's note in Notes, made from your own template",
-    "The study reminder comes from the tray with no window open (Windows)",
-    "Writing: page numbers per part, from any number, in i, ii, iii, and in their own place"
+    "Edit a message you sent, or take it back for everyone",
+    "Delete any message for yourself",
+    "Two members with the same name each get a mark"
   ],
-  "signature": "sp1wkl2UXGt6qxQasgzexiNpW78uTl+n3KySuxfvO1QXLfyiTSXcsYUCFpyvzdpOoPbhJN1vXHcZF70p7unF9A=="
+  "signature": "eU5cDmF3tRe9fqPzilXYf1PNQtG0YnJ12OBl6duiEVKkXCeb+vOGC4Vpj0IN0OGCweZS4sggUJS5BNZf5c95Pw=="
 }
