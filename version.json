@@ -1,11 +1,10 @@
 {
-  "version": "0.110.0",
+  "version": "0.110.1",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.110.0/Tracker-Setup-0.110.0.exe",
-  "sha256": "4f5730d101702136a8a1ed079bdae87859d7cda945d9711ab61403e0450b26ef",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.110.1/Tracker-Setup-0.110.1.exe",
+  "sha256": "6acd1b17afc05335d3072c5bc5c53370fbc8b7696181ddc50ba2996b07672a45",
   "notes": [
-    "Talk and use the camera in calls from your phone, on Voynich's own secure address",
-    "Voice messages and offline flashcards on the phone at home too, with no Tailscale"
+    "The phone's QR codes scan again, and the secure address's can hold Tailscale's address"
   ],
-  "signature": "Y7s7oMBoyeXFVGcyMFeduherbw6G6U+zHpvAk8Eg0rzERLDEDszJ3h8jBa84HhqqORQRxas8ZrxEU7zv6Csfog=="
+  "signature": "rpkfqpHz5/8vtvHLaq7NrhpHFZfkbXwcdFhsVlTET3FqMoSW3Wlk8LePDbxeejOqBMelx51M2yzRWVa6F7f2Lg=="
 }
