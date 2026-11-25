@@ -1,10 +1,11 @@
 {
-  "version": "0.110.1",
+  "version": "0.111.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.110.1/Tracker-Setup-0.110.1.exe",
-  "sha256": "6acd1b17afc05335d3072c5bc5c53370fbc8b7696181ddc50ba2996b07672a45",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.111.0/Tracker-Setup-0.111.0.exe",
+  "sha256": "68322c74fea1b26c47538680bdeaabc6b6d8927c601c6a176e74ea78ca0e23b4",
   "notes": [
-    "The phone's QR codes scan again, and the secure address's can hold Tailscale's address"
+    "Cameras in calls on your phone, and watching a screen someone shares",
+    "Read aloud no longer sends iPhone users after voices web pages cannot use"
   ],
-  "signature": "rpkfqpHz5/8vtvHLaq7NrhpHFZfkbXwcdFhsVlTET3FqMoSW3Wlk8LePDbxeejOqBMelx51M2yzRWVa6F7f2Lg=="
+  "signature": "JcG7mOzs6tTmbNnEkKSu/2/8skl4ZjRxZG8XGlDCo9yr/QSOeUqoRpPkjPLZ5+T+UnjCtJiQNXeisuR7ueik7A=="
 }
