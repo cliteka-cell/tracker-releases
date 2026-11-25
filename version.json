@@ -1,13 +1,12 @@
 {
-  "version": "0.103.0",
+  "version": "0.104.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.103.0/Tracker-Setup-0.103.0.exe",
-  "sha256": "ec004fea48cd3978d2c321708cc5f73b2e6f37793f3314080c2d859eb2f7d641",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.104.0/Tracker-Setup-0.104.0.exe",
+  "sha256": "626fa53596a91ffe041716d49f227beb3f7ef21b9be2b584f844666d5f1683a5",
   "notes": [
-    "Up to three screen shares at once in a voice channel",
-    "Call layouts: Grid, Speaker and Pinned",
-    "A camera can fill its tile or fit in it",
-    "Get a reading's book from whoever started it"
+    "Sync: a card answered on both computers is scheduled from all its answers",
+    "A note deleted on one computer goes into the other's bin",
+    "The same Anki deck on both computers becomes one"
   ],
-  "signature": "dAA7bij5KTsb9R8GShj++nmi05RXNmDvoKxVx2copwGU23015P5lGeMIhjW4Ou2dSFT9C8G2uVFHNffV1ulftw=="
+  "signature": "ngF+W6flcVurpiIXuO4/NUUTW7R/sAOWji6nZNFSKXchGEoC1nXPmVyHMHYk0xyOgGvOdtpu0DiNPFS4XB/Bag=="
 }
