@@ -1,12 +1,12 @@
 {
-  "version": "0.104.0",
+  "version": "0.105.0",
   "date": "2026-11-25",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.104.0/Tracker-Setup-0.104.0.exe",
-  "sha256": "626fa53596a91ffe041716d49f227beb3f7ef21b9be2b584f844666d5f1683a5",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.105.0/Tracker-Setup-0.105.0.exe",
+  "sha256": "42f6b19fbd55dc10629fe78c71e9bceb54f09eed7c8e37f5668f29bc42ebe950",
   "notes": [
-    "Sync: a card answered on both computers is scheduled from all its answers",
-    "A note deleted on one computer goes into the other's bin",
-    "The same Anki deck on both computers becomes one"
+    "Threads in a circle's channels",
+    "Screen share follows your upload when it is what holds everyone back",
+    "Anki packages read in a program of their own"
   ],
-  "signature": "ngF+W6flcVurpiIXuO4/NUUTW7R/sAOWji6nZNFSKXchGEoC1nXPmVyHMHYk0xyOgGvOdtpu0DiNPFS4XB/Bag=="
+  "signature": "QEJ+ug56jsTGJU7oWJC0N7uuAChT1ZC92O8z1aCndOMziY7q96yk3nPOhirSobkv9RCud4UNIIupy2Pa2N7WHA=="
 }
