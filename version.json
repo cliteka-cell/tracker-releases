@@ -1,10 +1,10 @@
 {
-  "version": "0.125.0",
+  "version": "0.126.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.125.0/Tracker-Setup-0.125.0.exe",
-  "sha256": "95cc5dd15577201be96993a081d6451e6a4a312576cf86e24b8ca4237c9a3837",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.126.0/Tracker-Setup-0.126.0.exe",
+  "sha256": "fb9265efcbc234cb8ad51aa3195189347d37b2c7a2d14e906859ac71deb0906c",
   "notes": [
-    "Your tabs: in your order, hidden, renamed, and the tab each room opens on"
+    "Sound packs: a theme's own short sounds, with one switch for them all"
   ],
-  "signature": "KDOVo2+HBIT6xUjW4wjRfigtiI2+hqN2TkIakruRB7eHubEpZ7B546x1bGtdHE2Nol/ogRy0jfuPKeGvL+qVQQ=="
+  "signature": "oAbvTFGJdAGiXReT+SP3iHXuRjEWJjRH9ElO2gTZTakQ00OLe89gPYU7DyzUf+rGG0AEL3L/xHZXN22w6tcD1Q=="
 }
