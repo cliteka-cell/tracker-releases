@@ -1,12 +1,11 @@
 {
-  "version": "0.122.0",
+  "version": "0.123.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.122.0/Tracker-Setup-0.122.0.exe",
-  "sha256": "038111d2053bb5d9718f68c6f1812c3cfe8b0187ce03c47ab20bd40fa447f052",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.123.0/Tracker-Setup-0.123.0.exe",
+  "sha256": "e5a1fb8445a2268fac51d0c969811e8454bb451bcdaf9e74ad3a3445c3d0053b",
   "notes": [
-    "Materials: stickers on any part, fonts carried inside a theme, icons swapped for emoji or pictures",
-    "A prompt for an AI that writes themes",
-    "Themes sent with CSS keep their SVG pictures; messages can be much longer"
+    "A theme sent with CSS says what its CSS touches and what it would hide, before you turn it on",
+    "A kept theme remembers where it came from, and says it when sent on"
   ],
-  "signature": "v3ofvPNQksWdF9GFEQCCTtlLAhwPz3PwfkY/k9jOGK8YowiY6LCNbUl0JHcH1VF9HT6oanIdu2xM0T4nwhliWA=="
+  "signature": "C2MyWXWqMdeP6TJcw3UKlDgeXoBRyZzm00nuz8tpxnuE2PGVXccx+jTSMWOJBEe9WoqZBwW185ukfuW/xtiUBw=="
 }
