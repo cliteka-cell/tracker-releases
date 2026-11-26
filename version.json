@@ -1,10 +1,10 @@
 {
-  "version": "0.119.0",
+  "version": "0.120.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.119.0/Tracker-Setup-0.119.0.exe",
-  "sha256": "e478e6ef60a5340ccf88215eb02c9ef48a2292f6f1f69e3c46b8e0f07ee0d2de",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.120.0/Tracker-Setup-0.120.0.exe",
+  "sha256": "35cdc5888c90c25449f5e3c43c78aa7dbe2e6519a7263f394f418484fd4c6dcf",
   "notes": [
-    "A theme can be sent with its CSS: it arrives off, cleaned, and the way back stays in sight"
+    "Themes that react: your CSS can follow the time of day, the tab, a call, your streak, cards due and reading"
   ],
-  "signature": "Op5rl9Pj2bJ50AkPeVieeS0R0HOOYBmpVZ1eby9G8bXMbUGQcXJL0VfRg23uqMUAZESUqXew764Ks/01LjrHQg=="
+  "signature": "k3lxiqnWHWj6KOmOWBWO/7JPzNWHDgfuJrqhSMsJ6xuCSVxEYPZDJBHswcNCNjR2oVgnPBLiHGbihqL0+pxnKg=="
 }
