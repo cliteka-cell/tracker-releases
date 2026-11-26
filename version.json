@@ -1,10 +1,12 @@
 {
-  "version": "0.121.0",
+  "version": "0.122.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.121.0/Tracker-Setup-0.121.0.exe",
-  "sha256": "b42939c51b09bada496b2b3b12831541352b220995a150fa11c1bba507313557",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.122.0/Tracker-Setup-0.122.0.exe",
+  "sha256": "038111d2053bb5d9718f68c6f1812c3cfe8b0187ce03c47ab20bd40fa447f052",
   "notes": [
-    "Rules: a theme for a room, a circle, two dates each year or a time of day, shown by itself"
+    "Materials: stickers on any part, fonts carried inside a theme, icons swapped for emoji or pictures",
+    "A prompt for an AI that writes themes",
+    "Themes sent with CSS keep their SVG pictures; messages can be much longer"
   ],
-  "signature": "uHq6hp0feK33wi5vaPuU+sySloGaqPgGg8Oy/Q/wen560CjLY1I/qjGSTmJYVmc6lVrINcuBbSQNdlZWgNcO3g=="
+  "signature": "v3ofvPNQksWdF9GFEQCCTtlLAhwPz3PwfkY/k9jOGK8YowiY6LCNbUl0JHcH1VF9HT6oanIdu2xM0T4nwhliWA=="
 }
