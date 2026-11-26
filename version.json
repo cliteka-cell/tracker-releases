@@ -1,10 +1,10 @@
 {
-  "version": "0.126.0",
+  "version": "0.127.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.126.0/Tracker-Setup-0.126.0.exe",
-  "sha256": "fb9265efcbc234cb8ad51aa3195189347d37b2c7a2d14e906859ac71deb0906c",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.127.0/Tracker-Setup-0.127.0.exe",
+  "sha256": "568ef259854f76685a95064d253c975c69b610b29fc8f263a6c6f5d90724d144",
   "notes": [
-    "Sound packs: a theme's own short sounds, with one switch for them all"
+    "Call sounds, and each person's volume with a right click"
   ],
-  "signature": "oAbvTFGJdAGiXReT+SP3iHXuRjEWJjRH9ElO2gTZTakQ00OLe89gPYU7DyzUf+rGG0AEL3L/xHZXN22w6tcD1Q=="
+  "signature": "kyJrtb8xBHniH9/0lEvD/+HNlVYAERaruPNZIRpU/D5LNeILKa1VKRlWUcMSiT/y7PIkXXpdycAb416MaqGHCA=="
 }
