@@ -1,11 +1,10 @@
 {
-  "version": "0.123.0",
+  "version": "0.124.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.123.0/Tracker-Setup-0.123.0.exe",
-  "sha256": "e5a1fb8445a2268fac51d0c969811e8454bb451bcdaf9e74ad3a3445c3d0053b",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.124.0/Tracker-Setup-0.124.0.exe",
+  "sha256": "32ea66eebd0124aa2316f02c4d31bd95be0cf5d9fc5683fd682d5e360214cac9",
   "notes": [
-    "A theme sent with CSS says what its CSS touches and what it would hide, before you turn it on",
-    "A kept theme remembers where it came from, and says it when sent on"
+    "Theme jams: a circle changes one theme together, live"
   ],
-  "signature": "C2MyWXWqMdeP6TJcw3UKlDgeXoBRyZzm00nuz8tpxnuE2PGVXccx+jTSMWOJBEe9WoqZBwW185ukfuW/xtiUBw=="
+  "signature": "VJKdYWkyqzLd/7KzVev1A/rz46lSLNY6UNqprFyAsisMydItwGU1zEe/YB/HUdCshCIUFiApsnvs3yM9krgS+A=="
 }
