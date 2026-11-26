@@ -1,10 +1,10 @@
 {
-  "version": "0.115.0",
+  "version": "0.116.0",
   "date": "2026-11-26",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.115.0/Tracker-Setup-0.115.0.exe",
-  "sha256": "c171be5fe9365b00eedc4679bc41f0bb02f950452763c9a81406a07ee49cf434",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.116.0/Tracker-Setup-0.116.0.exe",
+  "sha256": "119f739bf091c092417174f613846c33b467d53a46129038c7bf467d1cf11e7d",
   "notes": [
-    "Send your theme in a circle: others try it for a minute, or keep it"
+    "The theme studio stays open on every tab: change the look where you see it"
   ],
-  "signature": "1gEr8EcQZcbnQ6OpUwmTirnWGOUWWedW9YBL1CQJjqcv18Q9GFXspOiUXoGjJg/CtT3z0+dzxikaWUJf/wkCpA=="
+  "signature": "v64yeAL1EPPe5afVCKgnAVkoLsJqgXkGscjZKDpmV/r2CY4r8hvjLBdRwodS+PvGlxS5r/X+upSUYCtqZ3jX4Q=="
 }
