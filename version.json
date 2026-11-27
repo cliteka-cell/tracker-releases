@@ -1,12 +1,12 @@
 {
-  "version": "0.129.0",
+  "version": "0.130.0",
   "date": "2026-11-27",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.129.0/Tracker-Setup-0.129.0.exe",
-  "sha256": "92630d17b473fc7c7586b2e0fa43e218fb939f50234e93a71211b1ea31e7fd3d",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.130.0/Tracker-Setup-0.130.0.exe",
+  "sha256": "e14a60849f30d84defdd5c3128898ba83ad4685065c1d468230de94fcf82fc5e",
   "notes": [
-    "Theme files can carry their CSS, and a theme of any size goes in a direct message",
-    "Liquid glass and themes that follow the mouse, from Onur's Ay Camı theme",
-    "The top bar no longer squeezes into its corner when the window comes back"
+    "No character limit you can reach: messages of any length, in channels and threads too",
+    "Notes, card sides, AI questions and your own CSS can be far longer",
+    "Names up to 100 characters"
   ],
-  "signature": "1/LaaE+5R4YfdIVjhNsPBMNO+dSnX422XKlMB0QFNKIufoAMwk1EkOu7sZ0orh7JgAvEkLQZvKcSnL7lqpxLmA=="
+  "signature": "2HHGt2bPPyBxMmrqDos/Brego8hPr8zARSvT3OkiWfokXJs8qFuSjfVzYjiuMHJlgdWszyKI0fhHI+x+XH3CGQ=="
 }
