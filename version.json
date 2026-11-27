@@ -1,10 +1,12 @@
 {
-  "version": "0.127.1",
+  "version": "0.128.0",
   "date": "2026-11-27",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.127.1/Tracker-Setup-0.127.1.exe",
-  "sha256": "665af1d2e8393e7eb28f6f50fb4a9f1836cd910094e98a0634c8fc20a3fb1882",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.128.0/Tracker-Setup-0.128.0.exe",
+  "sha256": "91367dc2b9f5b2b5058add07fa7673ceef87057f2a00c4e091c375279b8da103",
   "notes": [
-    "Read aloud on a phone: the light follows the voice, and leaves nothing behind"
+    "Circle messages as Windows' own notifications, also while Voynich is closed to its icon",
+    "Direct messages and replies to you are counted and notify you, like mentions",
+    "What you read on the phone is read on the computer too"
   ],
-  "signature": "vciNCaeLJteNo6mhot9PJUrCZCPD8g3Ge14CDhUGZcZsOQ8dkJWcyb2MzPejQ8VavZX6EOqWULKeakQwvRm5sg=="
+  "signature": "q6+F3calvB1350xeD6ueRiDbvlxv4PUHylSHIXdDwGT5XB4WaycEaubTuezIsRSHn1wBYIgJfju4sIo/fizq0g=="
 }
