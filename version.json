@@ -1,12 +1,12 @@
 {
-  "version": "0.131.0",
+  "version": "0.132.0",
   "date": "2026-11-28",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.131.0/Tracker-Setup-0.131.0.exe",
-  "sha256": "619f31dd4b0dd44bc7b3db94f79cb273e84aa3045e7f8e746723ed4c40a4d734",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.132.0/Tracker-Setup-0.132.0.exe",
+  "sha256": "f959122b2a2bc3869f6390485763aa44e1343c0c664d6b52f16ac195c947135e",
   "notes": [
-    "Scenes: a theme can draw behind the page with a script of its own, sealed off from your data",
-    "A scene from someone else stays off until you run it",
-    "Theme files and sent themes carry their scene"
+    "A red badge on Voynich's taskbar button: how many messages are for you",
+    "The taskbar flashes on a mention or a direct message",
+    "A red dot on the icon near the clock, and (3) in a browser tab's title"
   ],
-  "signature": "TlDaf4YifMsZpWhIWecGae6t5VhJ8+gMKbpgT9xYtUkHhmsUwZ+EgZ8fkTqA+wBjROEN4OBeN6i/tQckgoY7sA=="
+  "signature": "EbNwWiXCSvpLi+/HeNHgwSHFm7WdtFfNYtrWJGNbvhhiqT5zsfF2Uqsh2nYI2rr984hagaRnePfI0Q5DqhZkuw=="
 }
