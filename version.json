@@ -1,12 +1,12 @@
 {
-  "version": "0.139.0",
+  "version": "0.140.0",
   "date": "2026-11-28",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.139.0/Tracker-Setup-0.139.0.exe",
-  "sha256": "7200d7b3a1d2f678edf5df0fac67b47e9f89870c8748d05af2818894db74488f",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.140.0/Tracker-Setup-0.140.0.exe",
+  "sha256": "67a57f7b8a6566d1353738416db232882fefdeea00262855ed95d471fcecf0d8",
   "notes": [
-    "Start a Jam: share a Spotify Jam in a channel",
-    "A card with Join on Spotify, and who joined",
-    "Voynich never talks to Spotify: it only shows the link"
+    "A prompt for an AI now knows every place and panel of Voynich",
+    "A new prompt in the studio's Scene, to have an AI write a scene",
+    "Themes can now style the reader's top bar and every note card"
   ],
-  "signature": "qDnUglg4JdbihhQGv/ut7aFPlBYHmmHY66u8x4Etz3IkIqgIjLLemld5dh2QZGHp7LLpRtpQ4WJYLKJJtXATdA=="
+  "signature": "zjp72QFqrmvlJ+ciBXsEPNqf54XKTcNRBYUbmFnRPH0/rWUO+x9PEnRWLMa9zlY3/3v9at3WE/BNyO1xW0Greg=="
 }
