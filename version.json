@@ -1,12 +1,12 @@
 {
-  "version": "0.132.0",
+  "version": "0.133.0",
   "date": "2026-11-28",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.132.0/Tracker-Setup-0.132.0.exe",
-  "sha256": "f959122b2a2bc3869f6390485763aa44e1343c0c664d6b52f16ac195c947135e",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.133.0/Tracker-Setup-0.133.0.exe",
+  "sha256": "a4802c28bf551d0b672cbe3e24e8a63368e78abaa8a4ffac4ecf3d1bc47b9513",
   "notes": [
-    "A red badge on Voynich's taskbar button: how many messages are for you",
-    "The taskbar flashes on a mention or a direct message",
-    "A red dot on the icon near the clock, and (3) in a browser tab's title"
+    "Choose what notifies you per circle and channel: All messages, Only mentions or Nothing",
+    "Mute a circle, a channel or a person for 15 minutes to 24 hours, or until you turn it back on",
+    "Right-click a circle or a channel, or use its bell"
   ],
-  "signature": "EbNwWiXCSvpLi+/HeNHgwSHFm7WdtFfNYtrWJGNbvhhiqT5zsfF2Uqsh2nYI2rr984hagaRnePfI0Q5DqhZkuw=="
+  "signature": "ZJFAKM1hMfFSTOXUlxmPtkz36bO2a5awL0LZOS5a7gXb8g6JMMoH+AvY/Jht5/ujiR84AbnpTSEcvjZGqCoqkQ=="
 }
