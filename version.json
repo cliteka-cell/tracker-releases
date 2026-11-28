@@ -1,12 +1,12 @@
 {
-  "version": "0.137.0",
+  "version": "0.138.0",
   "date": "2026-11-28",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.137.0/Tracker-Setup-0.137.0.exe",
-  "sha256": "6a3adb7932985efb34ecf84dab88eda7c0e2ac79f0b00cd77d5e97f3c9608a61",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.138.0/Tracker-Setup-0.138.0.exe",
+  "sha256": "2050932d623b1c32158b13b4a16c8ec2b8fbed58ea13bd97f22c77c3deb5b534",
   "notes": [
-    "A circle's own picture on the rail, instead of its initials",
-    "A banner at the top of its channels",
-    "Its maker chooses them; everyone in the circle has them"
+    "Listening to: your circles can see what you play",
+    "From any player Windows' volume pop-up shows, Spotify included",
+    "Off until you turn it on, hidden in Do Not Disturb and Invisible"
   ],
-  "signature": "8g0MQiCyJ3DhChoxezFsG0pqTGag7ILRrJ5A4WkmEflj3coMV01dfJ0d0ARczYETcjKlx8ZJ1m6S5q6wi1QqdQ=="
+  "signature": "ZXZ0CmnbMPvLE2Ci7E5iuqNSQwtM4tKSpXituRvjedE1P8H67e2uEdDuI/cYBHi2NT0PUevnLwoaxHEIXuqVQA=="
 }
