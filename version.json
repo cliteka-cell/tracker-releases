@@ -1,12 +1,12 @@
 {
-  "version": "0.135.0",
+  "version": "0.136.0",
   "date": "2026-11-28",
-  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.135.0/Tracker-Setup-0.135.0.exe",
-  "sha256": "b16c401047b706034a1105e9d4b0360f41d105fc941a4612589775f07fbacbfa",
+  "installer": "https://github.com/cliteka-cell/tracker-releases/releases/download/v0.136.0/Tracker-Setup-0.136.0.exe",
+  "sha256": "817260229007110f47294b5d7789b9d2bbe09f78d93d093df87a70c1b313bf36",
   "notes": [
-    "Sounds for messages, mentions and direct messages, each its own",
-    "Every sound in one list: on or off, play it, one volume",
-    "A message sounds once, where you used Voynich last"
+    "The Inbox: a bell in the top bar with your mentions and what is unread",
+    "A NEW line and a bar where you stopped in a channel",
+    "Mark as read: in the Inbox, on the rail, Esc in a channel, Shift+Esc for everything"
   ],
-  "signature": "6+NgXeLbc3xuvEWM4W8Q6+dSqminUgTIfi0NBXvVGL3oli5BrzB1I0yerDBJmn13e/gcQhzAwYyXFdOfgTTC3w=="
+  "signature": "XU8F/3LFIpTQ8MxWToPrDk47VqruTygLEfTpUUqSiIOmu758UBSrGcHH/HxH0GXCpRht6j9Ge4/hcFlbgT7/kw=="
 }
